@@ -1,6 +1,6 @@
 # Queensland Time Travel
 
-A choose-your-path time-travel web app by Robin McKean. It joins four Queensland eras (the grass rush, the Native Mounted Police, the gold rushes and the sugar industry) into one journey. It goes with the book *Walking on Ancient Ground (Time Travel on Country, A Choose Your Own Character Adventure)*.
+A choose-your-path time-travel web app by Robin McKean. It joins four Queensland eras (the grass rush, the Native Mounted Police, the gold rushes and the sugar industry) into one journey. It is a companion to the Frontier Friction series: Shipwrecked, Troubled Paths and Resettled on Ancient Ground (coming soon).
 
 - Student version: https://robmac10.github.io/queensland-time-travel/
 - Teacher version (discussion answers and scene notes behind "Show" buttons; not linked from the student version, set to noindex): https://robmac10.github.io/queensland-time-travel/teacher/

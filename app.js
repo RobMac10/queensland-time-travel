@@ -278,7 +278,7 @@
     // end of hub
     var es = el('section', { 'class': 'band endband' });
     var ew = el('div', { 'class': 'inner' });
-    ew.appendChild(p(H.bookLine, 'small'));
+    ew.appendChild(p(H.seriesLine, 'small'));
     ew.appendChild(el('p', { 'class': 'acts' }, [
       el('a', { 'class': 'btn home', href: H.siteHome, text: 'Home' }),
       el('a', { 'class': 'btn ghost', href: '#/behind', text: 'Behind the Story' })
@@ -508,7 +508,6 @@
     setEra(null);
     var kids = [];
     H.about.forEach(function (t) { kids.push(p(t)); });
-    kids.push(p(H.bookLine));
     kids.push(p(H.seriesLine));
     kids.push(el('div', { 'class': 'panel' }, [el('h2', { text: 'Privacy' }), p(H.privacy)]));
     var cr = el('div', { 'class': 'panel' }, [el('h2', { text: 'Image credits' })]);

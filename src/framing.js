@@ -19,7 +19,6 @@ steps: [
   { n: '2', h: 'Choose', p: 'You take the place of an invented person and make their choices. Each choice has a cost.' },
   { n: '3', h: 'Return', p: 'Your visit ends and you are back in the present. Read what really happened.' }
 ],
-bookLine: 'This app goes with the book Walking on Ancient Ground (Time Travel on Country, A Choose Your Own Character Adventure) by Robin McKean.',
 warning: [
   'Cultural content warning. This app may contain names and images of deceased Aboriginal, Torres Strait Islander and South Sea Islander people.',
   'It is about frontier violence, racism, forced removal and unfair labour in Queensland. It does not describe violence in detail, but it does say that it happened. You can stop at any time. If it upsets you, talk to a teacher, a family member or someone you trust.'
