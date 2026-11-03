@@ -178,6 +178,7 @@
     var t = el('div', { 'class': 'htext' });
     t.appendChild(el('p', { 'class': 'kick', text: H.kicker + ' · Queensland · 1840 to 1908' }));
     t.appendChild(el('h1', { id: 'h1', tabindex: '-1', text: H.title }));
+    t.appendChild(el('p', { 'class': 'kick series', text: H.series }));
     t.appendChild(p(H.subtitle, 'lead'));
     t.appendChild(el('p', { 'class': 'cta' }, [
       el('a', { 'class': 'btn gold big', href: '#/era/' + first, text: visitedCount() ? 'Continue: ' + H.eras[first].name : 'Begin at stop 1: ' + H.eras[ORDER[0]].name }),
@@ -292,7 +293,7 @@
 
     main.innerHTML = '';
     kids.forEach(function (k) { main.appendChild(k); });
-    document.title = H.title;
+    document.title = H.title + ' · ' + H.series;
     window.scrollTo(0, 0);
     main.classList.remove('fade'); void main.offsetWidth; main.classList.add('fade');
     Array.prototype.forEach.call(main.querySelectorAll('[data-scroll]'), function (a) {
@@ -508,6 +509,7 @@
     var kids = [];
     H.about.forEach(function (t) { kids.push(p(t)); });
     kids.push(p(H.bookLine));
+    kids.push(p(H.seriesLine));
     kids.push(el('div', { 'class': 'panel' }, [el('h2', { text: 'Privacy' }), p(H.privacy)]));
     var cr = el('div', { 'class': 'panel' }, [el('h2', { text: 'Image credits' })]);
     var u = el('ul', { 'class': 'sourcelist' });

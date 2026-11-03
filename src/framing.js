@@ -3,6 +3,8 @@
 // No new historical claims are made in this file. Real history lives in src/eras/*.json with its sources.
 window.FRAMING = {
 title: 'Queensland Time Travel',
+series: 'A Frontier Friction series companion',
+seriesLine: 'This app is a companion to the Frontier Friction series by Robin McKean: Shipwrecked on Ancient Ground, Troubled Paths on Ancient Ground and Resettled on Ancient Ground. All three books are coming soon.',
 kicker: 'Time Travel on Country',
 subtitle: 'Four eras of Queensland history. Visit each one, make the choices, and then see what really happened.',
 siteHome: 'https://robmac10.github.io/history.html',
