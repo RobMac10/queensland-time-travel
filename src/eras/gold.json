@@ -181,6 +181,18 @@
    "t": "Queensland Historical Atlas.",
    "u": "https://www.qhatlas.com.au/",
    "note": "For teachers: maps and essays on Queensland’s history. I did not use it for a fact in the story, because the site would not load for my reader."
+  },
+  "qpCalliope": {
+   "short": "Queensland Places, Calliope",
+   "t": "Centre for the Government of Queensland. “Calliope”. Queensland Places.",
+   "u": "https://www.queenslandplaces.com.au/calliope",
+   "note": "Read in an archived copy because the live page did not load. Gives 400 miners, four stores and three hotels by 1864, the 1868 private school, the 1871 survey, the 1872 school, the 1885 figure of 20 miners, the 1896 copper find at Many Peaks and the 1910 railway."
+  },
+  "calChase": {
+   "short": "Calliope Chase, history",
+   "t": "Calliope Chase (housing development). “History: Calliope”.",
+   "u": "https://calliopechase.com.au/history/",
+   "note": "A property developer’s web page. Seen only in a search summary because the page did not load. It names the Bailai (Byellee) and Gooreng Gooreng peoples and repeats the 1863 and 800 claims."
   }
  },
  "sourcesIntro": "Every fact in a “Real history” box comes from one of these sources. Newspapers named in the sources can be read on Trove. Queensland State Archives holds the original government records. I read the sources listed here when I wrote this app.",
@@ -413,12 +425,24 @@
       "grmChinese",
       "gfhsChinese"
      ]
+    },
+    {
+     "h": "Between Canoona and Gympie: Calliope, 1862",
+     "paras": [
+      "Gympie was not the only rush before 1867. Queensland Places says gold found in 1862 started the Calliope diggings, near Gladstone. By 1864 there were 400 miners, four stores and three hotels. By 1885 a report said that as few as 20 miners were left in the town. A railway was built through Calliope in 1910 to carry copper ore from the Many Peaks mine. The Queensland Gold Rush information bank gives more on Calliope and eight other goldfields.",
+      "A property developer’s history page says Calliope is on Bailai (Byellee) and Gooreng Gooreng Country. No source read for the information bank says what the diggings meant for Aboriginal people there. Sources also differ on the population in 1864 (400 miners or 800 people) and on whether Calliope was the first proclaimed goldfield in Queensland, which is not verified."
+     ],
+     "src": [
+      "qpCalliope",
+      "calChase"
+     ]
     }
    ],
    "teacher": {
     "notes": [
      "The gully scene is invented. It stands for the harassment that library records say happened at Gympie. It is not a record of a real event. Ask students: is it fair to put an invented scene beside a real fact? What does the story gain, and what does it risk?",
-     "Check: the Aboriginal camp and the pay in rations come from a local history society article. Ask students why a secondary source needs a second check. Kabi Kabi custodians are the right people to confirm it."
+     "Check: the Aboriginal camp and the pay in rations come from a local history society article. Ask students why a secondary source needs a second check. Kabi Kabi custodians are the right people to confirm it.",
+     "Calliope note: this extra Real history panel was added for the 1862 field near Gladstone. It does not change the story. Ask: why do small fields like Calliope matter if they are not in the story? The Queensland Gold Rush information bank has the sources and a list of where sources disagree."
     ]
    }
   },
