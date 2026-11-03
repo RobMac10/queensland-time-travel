@@ -1,0 +1,1327 @@
+{
+ "id": "grass",
+ "repo": "grass-rush-adventure",
+ "startChoices": [
+  {
+   "label": "Follow Will, a shepherd on the Darling Downs in 1846",
+   "to": "w1"
+  },
+  {
+   "label": "Follow Alex, the manager of a sheep station in central Queensland in 1869",
+   "to": "x1"
+  },
+  {
+   "label": "Follow a young Aboriginal person on the Darling Downs in 1840",
+   "to": "b1"
+  }
+ ],
+ "startText": [
+  "In 1840 Europeans began to take up grassland on the Darling Downs, in what is now Queensland, to graze sheep. Over the next sixty years squatters, shepherds, stockmen, selectors and governments changed who held the grass, which animals ate it, and who had a say. The grassland was already the Country of Aboriginal peoples.",
+  "In this story you make the choices. You can follow one of three invented people. When a story ends, you can go back and follow one of the others.",
+  "The story is invented. The facts are real. Boxes marked “Real history” show the facts and name their sources."
+ ],
+ "startTeacher": [
+  "Purpose: students choose a point of view before they read the facts. Will covers the work of shepherds and the later choice between wages and a selection. Alex covers land laws, the change from sheep to cattle, markets, and the Federation Drought. The Aboriginal path covers the same grassland from 1840 and the later control of Aboriginal labour.",
+  "Suggested use: let students follow one path, then read the endings of the other two. Then use the Discuss and write questions. A full path takes about 10 minutes."
+ ],
+ "warning": [
+  "This story is about grassland that Aboriginal people had cared for over thousands of years, and about the squatters who took it up for sheep and cattle. It describes violence against Aboriginal people and violence against settlers. It does not describe the violence in detail.",
+  "Aboriginal and Torres Strait Islander readers are advised that this app names places where people died, and that the old records it draws on were written by Europeans.",
+  "The three main characters are invented. The Aboriginal character has no name and no named family group on purpose. Read “Behind the Story” to see what is real and what is invented.",
+  "This app has not yet been reviewed by Aboriginal community members. Review is being sought. Please tell the author if anything needs to change."
+ ],
+ "review": null,
+ "sources": {
+  "slqShepherd": {
+   "short": "SLQ, Shepherd Kings of the Darling Downs",
+   "t": "State Library of Queensland. “The ‘Shepherd Kings of the Darling Downs’: essay”. From the exhibition Grass Dukes and Shepherd Kings.",
+   "u": "https://www.slq.qld.gov.au/discover/exhibitions/grass-dukes-shepherd-kings/shepherd-kings-darling-downs-essay",
+   "note": "The peoples of the Downs and their burning season, the first squatters, the squatters’ labour force, wool profits, and the decline of the squatters by 1900."
+  },
+  "atf": {
+   "short": "Wallis and Burke, Darling Downs district",
+   "t": "Lynley A. Wallis and Heather Burke. “Darling Downs Pastoral District”. Archaeology on the Frontier (website).",
+   "u": "https://archaeologyonthefrontier.com/pastoral-districts/darling-downs/",
+   "note": "Dates and numbers of squatters, the count of conflict events, the Native Police camps, and letters and reports from the 1840s and 1850s. The page quotes old letters that contain insulting words about Aboriginal people. I did not copy those words."
+  },
+  "tales": {
+   "short": "Tales from Colonial Queensland, “Reluctant Shepherds”",
+   "t": "K. C. Sbeghen. “Reluctant Shepherds”. Tales from Colonial Queensland (blog), 4 September 2013.",
+   "u": "http://talesfromcolonialqueensland.blogspot.com/2013/09/reluctant-shepherds.html",
+   "note": "Quotes the Moreton Bay Courier of 15 August 1846, 19 September 1846 and 2 January 1847 about hiring shepherds and hut keepers. A blog is a secondary source. I did not read the newspaper pages myself."
+  },
+  "qsaLand": {
+   "short": "QSA, land selection laws",
+   "t": "Queensland State Archives. “Part 5: Key Legislation for Land Selections since 1860, summarised”. Stories from the Archives, 3 April 2018.",
+   "u": "https://blogs.archives.qld.gov.au/2018/04/03/part-5-key-legislation-for-land-selections-since-1860-summarised/",
+   "note": "A summary of the Land Acts of 1860, 1868, 1876, 1884, 1897, 1902, 1906 and 1910, written from research by the historian Ruth Kerr."
+  },
+  "fitzroy": {
+   "short": "Archer, “Fitzroy Waters”",
+   "t": "Archibald Archer. “Fitzroy Waters: From Sheep to Cattle and Coal”. Paper read to the Royal Historical Society of Queensland, 24 August 1972. Journal of the Royal Historical Society of Queensland, vol. 9, no. 3.",
+   "u": "https://docslib.org/doc/928996/fitzroy-waters-from-sheep-to-cattle-and-coal",
+   "note": "Written by a member of the Archer family, who used family letters. I read the first part of the paper on the DocsLib copy. The paper is also held by the University of Queensland library."
+  },
+  "nma": {
+   "short": "National Museum of Australia, Federation Drought",
+   "t": "National Museum of Australia. “Federation Drought”. Defining Moments (website), updated 10 June 2025.",
+   "u": "https://www.nma.gov.au/defining-moments/resources/federation-drought",
+   "note": "Sheep and cattle numbers, stock losses on the droving routes, foreclosures by banks, and the break-up of large stations. Many of its figures are for Australia as a whole. Its Queensland figure is for cattle only."
+  },
+  "ross": {
+   "short": "North Queensland History, Ross River Meatworks",
+   "t": "Trisha Fielding. “Ross River Meatworks”. North Queensland History (blog), 26 October 2015.",
+   "u": "https://northqueenslandhistory.blogspot.com/2015/10/ross-river-meatworks.html",
+   "note": "Dates of building and of the first shipment of frozen beef. Other websites disagree with this blog about the condition of the first shipment when it arrived in London, so this app does not state it."
+  },
+  "slqStrike": {
+   "short": "SLQ blog, Shearers’ Strike 1891",
+   "t": "Queensland State Archives (published by the John Oxley Library blog). “Shearers’ Strike 1891”. State Library of Queensland blog, 5 June 2012.",
+   "u": "https://www.slq.qld.gov.au/blog/shearers-strike-1891",
+   "note": "The causes, the centre at Barcaldine, the trials and sentences, and the result of the 1891 strike."
+  },
+  "aph": {
+   "short": "Senate report on stolen wages, chapter 2",
+   "t": "Parliament of Australia, Senate Legal and Constitutional Affairs References Committee. “Unfinished business: Indigenous stolen wages”, Chapter 2, “Life under the protection acts”. 2006.",
+   "u": "https://www.aph.gov.au/parliamentary_business/committees/senate/legal_and_constitutional_affairs/completed_inquiries/2004-07/stolen_wages/report/c02",
+   "note": "The Queensland Act of 1897, the permit and agreement rules for Aboriginal workers, minimum wages in 1901, and estimates by Dr Ros Kidd of the numbers of workers whose labour was controlled."
+  },
+  "newcastle": {
+   "short": "University of Newcastle, Colonial Frontier Massacres, Cullin la Ringo",
+   "t": "Centre for 21st Century Humanities, University of Newcastle. “Colonial Frontier Massacres in Central and Eastern Australia 1788–1930”: record for Cullin la Ringo, 17 October 1861.",
+   "u": "https://c21ch.newcastle.edu.au/colonialmassacres/detail.php?r=648",
+   "note": "A research database. Its record cites newspapers of 1861 and the historians Carment, Reid and Perrin."
+  },
+  "guardian": {
+   "short": "The Guardian, Cullin-la-ringo (2025)",
+   "t": "Ella Archibald-Binge. “The massacre of sleeping settlers that unleashed a savage war in central Queensland”. The Guardian Australia, 5 August 2025.",
+   "u": "https://www.theguardian.com/australia-news/2025/aug/05/cullin-la-ringo-massacre-central-qld-queensland-tom-wills-family-ntwnfb",
+   "note": "A news feature that includes the views of Gayiri, Bidjara and Ghungalu people and of descendants of the Wills family. It has a warning about racist language in historical records."
+  },
+  "awKilcoy": {
+   "short": "Australian Wars and Resistance, Kilcoy",
+   "t": "Australian Wars and Resistance (website). “Massacre at Kilcoy Station”, 1 February 1842.",
+   "u": "https://www.australianwars.net/event.php?id=379",
+   "note": "Lists the sources for the Kilcoy poisoning, including the Sydney Morning Herald of 5 December 1842."
+  },
+  "darumbal": {
+   "short": "Darumbal Enterprises",
+   "t": "Darumbal Enterprises. “Darumbal History”.",
+   "u": "https://darumbal.com.au/darumbal-culture/darumbal-history/",
+   "note": "The Darumbal people are the Traditional Owners of the Rockhampton and Capricorn Coast area, including the Fitzroy River catchment."
+  },
+  "abs150": {
+   "short": "ABS, 150 years of Queensland",
+   "t": "Australian Bureau of Statistics. “150 Years of Queensland’s Economic History: Key Dates, Facts and Figures”. Qld Stats, February 2009.",
+   "u": "https://www.abs.gov.au/ausstats/abs@.nsf/Previousproducts/1318.3Feature%20Article14Feb%202009?issue=Feb+2009&num=&opendocument=&prodno=1318.3&tabname=Summary&view=",
+   "note": "Used for the date of separation from New South Wales, 10 December 1859."
+  },
+  "qsaSearch": {
+   "short": "Queensland State Archives, Archives Search",
+   "t": "Queensland State Archives. Archives Search (online catalogue).",
+   "u": "https://www.archivessearch.qld.gov.au/",
+   "note": "For teachers: search here for pastoral lease records, Commissioner of Crown Lands letters and Native Police records. I did not use it for a fact in the story."
+  },
+  "trove": {
+   "short": "Trove",
+   "t": "National Library of Australia. Trove: digitised newspapers.",
+   "u": "https://trove.nla.gov.au/",
+   "note": "For teachers: search for the Moreton Bay Courier (1846 to 1847), the Rockhampton Bulletin (1861) and the Queenslander (1890s)."
+  },
+  "qhr": {
+   "short": "Queensland Heritage Register",
+   "t": "Queensland Heritage Register (Department of the Environment, Tourism, Science and Innovation).",
+   "u": "https://apps.des.qld.gov.au/heritage-register/",
+   "note": "For teachers: search the register for homesteads, woolsheds and meatworks. I did not use any register entry for a fact in the story, because the register pages would not load for my reader."
+  },
+  "qhatlas": {
+   "short": "Queensland Historical Atlas",
+   "t": "Queensland Historical Atlas.",
+   "u": "https://www.qhatlas.com.au/",
+   "note": "For teachers: maps and essays on pastoralism, station homesteads and closer settlement. I did not use it for a fact in the story, because the site would not load for my reader."
+  }
+ },
+ "sourcesIntro": "Every fact in a “Real history” box comes from one of these sources. Newspapers named in the sources can be read on Trove. Queensland State Archives holds the original government records. I read the sources listed here when I wrote this app. Where I did not read a page, the note says so.",
+ "imageNote": "All images are old photographs, maps or drawings that are in the public domain. No images in this app were made by artificial intelligence. Some photographs show groups of workers. The sources I read do not say who they were, so the captions do not say either.",
+ "images": {
+  "map": {
+   "file": "images/squatting-map-darling-downs-1864.jpg",
+   "alt": "An old printed map of the Darling Downs with the boundaries of runs, head stations, townships and roads marked in outline.",
+   "caption": "Squatting Map of the Darling Downs District, 1864, by J. W. Buxton. It shows the approximate boundaries of runs and their head stations.",
+   "credit": "John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_2_180739_Squatting_map_of_the_Darling_Downs_district,_1864.jpg",
+   "people": false
+  },
+  "gracemere": {
+   "file": "images/gracemere-station-sketch-1869.jpg",
+   "alt": "A brown-toned sketch of a lake or river with a small sailing boat, and trees and station buildings on the far bank.",
+   "caption": "A sketch of Gracemere Station near Rockhampton, about 1869. Gracemere was a real station. Alex’s station in this story is invented.",
+   "credit": "Unknown artist, John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_241830_Sketch_of_Gracemere_Station_near_Rockhampton.jpg",
+   "people": false
+  },
+  "yandilla": {
+   "file": "images/sheep-washing-yandilla-1884.jpg",
+   "alt": "A black and white photograph of a creek with a large flock of sheep on the bank and men working on a wooden platform and in yards.",
+   "caption": "Sheep washing on Yandilla Station, Darling Downs, 1884. Men work in the creek and in the yards.",
+   "credit": "John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_2_295119_Sheep_washing_on_Yandilla_Station,_Darling_Downs,_1884.jpg",
+   "people": false
+  },
+  "jimbour": {
+   "file": "images/bullock-team-jimbour-1887.jpg",
+   "alt": "A black and white photograph of a team of bullocks in front of large wooden woolsheds.",
+   "caption": "A bullock team outside the woolsheds at Jimbour Station, Darling Downs, about 1887.",
+   "credit": "John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_43351_Bullock_team_outside_the_woolsheds_at_Jimbour_Station,_Queensland,_ca._1887.jpg",
+   "people": false
+  },
+  "shearers": {
+   "file": "images/shearers-1880s.jpg",
+   "alt": "A black and white group photograph of many men and boys outside a wooden shearing shed. Some in the front row sit with fleeces.",
+   "caption": "Shearers outside a shearing shed, between 1880 and 1890. Four men at the front are shearing with hand shears.",
+   "credit": "John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_2_173975_Portrait_of_shearers_outside_a_shearing_shed,_1880-1890.jpg",
+   "people": false
+  }
+ },
+ "nodes": {
+  "w1": {
+   "id": "w1",
+   "title": "An agreement to go up country",
+   "where": "Brisbane · August 1846",
+   "text": [
+    "You are Will. You are twenty-two years old. You came to Brisbane by steamer from Sydney with a free fare. In return you signed an agreement to work for a squatter on the Darling Downs.",
+    "In town you hear what other men from the ship are doing. Some say the shepherd’s life is lonely and dangerous. Some are trying to find work in the town instead. The squatter’s agent says you will be paid £25 a year as a shepherd, or £22 a year as a hut keeper, with rations.",
+    "You must choose which work to do."
+   ],
+   "choices": [
+    {
+     "label": "Go up country as a shepherd, for £25 a year",
+     "to": "w2",
+     "set": {
+      "job": "shepherd"
+     }
+    },
+    {
+     "label": "Go up country as a hut keeper, for £22 a year",
+     "to": "w2",
+     "set": {
+      "job": "hut"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Hiring shepherds, 1846 and 1847",
+     "paras": [
+      "In 1842 the northern districts of New South Wales, which are now south-east Queensland, were opened to free settlement. Labour for the runs was recruited in Sydney, and recruits were offered a free fare and a bonus.",
+      "In 1846 the Moreton Bay Courier reported wages of £25 a year for good shepherds and £22 for hut keepers, with good rations. The paper also complained that some men took the fare and then stayed in Brisbane. In January 1847 it reported that a man who had been hired as a shepherd and refused to go to his station was sentenced to three months’ hard labour. I read these reports as they are quoted in a blog, not on Trove."
+     ],
+     "src": [
+      "tales"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows that the squatters had to recruit and bind labour, and that men could be punished for breaking an agreement. Will’s age and his choices are invented. The wages and the court case are real.",
+     "Ask: why would a man choose £22 and a hut over £25 and a flock? (There is no answer in the sources. Students should say what they can and cannot know.)"
+    ]
+   }
+  },
+  "w2": {
+   "id": "w2",
+   "title": "The outstation",
+   "where": "Darling Downs · 1846",
+   "img": "map",
+   "text": [
+    {
+     "if": {
+      "job": "shepherd"
+     },
+     "t": "You walk out with the flock at dawn. You watch the sheep all day and bring them back to the fold at night. There are no fences. If a sheep strays, you must find it."
+    },
+    {
+     "if": {
+      "job": "hut"
+     },
+     "t": "You look after the hut and the fold. You cook, keep the yards in order, and watch the flock when the shepherd is away. There are no fences."
+    },
+    "The hut is made of slabs and bark. The nearest neighbour is a long day’s ride away. Now and then a dray brings flour, tea and sugar, and the overseer counts the sheep.",
+    "In the evenings you hear dogs in the dark. You have heard that Aboriginal people have taken sheep from other runs. You have also heard that some shepherds have been killed.",
+    "You have to decide where to graze the flock."
+   ],
+   "choices": [
+    {
+     "label": "Keep the flock near the hut",
+     "to": "w3",
+     "set": {
+      "graze": "near"
+     }
+    },
+    {
+     "label": "Move the flock to better grass, further from the hut",
+     "to": "w3",
+     "set": {
+      "graze": "far"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "The Darling Downs, 1840 to 1843",
+     "paras": [
+      "The Leslie brothers took up runs on the Darling Downs from March 1840. A census recorded 55 European men on the Downs in March 1841, and about 300 people, including a reasonable number of women, in September 1843. The Downs was officially opened for settlement in 1843.",
+      "The State Library of Queensland says the first squatters came to sell good raw wool to English mills, and that many were younger sons of English and Scottish gentry. The squatters ruled over a labour force of travelling bush workers, stockmen and shepherds."
+     ],
+     "src": [
+      "atf",
+      "slqShepherd"
+     ]
+    },
+    {
+     "h": "Aboriginal people and the grass",
+     "paras": [
+      "The Downs had been the home, for thousands of years, of the Keinjan, Giabal, Jarowair and Barunggam peoples. They practised a burning season to manage the grasses of the plains. Archaeologists Lynley Wallis and Heather Burke write that the grasslands were vital to Aboriginal people and were managed by annual cultural burning."
+     ],
+     "src": [
+      "slqShepherd",
+      "atf"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the map shows runs, head stations and “pre-emptive purchases” on the Downs in 1864. Ask students to find what the map shows and what it leaves out. It does not show Aboriginal Country.",
+     "The hut, the flock and the daily work are invented. The hut, the dray, the rations and the daily work are invented and kept general."
+    ]
+   }
+  },
+  "w3": {
+   "id": "w3",
+   "title": "News from a neighbouring run",
+   "where": "Darling Downs · 1848",
+   "text": [
+    {
+     "if": {
+      "graze": "near"
+     },
+     "t": "You kept the flock close to the hut. The grass near the hut is eaten short, and some of the sheep are thin."
+    },
+    {
+     "if": {
+      "graze": "far"
+     },
+     "t": "You moved the flock to better grass. The sheep are in good condition, but you are far from the hut."
+    },
+    "One afternoon a rider stops at your hut. He says a shepherd on a run to the west has been killed and the flock driven off. He says the squatters are meeting to send out a party. He does not say what the party will do.",
+    "In the next days you hear many stories about what has happened and who did it. You do not know which are true.",
+    "You think about whether to stay."
+   ],
+   "choices": [
+    {
+     "label": "Stay at the outstation",
+     "to": "w4",
+     "set": {
+      "risk": "stay"
+     }
+    },
+    {
+     "label": "Ask the overseer to move you to the head station",
+     "to": "w4",
+     "set": {
+      "risk": "head"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Conflict on the Downs",
+     "paras": [
+      "Wallis and Burke count 92 conflict events in the Darling Downs district. They describe the period from 1840 to the end of the 1850s as almost continuous conflict, and say about 90 per cent of it took place on pastoral runs. The year with the most events was 1848, with 16 events and 27 deaths: 20 Aboriginal people and 7 Europeans.",
+      "The Commissioner of Crown Lands, Christopher Rolleston, reported that at least 13 shepherds had been killed between January 1842 and November 1843, and that thousands of sheep had been killed or driven off. The violence also pushed up wages."
+     ],
+     "src": [
+      "atf"
+     ]
+    },
+    {
+     "h": "Violence against Aboriginal people",
+     "paras": [
+      "Settlers also killed Aboriginal people, in parties led by squatters and in single attacks. On 26 October 1848 three Aboriginal women and a child were killed at Canning Creek. Four people saw it, but all said they could not name those who did it. Rolleston wrote that he could not trace them."
+     ],
+     "src": [
+      "atf"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the news scene is invented. It stands for events that Wallis and Burke record. Do not ask students to decide who was “right”. Ask: why is it hard to know what happened in 1848? Whose accounts do we have?",
+     "The Canning Creek example is real, and it shows that a magistrate could not convict anyone when witnesses would not speak. Teachers may wish to read it aloud and let students respond before discussion."
+    ]
+   }
+  },
+  "w4": {
+   "id": "w4",
+   "title": "Years later",
+   "where": "Darling Downs · 1869",
+   "text": [
+    "Twenty-three years have passed.",
+    {
+     "if": {
+      "risk": "stay"
+     },
+     "t": "You stayed at the outstation for some years, and later worked in the shearing shed."
+    },
+    {
+     "if": {
+      "risk": "head"
+     },
+     "t": "You moved to the head station, and later worked as a stockman and a shearer."
+    },
+    "You have saved some money. Queensland is now a separate colony, and a new law has opened some land to selection. Part of the squatter’s run is being surveyed into blocks. The squatter has already bought the land along the creek.",
+    "You could take up a block of your own, or you could stay as a wage worker."
+   ],
+   "choices": [
+    {
+     "label": "Take up a selection",
+     "to": "e2"
+    },
+    {
+     "label": "Stay as a wage worker",
+     "to": "e1"
+    }
+   ],
+   "real": [
+    {
+     "h": "Land laws, 1859 to 1884",
+     "paras": [
+      "Queensland became a separate colony on 10 December 1859. The Crown Lands Alienation Act of 1868 opened land that was not under a pastoral lease to selection. Selectors paid annual rent, and could freehold agricultural land after three years if they met the conditions.",
+      "The same Act let pastoralists make pre-emptive selections from their own leases, at one acre for every ten shillings of improvements. Queensland State Archives says this let pastoralists secure land along creek and river banks. The Act of 1876 tried to stop “dummying” by pastoralists, but the Archives says those efforts were unsuccessful. The Lands Act of 1884 abolished pre-emptive purchases."
+     ],
+     "src": [
+      "abs150",
+      "qsaLand"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: links the land laws to one person’s choice. The squatter who “has already bought the land along the creek” is invented, but matches what the Archives says about pre-emptive purchase. Ask: what does a block away from the creek mean in a dry year?"
+    ]
+   }
+  },
+  "e1": {
+   "id": "e1",
+   "title": "A wage worker on the run",
+   "where": "Darling Downs · after 1869",
+   "img": "shearers",
+   "text": [
+    "You stay. Each year you work at shearing, mustering and mending the yards. The station changes owners. The wage stays about the same. In some years there is work for everyone. In other years there is not.",
+    "In 1891 you hear that shearers in central Queensland have gone on strike. You are too old to shear by then, and you hear about it from younger men.",
+    "This ending is invented. It shows one life that was possible. Many people lived like this."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "At the height of squatter-dominated pastoralism in the 1880s, stations in New South Wales and Queensland were sometimes up to 3,000 square kilometres in size and carried hundreds of thousands of merino sheep.",
+      "In 1891 central Queensland was occupied for almost four months with a strike by shearers. Pastoralists had proposed to cut the shearers’ wages, which were then £1 for every hundred sheep shorn, as wool prices fell in the depression of the 1890s. The strike failed, and thirteen union leaders were sentenced to three years on 20 May 1891. Many historians think the strike hastened the call for a political party for working people."
+     ],
+     "src": [
+      "nma",
+      "slqStrike"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 1 of 5. Ask: Will and Alex both worked on stations. What did each have the power to decide? Who decided the wage?"
+    ]
+   }
+  },
+  "e2": {
+   "id": "e2",
+   "title": "A selector’s farm",
+   "where": "Darling Downs · after 1869",
+   "text": [
+    "You choose a block and pay the first year’s rent. You build a hut, clear some land and plant a crop. The block is not on the creek.",
+    "In some years the rain comes and the crop grows. In other years it does not. You must pay the rent every year, whether or not the crop grows.",
+    "This ending is invented. It shows one life that was possible."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "The National Museum of Australia says the eastern colonies passed land laws in the 1860s to control squatters and encourage closer settlement, with the aim of breaking large runs into smaller blocks for farming and grazing. It says this was not always achieved, because squatters found ways to hold on to productive country.",
+      "Under the Lands Act of 1884, up to 1,280 acres could be selected as an Agricultural Farm and freeholded after five years, and up to 20,000 acres could be selected as a Grazing Farm and held on a 30-year lease."
+     ],
+     "src": [
+      "nma",
+      "qsaLand"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 2 of 5. Ask: how many selectors succeeded? The sources I read do not say. What records would settle it? (For example, selection and forfeiture records at Queensland State Archives.)"
+    ]
+   }
+  },
+  "x1": {
+   "id": "x1",
+   "title": "Improvements or stock",
+   "where": "Central Queensland · 1869",
+   "img": "gracemere",
+   "text": [
+    "You are Alex. You are twenty-six years old. You manage a sheep station in central Queensland for an owner who lives in Sydney.",
+    "The station has a lease from the Crown for the grass. A new law, the Crown Lands Alienation Act of 1868, has begun to change what the lease means. Parts of the run can be taken back, and the land opened to selectors.",
+    "The owner has written to you. He says you may spend money on improvements such as a woolshed and fences. You know that improvements can be turned into land along the river. You also know that sheep cost money, and there is not enough for both."
+   ],
+   "choices": [
+    {
+     "label": "Spend the money on improvements, to claim the land along the river",
+     "to": "x2",
+     "set": {
+      "water": "claimed"
+     }
+    },
+    {
+     "label": "Keep the money for sheep, and hold the lease as it is",
+     "to": "x2",
+     "set": {
+      "water": "lease"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "The Land Acts and Gracemere",
+     "paras": [
+      "Gracemere was a sheep station run by the Archer family near Rockhampton. Archibald Archer, a member of the family, wrote in 1972 that Gracemere was reduced by resumptions after the Land Acts of 1868 and 1869. Rockhampton is in the area that Darumbal Enterprises describes as Darumbal Country.",
+      "Under the Act of 1868, pastoralists could make pre-emptive selections from their leases within 12 months of notice of resumption, at one acre for every ten shillings of improvements. Queensland State Archives says this let them secure land along creek and river banks."
+     ],
+     "src": [
+      "fitzroy",
+      "qsaLand",
+      "darumbal"
+     ]
+    },
+    {
+     "h": "Central Queensland in 1861",
+     "paras": [
+      "In October 1861, near Springsure, Gayiri people killed 19 members of Horatio Wills’s party at Cullin-la-ringo. A University of Newcastle research database records that two Aboriginal boys had been taken by white men before the attack. It also records one view that the attack was in reprisal for the killing of Gayiri people about a week earlier by Native Police.",
+      "Afterwards, settlers and then Native Police killed many Gayiri people. The Guardian reports official records of at least 30 killed on the first day, and a newspaper report that Native Police shot 60 or 70 people. The exact number is not known. Some people at the time claimed it was far larger."
+     ],
+     "src": [
+      "newcastle",
+      "guardian"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows how a law could be used by people who already held land. Alex and the owner are invented. Gracemere is a real station used as an example only.",
+     "The 1861 box is a real event near the same region. It is placed here so students see that runs were taken up on Country that people had defended. Preview this box before using it in class."
+    ]
+   }
+  },
+  "x2": {
+   "id": "x2",
+   "title": "Seed in the wool",
+   "where": "Central Queensland · 1871",
+   "img": "yandilla",
+   "text": [
+    {
+     "if": {
+      "water": "claimed"
+     },
+     "t": "You spent the money on a woolshed and fences. The land along the river has been secured for the owner."
+    },
+    {
+     "if": {
+      "water": "lease"
+     },
+     "t": "You kept the money for sheep. Part of the run has been taken back, and the land along the river has been opened to selection."
+    },
+    "The wool is now a problem. At the wool store more bales are marked “seedy”, which means they have grass seed in them. The seed is spreading in the paddocks and the sheep look thin and miserable.",
+    "Wool still sells for nearly two shillings a pound, so you do not want to give up the sheep. You need to decide what to do."
+   ],
+   "choices": [
+    {
+     "label": "Move the sheep to new country in the west",
+     "to": "x2b",
+     "set": {
+      "mix": "west"
+     }
+    },
+    {
+     "label": "Put cattle on the paddocks and keep fewer sheep",
+     "to": "x3",
+     "set": {
+      "mix": "mixed"
+     }
+    },
+    {
+     "label": "Keep the sheep and move them between paddocks",
+     "to": "x3",
+     "set": {
+      "mix": "sheep"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Spear grass at Gracemere",
+     "paras": [
+      "Archibald Archer quotes an old sheep farmer who said black spear grass overran the country after the wet years of the 1850s, spoiled his wool and made him change his shearing times. Archer says spear grass caused the sheep to leave Gracemere. In the late 1860s the station’s wool book described more and more bales as “seedy”.",
+      "In 1871 the manager, James Archer, wrote that the paddocks, after all the expense they had been, were “very little good”. Wool was then nearly two shillings a pound. In 1872 the family bought country at Tambo, and the sheep were driven there between 1872 and 1874. When Robert Stubbs Archer became manager in 1880, there were no sheep left at Gracemere."
+     ],
+     "src": [
+      "fitzroy"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the change from sheep to cattle was not only about price. Archer says spear grass spoiled the wool. Ask: what else might have mattered? (Distance to markets, labour, the price of meat. The sources I read do not say.)",
+     "The photograph is of a different station and year. Ask students why the caption gives the place and date."
+    ]
+   }
+  },
+  "x2b": {
+   "id": "x2b",
+   "title": "Further west",
+   "where": "Central Queensland · 1873",
+   "text": [
+    "The owner agrees to buy country far to the west. You drive the sheep there over two years. The sheep move slowly and many of the days are dry. At the new run you build yards and a hut.",
+    "The new run is also on Country where Aboriginal people already lived. This story does not say what happened to them, because I did not find a record.",
+    "Wool from the new run must travel a long way to reach the coast."
+   ],
+   "choices": [
+    {
+     "label": "Go on to 1892",
+     "to": "x3"
+    }
+   ],
+   "real": [
+    {
+     "h": "Moving the sheep, and getting water",
+     "paras": [
+      "In 1872 the Archer family bought country at Tambo and called it Minnie Downs. The sheep were driven there from Gracemere between 1872 and 1874.",
+      "The National Museum of Australia says that later railways and bores, which reached underground water, made it possible for stations to spread further into the dry interior of New South Wales and central Queensland."
+     ],
+     "src": [
+      "fitzroy",
+      "nma"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows that moving sheep meant new land, and so new Country. The sentence about Aboriginal people is written in the author’s voice on purpose, to show a gap in the sources. Ask: what source could fill the gap? (Traditional Owner knowledge, native title research, records of the pastoral lease.)"
+    ]
+   }
+  },
+  "x3": {
+   "id": "x3",
+   "title": "Two kinds of news",
+   "where": "Central Queensland · 1892",
+   "img": "jimbour",
+   "text": [
+    {
+     "if": {
+      "mix": "west"
+     },
+     "t": "You now manage the station in the west."
+    },
+    {
+     "if": {
+      "mix": "mixed"
+     },
+     "t": "You manage sheep and cattle on the same run."
+    },
+    {
+     "if": {
+      "mix": "sheep"
+     },
+     "t": "You still manage sheep, on the old run."
+    },
+    "Two pieces of news arrive. Last year the shearers went on strike for almost four months, and wool prices are falling. And a freezing works has opened at Townsville, which sends frozen beef to London.",
+    "The owner asks what you will do."
+   ],
+   "choices": [
+    {
+     "label": "Put more money into cattle for the meat trade",
+     "to": "x4",
+     "set": {
+      "bet": "cattle"
+     }
+    },
+    {
+     "label": "Keep the sheep and wait for better wool prices",
+     "to": "x4",
+     "set": {
+      "bet": "sheep"
+     }
+    },
+    {
+     "label": "Borrow from the bank to buy more stock of both kinds",
+     "to": "x4",
+     "set": {
+      "bet": "borrow"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Frozen beef, 1892",
+     "paras": [
+      "The Ross River Meatworks at Townsville began to be built in August 1891, and by June 1892 the first cattle were being processed. A blog says it was a solution to an oversupply of cattle in the region, and that it employed 700 workers at its peak. The first shipment of frozen beef, 600 tons, left Townsville on the Otarama for London.",
+      "Other websites disagree with the blog about the condition of the first shipment when it arrived. This app does not say."
+     ],
+     "src": [
+      "ross"
+     ]
+    },
+    {
+     "h": "The shearers’ strike, 1891",
+     "paras": [
+      "In 1891 shearers refused to work after pastoralists proposed to cut their wages. Barcaldine became the centre of the strike in February. Thirteen union leaders were sentenced in May to three years in prison. The strike failed."
+     ],
+     "src": [
+      "slqStrike"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: markets. Wool prices and meat export were changing at the same time. Ross River is in north Queensland. The story does not say where Alex’s stock would be sold.",
+     "Ask: which of the three choices carries the most risk, and what evidence would Alex need? (Debt, an unknown market, and a drought nobody could predict.)"
+    ]
+   }
+  },
+  "x4": {
+   "id": "x4",
+   "title": "The long dry",
+   "where": "Central Queensland · 1898",
+   "text": [
+    "There has been little rain for three years. The rivers are low. The grass is gone from the paddocks, and the bare ground blows away in the wind.",
+    {
+     "if": {
+      "bet": "cattle"
+     },
+     "t": "You have more cattle than ever."
+    },
+    {
+     "if": {
+      "bet": "sheep"
+     },
+     "t": "You have kept all the sheep."
+    },
+    {
+     "if": {
+      "bet": "borrow"
+     },
+     "t": "You owe the bank a large sum of money, and you have more stock than ever."
+    },
+    "You must decide what to do before another year passes."
+   ],
+   "choices": [
+    {
+     "label": "Sell most of the stock now",
+     "to": "e3",
+     "set": {
+      "sell": "early"
+     }
+    },
+    {
+     "label": "Send the stock along the stock route to find feed",
+     "to": "x4b",
+     "set": {
+      "sell": "drove"
+     }
+    },
+    {
+     "label": "Hold on and wait for rain",
+     "to": "e4",
+     "set": {
+      "sell": "hold"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "The Federation Drought, 1895 to 1903",
+     "paras": [
+      "The National Museum of Australia says the Federation Drought was the worst in Australia’s history, measured by stock losses. In 1892 Australia had 106 million sheep. By 1903 the flock had almost halved, to 54 million. The country lost more than 40 per cent of its cattle, nearly three million in Queensland alone.",
+      "The Museum says the combination of overstocking, drought and rabbits (which it describes for south-eastern Australia) left pastoralists with nothing to feed their stock, and that banks foreclosed on some stations. No state government had a formal drought relief policy. These figures are for the whole country, except the Queensland cattle number."
+     ],
+     "src": [
+      "nma"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the drought affected all choices. The ending depends on timing, and the choice of the better time was not clear until later. Ask: in 1898, how could Alex know the drought would continue for five more years?"
+    ]
+   }
+  },
+  "x4b": {
+   "id": "x4b",
+   "title": "On the road",
+   "where": "Western Queensland · 1900",
+   "text": [
+    "You send the stock along the stock route with drovers. There is little feed on the road. The watering places are far apart. Each day some animals die and are left behind.",
+    "After some weeks the drovers send word. You must decide whether to sell what is left, or to take the animals back and hold on."
+   ],
+   "choices": [
+    {
+     "label": "Sell what is left",
+     "to": "e3"
+    },
+    {
+     "label": "Take the animals back and hold on",
+     "to": "e4"
+    }
+   ],
+   "real": [
+    {
+     "h": "Droving in the drought",
+     "paras": [
+      "The National Museum of Australia says drovers looked for feed along travelling stock routes, known as the “long paddock”. It says losses of up to 70 per cent were recorded on the road, especially where watering points could be 100 kilometres apart. In 1902 local newspapers reported more than 2,000 steers dead along the Goondiwindi to Miles route in Queensland."
+     ],
+     "src": [
+      "nma"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows the cost of trying to move stock. The 70 per cent figure is the highest recorded in some places. It is not an average. Ask students why a maximum figure should not be used as if it were typical."
+    ]
+   }
+  },
+  "e3": {
+   "id": "e3",
+   "title": "A smaller run",
+   "where": "Central Queensland · after 1902",
+   "text": [
+    {
+     "if": {
+      "sell": "early"
+     },
+     "t": "You sold most of the stock early, at low prices. You kept a few animals and the land along the river."
+    },
+    {
+     "if": {
+      "sell": "drove"
+     },
+     "t": "You sold what was left of the stock after the road. You lost many animals, and you kept a few."
+    },
+    "The bank agrees to let the owner keep part of the run. The owner sells part to the government, which opens it to selectors. You stay on as manager of the smaller run, with fewer sheep and a few cattle. Your new neighbours grow crops and keep small flocks.",
+    "This ending is invented. It shows one life that was possible."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "Queensland State Archives says the Queensland Agricultural Lands Purchase Act of 1894 let the government buy land from pastoral lessees and open it for selection for family farms. Many of the estates came from owners who were prepared to sell during the depression of the 1890s. The Land Act of 1902 was largely a relief Act for pastoral lessees hit by the drought.",
+      "The National Museum of Australia says that by the end of the drought many huge stations had been taken back or foreclosed by banks and divided into smaller holdings. Smaller properties and flocks became normal, and mixed farming was widely taken up."
+     ],
+     "src": [
+      "qsaLand",
+      "nma"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 3 of 5. Ask: who was left out of this ending? (The Aboriginal people of the run; the shearers and stockmen; the selectors who did not succeed.)"
+    ]
+   }
+  },
+  "e4": {
+   "id": "e4",
+   "title": "The bank takes the run",
+   "where": "Central Queensland · about 1900",
+   "text": [
+    {
+     "if": {
+      "sell": "drove"
+     },
+     "t": "You bring back the few animals that survived the road."
+    },
+    "You hold on. The rain does not come for another year. The bank will not lend any more money and takes the run. The lease is taken back and the country is divided into blocks for selectors.",
+    "You leave with your clothes, your horse and a letter from the owner. Many other station managers and owners are in the same position.",
+    "This ending is invented. It shows one life that was possible."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "The National Museum of Australia says banks foreclosed on some stations and many graziers walked off their land. The Museum says the drought ended squatter-dominated pastoralism in New South Wales and Queensland, as bank foreclosures and the resumption of leases led to the partition of large stations.",
+      "Queensland State Archives says that much pastoral land leased under the Pastoral Leases Act of 1869 was deserted in the drought. The State Library of Queensland says the squatters’ way of life on the Darling Downs lasted less than fifty years."
+     ],
+     "src": [
+      "nma",
+      "qsaLand",
+      "slqShepherd"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 4 of 5. Ask: the owner lives in Sydney. How did the loss of the run affect the owner, the manager and the shearers differently? (The story does not say. Students should say what is not known.)"
+    ]
+   }
+  },
+  "b1": {
+   "id": "b1",
+   "title": "The burning season",
+   "where": "Darling Downs · 1840",
+   "text": [
+    "You are a young Aboriginal person living on the Darling Downs. This story gives you no name and no family group, on purpose. See “Behind the Story” to learn why.",
+    "It is the time of year when the grass is burned. The grass is managed in this way on the plains. People have cared for this grassland for thousands of years.",
+    "This year something is different. Strangers have come up from the south on horses, with flocks of sheep and men to watch them. They have built a hut. There are not many yet, but more are coming.",
+    "You see the strangers’ flock near a waterhole."
+   ],
+   "choices": [
+    {
+     "label": "Watch from a distance",
+     "to": "b2",
+     "set": {
+      "contact": "watch"
+     }
+    },
+    {
+     "label": "Go near the strangers’ camp",
+     "to": "b2",
+     "set": {
+      "contact": "near"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "The Downs in 1840",
+     "paras": [
+      "The State Library of Queensland says the Keinjan, Giabal, Jarowair and Barunggam peoples had lived on the Downs for thousands of years, and practised a burning season to manage the grasses of the plains. The Leslie brothers took up runs from March 1840. A census recorded only 55 European men on the Downs in March 1841."
+     ],
+     "src": [
+      "slqShepherd",
+      "atf"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the story begins with Aboriginal land management so that students meet the Downs before the squatters. The person is deliberately unnamed and has no invented customs. The statement about burning comes from two sources.",
+     "Ask: what does the 1864 squatting map show that Aboriginal people would not have called a boundary? (Do not answer for them. Let students say what they cannot know.)"
+    ]
+   }
+  },
+  "b2": {
+   "id": "b2",
+   "title": "Sheep at the waterhole",
+   "where": "Darling Downs · 1841 to 1843",
+   "text": [
+    {
+     "if": {
+      "contact": "watch"
+     },
+     "t": "You watch from a distance. You see how many men there are, and what they do."
+    },
+    {
+     "if": {
+      "contact": "near"
+     },
+     "t": "You go near the strangers’ camp. The men do not welcome you."
+    },
+    "In the next months more strangers arrive. Sheep eat the grass and drink at the waterholes. Some of your people take sheep from the flocks. Others say this will bring trouble.",
+    "Men on horses ride to some camps with guns. You hear that at a place called Kilcoy, a long way to the east, many people ate flour that had poison in it, and that many died.",
+    "People in the camps talk about what to do. They do not all agree."
+   ],
+   "choices": [
+    {
+     "label": "Move away, to the mountains in the north",
+     "to": "b3",
+     "set": {
+      "path": "mountains"
+     }
+    },
+    {
+     "label": "Stay on the plains and keep out of the way of the stations",
+     "to": "b3",
+     "set": {
+      "path": "stay"
+     }
+    },
+    {
+     "label": "Join those who fight to keep the sheep off the waterholes",
+     "to": "b3",
+     "set": {
+      "path": "fight"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Reprisal and resistance, 1841 to 1844",
+     "paras": [
+      "In November 1841 George Leslie wrote to his parents that Aboriginal people had killed or carried away about 60 young ewes, and that the Leslies had “given them what they will not forget in a hurry”. Wallis and Burke read this as a major reprisal. In 1843 and 1844 they describe a state of open warfare across the Downs, in which Aboriginal people deliberately targeted rations and supplies.",
+      "Wallis and Burke also note that the violence was costly for squatters, in lives, stock and wages."
+     ],
+     "src": [
+      "atf"
+     ]
+    },
+    {
+     "h": "Kilcoy, 1842",
+     "paras": [
+      "On 1 February 1842, at Kilcoy station, flour mixed with strychnine was given to a large group of Aboriginal people by two shepherds employed by the lessee, Evan MacKenzie. At least sixty people died. The record cites the Sydney Morning Herald of 5 December 1842. Kilcoy is east of the Darling Downs, not on the Downs. According to a history by Lauer that the page cites, two escaped convicts reported that 14 or 15 Aboriginal groups met in the Bunya scrub to discuss a response."
+     ],
+     "src": [
+      "awKilcoy"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the decisions here are invented, and are not recorded for any real person. The sentence that the person “hears” of Kilcoy is invented. The source says only that groups met afterwards (according to Lauer, as cited), not who heard what. Ask: how can we separate what a source says from what the author invents?",
+     "The Bunya Mountains lie to the north of the Downs and were the home of the Jarowair people (State Library of Queensland). The story does not name them for the unnamed person."
+    ]
+   }
+  },
+  "b3": {
+   "id": "b3",
+   "title": "The Native Police",
+   "where": "Darling Downs · 1849 to 1853",
+   "text": [
+    {
+     "if": {
+      "path": "mountains"
+     },
+     "t": "You went to the mountains for a time, and now you have come back to the edge of the plains."
+    },
+    {
+     "if": {
+      "path": "stay"
+     },
+     "t": "You stayed on the plains and kept out of the way of the stations."
+    },
+    {
+     "if": {
+      "path": "fight"
+     },
+     "t": "You fought to keep the sheep off the waterholes. Many of your people have been killed."
+    },
+    "In 1849 a new force arrives. The troopers are Aboriginal men from far to the south, led by a white commandant. They are called the Native Police. They carry guns and ride horses. They have a camp near the border.",
+    "Later some squatters pay for barracks for the troopers. In a few years the newspapers write that the first fierce fighting is over. The squatters say the district is quiet."
+   ],
+   "choices": [
+    {
+     "label": "Keep away from the troopers and the stations",
+     "to": "b4",
+     "set": {
+      "end": "away"
+     }
+    },
+    {
+     "label": "Take work at a station for rations",
+     "to": "b4",
+     "set": {
+      "end": "work"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "The Native Police on the Downs",
+     "paras": [
+      "Commandant Frederick Walker set up the first Native Police camp in what became Queensland in May 1849, at Callandoon, on the present border. He had 14 troopers recruited from the Murrumbidgee and Murray River areas of southern New South Wales and northern Victoria. In 1851 squatters built barracks at Wandai Gumbal, near the present Condamine, at their own expense, after asking for help.",
+      "In 1858 a squatter told a New South Wales committee that his district became quiet within three months of the Native Police arriving, and that his land became fifty per cent more valuable. Wallis and Burke cite a newspaper of November 1853 that said the first fierce resistance had been “subdued”, and they say violence was still occurring sporadically."
+     ],
+     "src": [
+      "atf"
+     ]
+    },
+    {
+     "h": "The Commissioner’s view",
+     "paras": [
+      "Christopher Rolleston, the Commissioner of Crown Lands from 1843, tried to befriend local Aboriginal people by giving blankets, tomahawks and clothes, and by encouraging settlers to employ them. Wallis and Burke, citing the historian M. Shield, say this was not often successful because Aboriginal people did not trust Europeans after violence by shepherds and stockmen against Aboriginal women."
+     ],
+     "src": [
+      "atf"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the Native Police are real. The troopers were Aboriginal men from other parts of Australia, working for the colonial government. Students should not be asked to judge the troopers. Ask: whose decision was it to form this force, and who paid for it?",
+     "The squatter’s statement is paraphrased, because the original uses period language that is hurtful. The source page also quotes letters with insulting words about Aboriginal people. Please preview that page before showing it to a class."
+    ]
+   }
+  },
+  "b4": {
+   "id": "b4",
+   "title": "After the fighting",
+   "where": "Darling Downs · the 1850s and after",
+   "text": [
+    {
+     "if": {
+      "end": "away"
+     },
+     "t": "You keep away from the stations and the troopers. There is less land where you can go without being seen."
+    },
+    {
+     "if": {
+      "end": "work"
+     },
+     "t": "You take work at a station, in return for rations. You are not paid wages. The people who give the orders are the squatters."
+    },
+    "The grassland that your people burned each year now feeds sheep and cattle. The runs now have head stations and are shown on maps.",
+    "The frontier moves north and west. The same things happen to other peoples, in other places."
+   ],
+   "choices": [
+    {
+     "label": "See what the records say about later years",
+     "to": "e5"
+    }
+   ],
+   "real": [
+    {
+     "h": "The Downs after the 1850s",
+     "paras": [
+      "Wallis and Burke write that by the 1850s the squatters had pushed outwards and that Aboriginal defiance had worn down in the southern Downs. By 1877 the Jondaryan run on the Downs was the largest freehold run in Queensland, owned by Edward Wienholt and the trustees of William Kent."
+     ],
+     "src": [
+      "atf"
+     ]
+    },
+    {
+     "h": "The frontier moves north, 1861",
+     "paras": [
+      "In October 1861 a cycle of killings and reprisals took place near Springsure in central Queensland. See the box “Central Queensland in 1861” in Alex’s story. The Guardian reports that Aboriginal people who remained in that region were taken to missions or reserves from the early 1900s, under laws said to protect them."
+     ],
+     "src": [
+      "newcastle",
+      "guardian"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: a short bridge to the ending. The word “rations” and the statement that no wages were paid are the author’s assumptions for the 1850s. The Senate report shows that rations and permits were used in later years. I did not find a source for a particular Downs station in the 1850s, so the story is general."
+    ]
+   }
+  },
+  "e5": {
+   "id": "e5",
+   "title": "What the records leave out",
+   "where": "Queensland · 1897 and after",
+   "text": [
+    {
+     "if": {
+      "end": "away"
+     },
+     "t": "You and your family keep away from the stations for as long as you can."
+    },
+    {
+     "if": {
+      "end": "work"
+     },
+     "t": "You and your family work on stations in return for rations."
+    },
+    "This story is invented. Aboriginal people of the Darling Downs are real. They survived, and their descendants live in Queensland today. This story cannot say what they thought and felt. Only they can say that."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "In 1897 Queensland passed the Aboriginals Protection and Restriction of the Sale of Opium Act. Under it, an Aboriginal worker could be employed only under a permit from a protector, and employers had to sign an agreement for no more than 12 months. In 1901 a minimum wage of five shillings was set for most workers under the Act, which the Senate committee says was less than one-eighth of the “white wage”. From 1904 the wages of Aboriginal workers could be paid to protectors.",
+      "Dr Ros Kidd told the Senate committee that between 4,000 and 5,500 pastoral workers in Queensland each year, from the 1920s to the 1960s, had their labour controlled by the government. She said this was a “guesstimate” and was probably much too low."
+     ],
+     "src": [
+      "aph"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 5 of 5. This ending is meant to be unsatisfying in one way: the story cannot speak for the people of the Downs. Ask: what is the difference between an ending that is invented and a history that is missing?"
+    ]
+   }
+  }
+ },
+ "behind": {
+  "sections": [
+   {
+    "kind": "made",
+    "h": "What is invented",
+    "p": [
+     "All of the story text is invented. The facts are in the boxes marked “Real history”."
+    ],
+    "list": [
+     "Will, his age, his hut, his flock, his choices and his savings are invented. The wages he is offered, and the case of a shepherd who was sentenced for refusing to go to his station, are real, but Will is not any real shepherd.",
+     "Alex, the owner in Sydney, Alex’s station and every decision Alex makes are invented. Gracemere is a real station, but Alex does not manage it. Facts about Gracemere are used as an example of what happened on central Queensland stations.",
+     "The young Aboriginal person on the Downs is invented. I have deliberately given no name and no family group, because I do not know who the person’s people were and I do not want to invent a name or customs.",
+     "The news that a shepherd has been killed and a party sent out in 1848 is invented. It stands for events that archaeologists have recorded on the Downs. It is not a record of a real event.",
+     "The scene at the waterhole, the choices of the unnamed person, and the arrival of the Native Police in the person’s life are invented. The Native Police camps are real.",
+     "The statement in the ending that the person worked for rations, or kept away from the stations, is an assumption by the author for the 1850s, not a record.",
+     "Every ending is invented. They show lives that were possible, not lives that were recorded.",
+     "No real person speaks in the story. Real people are named only in the fact boxes."
+    ]
+   },
+   {
+    "kind": "real",
+    "h": "What is real",
+    "list": [
+     "The Leslie brothers took up runs on the Darling Downs from March 1840, and the Downs was officially opened for settlement in 1843.",
+     "The wages for shepherds and hut keepers in 1846, and the sentence passed in January 1847 on a hired shepherd who refused to go to his station.",
+     "Conflict on the Downs from 1840 to the end of the 1850s, the count of 92 events, the 13 shepherds recorded as killed from 1842 to 1843, the killing at Canning Creek on 26 October 1848, the poisoning at Kilcoy on 1 February 1842, and the Native Police camps from 1849.",
+     "Queensland’s separation on 10 December 1859 and the land laws of 1868, 1876, 1884, 1894 and 1902.",
+     "Gracemere’s change from sheep to cattle between the 1860s and 1880, including the spear grass, the move of the sheep to Tambo from 1872 to 1874, and James Archer’s words of 1871.",
+     "The Ross River Meatworks (1891 to 1892), the shearers’ strike of 1891, and the Federation Drought of 1895 to 1903.",
+     "The events at Cullin-la-ringo in October 1861 and the killings that followed, as recorded in the sources named.",
+     "Queensland’s Aboriginal employment laws from 1897."
+    ]
+   },
+   {
+    "kind": "real",
+    "h": "What I could not find, or what historians do not agree on",
+    "list": [
+     "I did not read the 1846 and 1847 newspaper reports myself. I read them as quoted by a blog.",
+     "I did not find a source for what shepherds were paid in rations. The story uses the general word “rations” and nothing more exact.",
+     "I did not find a source for the Aboriginal people who lived near the new station in the west, or at Gracemere, apart from the Darumbal Enterprises page about Rockhampton.",
+     "Sources disagree about the condition of the first shipment of frozen beef from Townsville in 1892, so the story does not say.",
+     "The numbers of Aboriginal people killed at Cullin-la-ringo and afterwards are not known. The sources give figures from 30 to about 300. I have given the figures with their sources.",
+     "Kilcoy is east of the Darling Downs, not on the Downs. I included it because of its connection to the region.",
+     "I did not read the Queensland Historical Atlas or the Queensland Heritage Register for any fact, because they would not load.",
+     "I read the National Museum of Australia’s figures for sheep and cattle as figures for Australia as a whole. Only the figure “nearly three million cattle” is for Queensland alone.",
+     "The word “dummying” is explained from general knowledge. The Archives page I read does not define it. Please check the meaning."
+    ]
+   },
+   {
+    "kind": "care",
+    "h": "Care with Aboriginal history, and cultural review",
+    "p": [
+     "Aboriginal and Torres Strait Islander readers are advised that this app mentions places where people died. It describes violence against Aboriginal people and violence against settlers.",
+     "The old records often use insulting words about Aboriginal people. Some of the web pages named in the sources quote them. I have not copied those words into this app. I used the words “Aboriginal people” and “Native Police”. The Native Police were Aboriginal men, usually from other parts of Australia, who served under European officers and were used to break up Aboriginal camps.",
+     "The Aboriginal path has been written without names or customs of any people. The author wants to ask Traditional Owners and Aboriginal community members to review this app before it is used widely. The people to ask include the Giabal, Jarowair, Keinjan and Barunggam peoples for the Darling Downs, the Gayiri, Bidjara and Ghungalu peoples for the Springsure area, and the Darumbal people for Rockhampton. Until that review is done, please treat this app as a draft."
+    ]
+   },
+   {
+    "kind": "real",
+    "h": "Words in this story",
+    "p": [
+     "A “squatter” was a person who grazed stock on Crown land, at first without a lease. A “run” was the area of land a squatter held. A “station” was the run together with its buildings and workers. A “head station” was the main set of buildings on a run. An “outstation” was a hut and yards a long way from the head station. A “shepherd” watched a flock of sheep. A “hut keeper” looked after a hut and its yards. A “stockman” worked with cattle and horses. A “selector” was a person who took up a block of land under a Land Act. A “lease” was the right to use Crown land for a set time. “Pre-emptive purchase” was the right of a pastoralist to buy land from his own lease. “Resumption” was the government taking back part of a lease. “Dummying” was selecting land on behalf of someone else, against the law. A “merino” is a breed of sheep with fine wool. “Dispersal” was the word used for breaking up an Aboriginal camp by force."
+    ]
+   }
+  ]
+ },
+ "discuss": [
+  {
+   "h": "Understand",
+   "qs": [
+    {
+     "q": "What was a squatter? Why did squatters take up runs on the Darling Downs in the 1840s?",
+     "a": [
+      "A squatter held a run of Crown land for grazing. The first squatters came to sell wool to English mills, and many were younger sons of gentry (State Library of Queensland). The grass of the Downs was open country, and suited sheep.",
+      "Look for: the wool market as the reason, and the fact that the Downs was already the home of Aboriginal peoples."
+     ]
+    },
+    {
+     "q": "Describe the work of a shepherd or hut keeper in 1846. What were the dangers? What were the pay and the rules?",
+     "a": [
+      "Shepherds watched flocks by hand because there were no fences. The pay was £25 a year for a shepherd and £22 for a hut keeper, with rations. The work was lonely. Conflict on the Downs killed at least 13 shepherds between January 1842 and November 1843. A hired man who refused to go to his station could be sentenced to three months’ hard labour (as reported in January 1847).",
+      "Good answers use the figures and name the source."
+     ]
+    },
+    {
+     "q": "What did the Crown Lands Alienation Act of 1868 do? Who gained and who lost?",
+     "a": [
+      "It opened land not under pastoral lease to selection, and let pastoralists make pre-emptive selections from their leases for one acre per ten shillings of improvements. Pastoralists could secure land on creeks and rivers. Selectors paid annual rent. Resumption reduced runs such as Gracemere.",
+      "Students should say that gain and loss depend on who we ask. The sources I read do not describe the effect on Aboriginal people of the land laws."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Think and discuss",
+   "qs": [
+    {
+     "q": "Archibald Archer says spear grass caused the sheep to leave Gracemere. What other reasons for changing from sheep to cattle might there have been? What evidence would you need?",
+     "a": [
+      "Possible reasons: markets for beef, the price of wool, labour, distance, resumption of land. Evidence: station account books, wool and cattle price records, letters. Archer’s paper was written by a family member, so it should be checked against other sources.",
+      "The point is to separate what Archer says from what is only guessed."
+     ]
+    },
+    {
+     "q": "Wallis and Burke use letters and newspapers written by squatters. Whose voices are missing? How does that change what we can know?",
+     "a": [
+      "Aboriginal people’s voices are missing, and so are the voices of most shepherds, whose letters are rare. Records written by squatters may leave out or change events that make them look bad. At Canning Creek, four witnesses said they could not name those who did it.",
+      "Other evidence: oral history, Traditional Owner knowledge, archaeology, native title research."
+     ]
+    },
+    {
+     "q": "The National Museum says the Federation Drought ended squatter-dominated pastoralism. What caused the large losses of stock? Which of its figures are for Queensland?",
+     "a": [
+      "Overstocking, drought, rabbits (in south-eastern Australia), and debt. Banks foreclosed and leases were taken back. The sheep figures (106 million to 54 million) are for Australia. The figure for cattle, nearly three million, is for Queensland alone.",
+      "Look for students who notice that one figure is for Queensland and the rest are national."
+     ]
+    },
+    {
+     "q": "Wallis and Burke call 1840 to the end of the 1850s a period of almost continuous conflict on the Downs. At Canning Creek no-one could be found who would name those who killed three Aboriginal women and a child. What does this show about the law at the time?",
+     "a": [
+      "The Commissioner could not find anyone to charge, because witnesses said they could not identify the people. This suggests that the law did not protect Aboriginal people well in practice. Students should avoid saying more than the source says.",
+      "Teachers: preview this question. Let students decline to answer if they find it distressing."
+     ]
+    },
+    {
+     "q": "Compare Will and Alex. What choices did each have? What choices did each not have? Who made the decisions that affected them?",
+     "a": [
+      "Will chose between shepherd and hut keeper, near or far grazing, stay or move, selector or wage worker. He did not choose his wage or the land laws. Alex chose how to use money and stock, but the owner, the bank, the weather and the market decided much. Neither controlled the drought.",
+      "A strong answer notes that both were far more powerful than the Aboriginal person in the third story."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Write",
+   "qs": [
+    {
+     "q": "Write a diary entry for Will, for Alex or for the unnamed person. Use only facts from the Real history boxes. Mark any sentence that is invented.",
+     "a": [
+      "Marking guide: facts match the boxes; invented sentences are labelled; the voice is respectful; there are no claims about what an Aboriginal person felt that the record cannot support."
+     ]
+    },
+    {
+     "q": "Write a paragraph for or against this statement: “The land laws of the 1860s broke up the power of the squatters.” Use two facts.",
+     "a": [
+      "For: selection opened land; resumption took back part of leases; the Act of 1884 abolished pre-emptive purchases. Against: pre-emptive selection let pastoralists keep river and creek frontage; dummying was not stopped; the National Museum says squatters found ways to hold on to productive country. A strong answer notes that the drought did more than the laws in the end (according to the National Museum)."
+     ]
+    },
+    {
+     "q": "What would you want to ask Traditional Owners before telling this story to a class? List three questions.",
+     "a": [
+      "Examples: Who are the right people to speak about this Country? Which parts of the story are wrong, or hurt? Is there a story or a name that should be told by them and not by me? Is it all right to name places where people died?"
+     ]
+    }
+   ]
+  }
+ ]
+}

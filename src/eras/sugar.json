@@ -1,0 +1,1965 @@
+{
+ "id": "sugar",
+ "repo": "sugar-story-adventure",
+ "startChoices": null,
+ "warning": [
+  "This resource may contain names and images of deceased Aboriginal, Torres Strait Islander and South Sea Islander people.",
+  "It is about the Queensland sugar industry, the labour trade that brought Pacific Islanders to Queensland (often called blackbirding), deaths from disease, the deportations of 1906 to 1908, and the dispossession of Aboriginal people. It does not show violence in detail, but it does describe it. Some old photographs show people who have died. You can stop at any time. If the story upsets you, talk to a teacher, a family member or someone you trust."
+ ],
+ "review": "Review status: this resource has not yet been reviewed by Australian South Sea Islander community groups or by Aboriginal Traditional Owners. The author is not a member of these communities. It should be reviewed before it is used widely, for example by the Queensland United Australian South Sea Islander Council (QUASSIC), local Australian South Sea Islander groups, and the Traditional Owners of the Mackay district, including the Yuibera people. Teachers, please seek advice from your local Australian South Sea Islander and Aboriginal communities before you use it in class.",
+ "sources": {
+  "quassic1": {
+   "t": "QUASSIC (Queensland United Australian South Sea Islander Council). Historical Information Sheet No 1: Defining Slavery, Indenture, and Blackbirding.",
+   "u": "https://www.quassic.org.au/no-1-defining-slavery-indenture-and-blackbirding",
+   "short": "QUASSIC sheet 1"
+  },
+  "quassic6": {
+   "t": "QUASSIC. Historical Information Sheet No 6: Mortality and Pacific Islander Migrants in Colonial Queensland.",
+   "u": "https://www.quassic.org.au/no-6-mortality-and-pacific-islander-migrants-in-colonial-queensland",
+   "short": "QUASSIC sheet 6"
+  },
+  "quassic7": {
+   "t": "QUASSIC. Historical Information Sheet No 7: Incidents of Abuse of Pacific Islanders during the Recruiting Process to Queensland.",
+   "u": "https://www.quassic.org.au/no-7-incidents-of-abuse-of-pacific-islanders-during-the-recruiting-process-to-queensland",
+   "short": "QUASSIC sheet 7"
+  },
+  "naaSSI": {
+   "t": "National Archives of Australia. Fact sheet: South Sea Islanders.",
+   "u": "https://www.naa.gov.au/help-your-research/fact-sheets/south-sea-islanders",
+   "short": "NAA fact sheet"
+  },
+  "naaPILA": {
+   "t": "National Archives of Australia. Pacific Island Labourers Act 1901 (learning resource).",
+   "u": "https://www.naa.gov.au/students-and-teachers/learning-resources/learning-resource-themes/society-and-culture/migration-and-multiculturalism/pacific-island-labourers-act-1901",
+   "short": "NAA, Pacific Island Labourers Act 1901"
+  },
+  "peo": {
+   "t": "Parliamentary Education Office. Pacific Islanders Labourers Act 1901 (with a General Certificate of Exemption dated 4 May 1907).",
+   "u": "http://peo.gov.au/understand-our-parliament/history-of-parliament/history-milestones/australian-parliament-history-timeline/events/pacific-islanders-labourers-act-1901",
+   "short": "Parliamentary Education Office"
+  },
+  "qsa": {
+   "t": "Queensland State Archives. Australian South Sea Islanders (collection guide and indexes, 1867–1948).",
+   "u": "https://www.qld.gov.au/recreation/arts/heritage/archives/collection/assi",
+   "short": "Queensland State Archives"
+  },
+  "docdem": {
+   "t": "Museum of Australian Democracy, Documenting Democracy. Pacific Island Labourers Act Amendment Act 1884 (Qld). Original held by Queensland State Archives, SRS 1296/1/17.",
+   "u": "https://www.foundingdocs.gov.au/item-sdid-53.html",
+   "short": "Documenting Democracy, 1884 Act"
+  },
+  "nma": {
+   "t": "National Museum of Australia. Defining Moments: Islander labourers.",
+   "u": "https://www.nma.gov.au/defining-moments/resources/islander-labourers",
+   "short": "National Museum of Australia"
+  },
+  "slq": {
+   "t": "State Library of Queensland, John Oxley Library blog (2013). A White Australia (a review of the 1901 booklet “A White Australia: the Kanaka Labor Question”).",
+   "u": "https://www.slq.qld.gov.au/blog/white-australia",
+   "short": "State Library of Queensland blog"
+  },
+  "moore2000": {
+   "t": "Moore, C. (2000). “Good-bye, Queensland, good-bye, White Australia; Good-bye Christians”: Australia’s South Sea Islander Community and Deportation, 1901–1908. The New Federalist, 4, 22–29.",
+   "u": "https://www.multiculturalaustralia.edu.au/doc/moore_ssi_deport.pdf",
+   "short": "Moore (2000)"
+  },
+  "moore2015": {
+   "t": "Moore, C. (2015). The Pacific Islanders’ Fund and the Misappropriation of the Wages of Deceased Pacific Islanders by the Queensland Government. Australian Journal of Politics and History, 61(1), 1–18.",
+   "u": "https://www.assipj.com.au/southsea/wp-content/uploads/misappropriation-of-wages.pdf",
+   "short": "Moore (2015)"
+  },
+  "uq": {
+   "t": "University of Queensland. Unskilled labour migration into Queensland (Research Week 2010 paper on the Polynesian Labourers Act 1868 (Qld)).",
+   "u": "https://law.uq.edu.au/files/4284/Slavery-or-Salvation-Research-Week-2010.pdf",
+   "short": "University of Queensland paper"
+  },
+  "trove1885": {
+   "t": "The Labour Trade. Newspaper report of 6 May 1885 on the voyage of the Hopeful, via Trove (National Library of Australia), article 174162604.",
+   "u": "http://trove.nla.gov.au/newspaper/rendition/nla.news-article174162604.txt",
+   "short": "Trove, The Labour Trade, 6 May 1885"
+  },
+  "mackayCouncil": {
+   "t": "Mackay Regional Council (2008). Mackay history lift-out: “A new port in Queensland” and “Sugar boom”.",
+   "u": "https://www.mackay.qld.gov.au/__data/assets/pdf_file/0005/19490/library_12_page_lift-out.pdf",
+   "short": "Mackay Regional Council history lift-out"
+  },
+  "mackayTimeline": {
+   "t": "Mackay Family History and Historical Society. Mackay Timeline: a chronological history of Mackay events.",
+   "u": "http://mackayhistory.org/research/timeline/timeline.html",
+   "short": "Mackay history timeline"
+  },
+  "alexandra": {
+   "t": "Mackay history research. Alexandra Sugar Mill, 1868–1884.",
+   "u": "http://www.mackayhistory.org/research/sugar_mills/alexandra.html",
+   "short": "Alexandra Sugar Mill, Mackay history"
+  },
+  "pioneerMill": {
+   "t": "Mackay history research. Pioneer Sugar Mill, 1867–1882 (John Spiller planted the first cane in the district on 1 June 1865).",
+   "u": "https://mackayhistory.org/research/sugar_mills/pioneer.html",
+   "short": "Pioneer Plantation, Mackay history"
+  },
+  "sarina": {
+   "t": "Queensland Government. Aboriginal and Torres Strait Islander community histories: Sarina (covers the Mackay district).",
+   "u": "https://www.qld.gov.au/firstnations/cultural-awareness-heritage-arts/community-histories/community-histories-s-t/community-histories-sarina",
+   "short": "Queensland Government, Sarina community history"
+  },
+  "yarrabah": {
+   "t": "Queensland Government. Aboriginal and Torres Strait Islander community histories: Yarrabah (covers the Cairns district).",
+   "u": "https://www.qld.gov.au/firstnations/cultural-awareness-heritage-arts/community-histories/community-histories-u-y/community-histories-yarrabah",
+   "short": "Queensland Government, Yarrabah community history"
+  },
+  "senate": {
+   "t": "Parliament of Australia, Senate Legal and Constitutional References Committee (2006). Unfinished business: Indigenous stolen wages, Chapter 2: Life under the protection Acts.",
+   "u": "https://www.aph.gov.au/parliamentary_business/committees/senate/legal_and_constitutional_affairs/completed_inquiries/2004-07/stolen_wages/report/c02",
+   "short": "Senate stolen wages report, ch. 2"
+  },
+  "mcneill": {
+   "t": "McNeill, H. and Marmo, M. (2023). Past–present differential inclusion: Australia’s targeted deportation of Pacific Islanders, 1901 to 2021. International Journal for Crime, Justice and Social Democracy, 12(1), 42–56.",
+   "u": "https://doi.org/10.5204/ijcjsd.2743",
+   "short": "McNeill and Marmo (2023)"
+  },
+  "wall": {
+   "t": "Queensland Heritage Register, entry 602230: South Sea Islander Wall, Mon Repos, Bundaberg Region (listed 1 October 2001).",
+   "u": "https://apps.des.qld.gov.au/heritage-register/detail/?id=602230",
+   "short": "Queensland Heritage Register 602230"
+  },
+  "jcu": {
+   "t": "James Cook University Library Archives. Pioneer Sugar Mill Archive (Burdekin district).",
+   "u": "https://libserver.jcu.edu.au/specials/Archives/pioneer.html",
+   "short": "JCU Library, Pioneer Sugar Mill Archive"
+  },
+  "hambledon": {
+   "t": "Canetrains wiki. Hambledon Mill (Edmonton, near Cairns). Cites the Australian Dictionary of Biography entry for Thomas Swallow.",
+   "u": "https://canetrains.net/wiki/Hambledon_Mill",
+   "short": "Canetrains, Hambledon Mill"
+  },
+  "caneQld": {
+   "t": "Canetrains wiki. Queensland (history of the sugar industry, including the Sugar Works Guarantee Act 1893).",
+   "u": "https://canetrains.net/wiki/Queensland",
+   "short": "Canetrains, Queensland"
+  },
+  "bundabergCouncil": {
+   "t": "Bundaberg Regional Council. Acknowledgement of Country (Taribelang Bunda, Gooreng Gooreng, Gurang and Bailai Peoples).",
+   "u": "https://www.ourbundabergregion.com.au/acknowledgement-of-country",
+   "short": "Bundaberg Regional Council"
+  },
+  "photoBundaberg": {
+   "t": "Photograph: South Sea Islanders on the deck of a ship arriving at Bundaberg, 1895 (R. J. Cottell, from Pugh’s Almanac 1895, p. 149). State Library of Queensland negative 16954, via Wikimedia Commons (public domain).",
+   "u": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_50564_South_Sea_Islanders_on_the_deck_of_a_ship_arriving_at_Bundaberg,_1895.jpg",
+   "short": "Photograph, Bundaberg 1895"
+  },
+  "photoHambledon": {
+   "t": "Photograph: South Sea Islander workers hoeing weeds on a sugar cane plantation at Hambledon, Queensland, about 1891. State Library of Queensland (photographer unidentified; no known copyright restrictions), via Wikimedia Commons.",
+   "u": "https://commons.wikimedia.org/wiki/File:Australian_South_Sea_Islander_workers_hoeing_weeds_on_a_sugar_cane_plantation_in_Hambledon,_Queensland,_ca._1891_(9205456322).jpg",
+   "short": "Photograph, Hambledon about 1891"
+  }
+ },
+ "sourcesIntro": null,
+ "imageNote": "There are two images in this app. Both are old photographs, in the public domain in Australia or with no known copyright restrictions. They show people who have died. The people in them are not named in the captions. You can choose whether to look at them. There are no AI images and no drawings made for this app.",
+ "images": {
+  "bundaberg": {
+   "file": "images/bundaberg-1895.jpg",
+   "alt": "A black and white photograph of many South Sea Islanders standing close together on the deck of a sailing ship at Bundaberg in 1895. Ropes and masts cross the picture, and one white man stands at the right edge.",
+   "caption": "South Sea Islanders on the deck of a ship arriving at Bundaberg, 1895. Photograph by R. J. Cottell, from Pugh’s Almanac 1895, State Library of Queensland.",
+   "credit": "",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_50564_South_Sea_Islanders_on_the_deck_of_a_ship_arriving_at_Bundaberg,_1895.jpg",
+   "people": true,
+   "summary": "a photograph from 1895 (shows people who have died)"
+  },
+  "hambledon": {
+   "file": "images/hambledon-1891.jpg",
+   "alt": "A black and white photograph of about a dozen men standing among rows of young sugar cane at Hambledon near Cairns, about 1891. Some hold hoes. Hills are behind them and the words “Hoeing weeds in young cane” are printed on the photograph.",
+   "caption": "South Sea Islander workers hoeing weeds on a sugar cane plantation at Hambledon, Queensland, about 1891. State Library of Queensland.",
+   "credit": "",
+   "url": "https://commons.wikimedia.org/wiki/File:Australian_South_Sea_Islander_workers_hoeing_weeds_on_a_sugar_cane_plantation_in_Hambledon,_Queensland,_ca._1891_(9205456322).jpg",
+   "people": true,
+   "summary": "a photograph from about 1891 (shows people who have died)"
+  },
+  "mill": {
+   "file": "images/pioneer-mill-mackay-1885.jpg",
+   "alt": "A black and white photograph of the Pioneer Sugar Mill at Mackay, with wooden mill buildings, two brick chimneys, a large heap of cut cane in front and a group of workers standing near the buildings.",
+   "caption": "Pioneer Sugar Mill at Mackay, about 1885. The people in the photograph are not named.",
+   "credit": "John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_13930_Pioneer_Sugar_Mill_at_Mackay,_1880s.jpg",
+   "people": true,
+   "summary": "the Pioneer Sugar Mill at Mackay in the 1880s (it shows people who have died)"
+  }
+ },
+ "nodes": {
+  "how": {
+   "id": "how",
+   "title": "Before the ship",
+   "where": "An island in the New Hebrides · 1884",
+   "set": {
+    "cont": "yes",
+    "land": "no",
+    "abo": "no",
+    "trade": "goods",
+    "voice": "none",
+    "join": "chose",
+    "eng": "no",
+    "hut": "given",
+    "left": "late"
+   },
+   "text": [
+    "This story is set in 1884. You are about seventeen years old. You live in a village on an island in the New Hebrides. Today the New Hebrides are part of the country of Vanuatu. The story does not name your island or your language. People from many islands and many language groups were part of this history, and one story cannot speak for all of them.",
+    "Ships from Queensland come to the islands to recruit young people for plantation work. The work is for three years. A white captain and a white recruiter run each ship, and a Government Agent travels on board as well. A ship is now anchored near your village.",
+    "How do you come to be on board?"
+   ],
+   "choices": [
+    {
+     "label": "You choose to go. Young men from near your village went on a ship and came home with goods. You want to earn goods too.",
+     "to": "ship",
+     "set": {
+      "join": "chose"
+     }
+    },
+    {
+     "label": "You are told a story. A man tells you that the work will last one or two moons. You do not know that it will last three years.",
+     "to": "ship",
+     "set": {
+      "join": "told"
+     }
+    },
+    {
+     "label": "You are taken. Men pull you into a boat. You did not agree to go.",
+     "to": "ship",
+     "set": {
+      "join": "taken"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The Queensland Government has records of 62,475 indenture contracts for Pacific Islanders between 1863 and 1904. Many men signed more than once, so there were probably about 50,000 individual people. About 95 per cent were adolescent or young adult males. Only about 5 per cent were women."
+     ],
+     "src": [
+      "quassic1"
+     ]
+    },
+    {
+     "paras": [
+      "QUASSIC says historians estimate that about 10 to 15 per cent of recruits were kidnapped as the law defined it. It says most kidnapping happened in the first ten or so years in any area, and that some continued until the 1890s. It also says that many young men joined freely, sometimes more than once. It adds that the whole process took people from their communities and bound them with legal contracts they did not understand."
+     ],
+     "src": [
+      "quassic1"
+     ]
+    },
+    {
+     "paras": [
+      "A newspaper report of 6 May 1885 on the voyage of the Hopeful describes men pulled on board and told that they were to go and work in a white man’s country “for one or two moons”."
+     ],
+     "src": [
+      "trove1885"
+     ]
+    },
+    {
+     "paras": [
+      "There were 870 labour-recruiting voyages between Queensland and the Pacific Islands from 1863 to 1904."
+     ],
+     "src": [
+      "quassic7"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "Students meet the three ways the records describe people coming into the labour trade. The story does not say that one way was typical. The real history panel gives the estimates.",
+    "ask": [
+     "Why does the story give three different ways of joining instead of one?",
+     "Why does the story not name Harry’s island or language?"
+    ],
+    "answers": [
+     "Because the records show a range, from free choice to kidnapping, and historians disagree about the proportions. One story cannot show them all, so the reader sees each in turn.",
+     "Because the labour trade drew on about 80 islands and hundreds of languages. Naming one would claim to speak for that community, and the author does not have that right."
+    ]
+   }
+  },
+  "ship": {
+   "id": "ship",
+   "title": "The voyage",
+   "where": "At sea · 1884",
+   "text": [
+    "The ship is crowded. Men and boys from several islands are on board, and some speak languages you do not know. The ship is at sea for many days.",
+    {
+     "if": {
+      "join": "chose"
+     },
+     "t": "You are afraid, but you chose to come. You listen while the other men talk about what they hope to buy with their pay."
+    },
+    {
+     "if": {
+      "join": "told"
+     },
+     "t": "Someone tells you the ship is going to Queensland. You ask when the ship will bring you home. No one gives you an answer that you understand."
+    },
+    {
+     "if": {
+      "join": "taken"
+     },
+     "t": "You do not know where the ship is going. You try to talk to the other men, and some of them are afraid too."
+    },
+    "The Government Agent is a white man who has a book. The law says he must check that the people on the ship came willingly and that the ship follows the rules. He speaks to you through an interpreter. In this story the interpreter is an islander who works for the ship. What do you say?"
+   ],
+   "choices": [
+    {
+     "label": "Tell him the truth: you were told one or two moons, and you did not know it was three years.",
+     "to": "landing",
+     "set": {
+      "voice": "truth"
+     },
+     "if": {
+      "join": "told"
+     }
+    },
+    {
+     "label": "Tell him the truth: you were taken, and you did not agree to come.",
+     "to": "landing",
+     "set": {
+      "voice": "truth"
+     },
+     "if": {
+      "join": "taken"
+     }
+    },
+    {
+     "label": "Say that you chose to come.",
+     "to": "landing",
+     "set": {
+      "voice": "said"
+     }
+    },
+    {
+     "label": "Ask him how long the work will last.",
+     "to": "landing",
+     "set": {
+      "voice": "asked"
+     }
+    },
+    {
+     "label": "Say nothing.",
+     "to": "landing",
+     "set": {
+      "voice": "none"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The Polynesian Labourers Act 1868 was the first Queensland Act made for the labour trade. It required employers to apply for approval, banned recruiters from kidnapping, set minimum standards for the voyage and set agreements of three years."
+     ],
+     "src": [
+      "uq",
+      "moore2015"
+     ]
+    },
+    {
+     "paras": [
+      "The Pacific Island Labourers Act 1880 replaced the 1868 Act. It made forced recruiting illegal and required inspectors, called Government Agents, on the ships. The National Museum of Australia says that agents were not always careful and some could be bribed by the crew."
+     ],
+     "src": [
+      "nma",
+      "moore2015"
+     ]
+    },
+    {
+     "paras": [
+      "In 1871 the Government Agent on the Jason tried to stop abuses. The captain had him handcuffed and chained to a ring-bolt for more than three weeks."
+     ],
+     "src": [
+      "quassic7"
+     ]
+    },
+    {
+     "paras": [
+      "The 1884 voyages of the Hopeful went to islands east of New Guinea. The crew were tried in Brisbane in late 1884. A Royal Commission said the cruise was “one long record of deceit, cruel treachery, deliberate kidnapping and cold-blooded murder”. The men were found guilty. The death sentences were later commuted (reduced)."
+     ],
+     "src": [
+      "quassic7"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "The Government Agent is a real office. The conversation in this scene is invented. The scene shows that a rule can exist without protecting every person.",
+    "ask": [
+     "What was a Government Agent supposed to do?",
+     "Why might a person on the ship not tell the agent the truth?"
+    ],
+    "answers": [
+     "Check that recruits came willingly and that the ship followed the rules for the voyage.",
+     "Fear of the crew, not understanding the questions, an interpreter who works for the ship, or believing that nothing would change. The story does not say which of these applies. Students can give reasons."
+    ]
+   }
+  },
+  "landing": {
+   "id": "landing",
+   "title": "Mackay, 1884",
+   "where": "Mackay · 1884",
+   "text": [
+    {
+     "if": {
+      "voice": "truth"
+     },
+     "t": "The Government Agent writes in his book. You do not know what he writes. The ship does not turn back."
+    },
+    {
+     "if": {
+      "voice": "said"
+     },
+     "t": "The Government Agent writes in his book. The ship goes on."
+    },
+    {
+     "if": {
+      "voice": "asked"
+     },
+     "t": "The Government Agent says that the work will last three years. Now you know how long it is. The ship goes on."
+    },
+    {
+     "if": {
+      "voice": "none"
+     },
+     "t": "The Government Agent goes on to the next person. The ship goes on."
+    },
+    "The ship arrives at the port of Mackay. A doctor looks at the new arrivals. Then you are walked with a group to a plantation on the Pioneer River.",
+    "The overseer reads a list. The name beside yours is not your name. He calls you Harry. That is the name you will be called here.",
+    "Your agreement is for three years. You will be paid £6 a year, paid in two parts, and given rations, clothes and a hut. You make a mark on a paper. It is not in your language, and you cannot read it.",
+    "The overseer shows you the huts. You can ask to share a hut with people from your own area, or you can take the hut that you are given."
+   ],
+   "choices": [
+    {
+     "label": "Ask to share a hut with people from your own area.",
+     "to": "work",
+     "set": {
+      "hut": "own"
+     }
+    },
+    {
+     "label": "Take the hut you are given.",
+     "to": "work",
+     "set": {
+      "hut": "given"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "Pastoralists settled the Mackay district from 1862. John Spiller planted the first sugar cane in the district on 1 June 1865. About 70 Pacific Islanders arrived on the ship Prima Donna on 13 May 1867 to start work as indentured labourers on plantations around Mackay."
+     ],
+     "src": [
+      "pioneerMill",
+      "mackayTimeline"
+     ]
+    },
+    {
+     "paras": [
+      "The Alexandra mill began crushing on 15 September 1868. By 1875, 23 sugar mills had been built in the district, before a cane disease damaged the crop. A second boom from 1879 to 1884 added 12 more mills."
+     ],
+     "src": [
+      "alexandra",
+      "mackayCouncil"
+     ]
+    },
+    {
+     "paras": [
+      "The 1884 Amendment Act limited newly arrived labourers to field work in tropical agriculture. They could not work in sugar mills, the pastoral industry or the maritime industry."
+     ],
+     "src": [
+      "docdem"
+     ]
+    },
+    {
+     "paras": [
+      "The standard agreement was for three years, at £6 a year, with rations, clothing, basic accommodation, medical care and a return passage."
+     ],
+     "src": [
+      "slq",
+      "moore2015"
+     ]
+    },
+    {
+     "paras": [
+      "The words “Kanaka” and “blackbirding” appear in the records and in books. “Kanaka” is now an offensive word, and the story does not use it."
+     ],
+     "src": [
+      "quassic1"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "The new name, the mark on the paper and the hut choice are invented. The wage, term and rations are real. This scene is a good place to ask what informed consent means.",
+    "ask": [
+     "What does Harry not know when he makes his mark?",
+     "Why did the planters want a three-year agreement?"
+    ],
+    "answers": [
+     "He cannot read the paper and does not know what it says. He may not know how long he will be away.",
+     "It gave a fixed supply of labour at a fixed low wage, and the law required return passage at the end. Students may also mention that the system was designed as circular migration."
+    ]
+   }
+  },
+  "work": {
+   "id": "work",
+   "title": "The first months",
+   "where": "Mackay district, Queensland · 1884",
+   "text": [
+    "You start work clearing land and planting cane. The land is cleared by hand. Later you hoe weeds, strip dead leaves from the cane and cut ripe cane with a cane knife. The cut cane goes to the mill on carts.",
+    {
+     "if": {
+      "hut": "own"
+     },
+     "t": "You share a hut with people from your own area. At night you can talk in your own language."
+    },
+    {
+     "if": {
+      "hut": "given"
+     },
+     "t": "You share a hut with men from three different islands. You learn a few words of each other’s languages. You also learn English words used on the plantation."
+    },
+    "There are very few women on the plantation. Most of the workers are men and boys. The work is hard and the days are long. When the wet season comes, you work in the rain.",
+    "The overseer and the cart drivers speak English. You can start to learn their words, or you can keep mostly to your own language."
+   ],
+   "choices": [
+    {
+     "label": "Learn English words from the overseer and the cart drivers.",
+     "to": "sick",
+     "set": {
+      "eng": "yes"
+     }
+    },
+    {
+     "label": "Keep mostly to your own language and learn English more slowly.",
+     "to": "sick",
+     "set": {
+      "eng": "no"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The work in the cane fields included land clearing, holing, planting, weeding, trashing (stripping dead leaves), cutting, ratooning (growing a new crop from the old roots) and carting cane. Islanders worked barefoot in wet, hot fields."
+     ],
+     "src": [
+      "slq"
+     ]
+    },
+    {
+     "paras": [
+      "The hundreds of languages of Melanesia made it hard for islanders from different places to talk. Between 1880 and 1900 a Pidgin English developed on the plantations and became a common language. Later it helped Islanders act together."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "Only about 5 per cent of indentured Pacific Islanders were women, so most plantation workforces were almost all male."
+     ],
+     "src": [
+      "quassic1"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "This scene gives a plain picture of the work. Harry’s English choice leads to a small difference later, when he hears about the 1901 law.",
+    "ask": [
+     "What are the steps of growing and cutting cane in the scene?",
+     "Why did a common language matter later?"
+    ],
+    "answers": [
+     "Clearing, holing, planting, weeding, trashing, cutting and carting.",
+     "It let people from many islands talk with each other and with officials, so they could organise petitions and meetings."
+    ]
+   }
+  },
+  "sick": {
+   "id": "sick",
+   "title": "Sickness",
+   "where": "Mackay district, Queensland · 1884",
+   "text": [
+    "In your second month a man in the next hut begins to cough and shake. He comes from another island and he is also a new arrival. He has a fever. Men on the plantation say that new arrivals fall ill more often than men who have been here longer.",
+    "The overseer tells him to keep working. What do you do?"
+   ],
+   "choices": [
+    {
+     "label": "Ask the overseer to send him to the hospital.",
+     "to": "wages",
+     "set": {
+      "help": "asked"
+     }
+    },
+    {
+     "label": "Stay with him at night and share your water and food.",
+     "to": "wages",
+     "set": {
+      "help": "stayed"
+     }
+    },
+    {
+     "label": "Say nothing. You are afraid of being punished.",
+     "to": "wages",
+     "set": {
+      "help": "silent"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "Government records show that more than 14,564 Islander labourers died in Queensland between 1868 and 1906. The real figure is probably closer to 15,000. That is about 24 per cent of the total number of indenture contracts. The main killers were tuberculosis, pneumonia, bronchitis, pleurisy, dysentery, measles and chicken pox."
+     ],
+     "src": [
+      "quassic6"
+     ]
+    },
+    {
+     "paras": [
+      "The death rate in the first year of an indenture was about 81 per 1,000. The death rate for Europeans of all ages in Queensland was about 15 per 1,000. The death rate for Islanders in Queensland reached its highest point in 1884 at 147 per 1,000."
+     ],
+     "src": [
+      "quassic6"
+     ]
+    },
+    {
+     "paras": [
+      "New arrivals suffered most. QUASSIC says that the longer an Islander lived in Queensland, the better the chance of a normal life span. It says that exposure to new diseases was the main cause of death, and that employers and the government can be blamed for keeping the system going for forty years after the death rate was known."
+     ],
+     "src": [
+      "quassic6"
+     ]
+    },
+    {
+     "paras": [
+      "The Queensland Government set up the Pacific Islanders’ Fund in 1885. It held the unpaid wages of Islanders who died. Clive Moore found that the government seldom returned the full wages to the families of the dead, and used the money for other costs of the labour trade."
+     ],
+     "src": [
+      "moore2015"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "The man in the next hut is invented. The death rates are real. The story does not say that kindness or speaking up changed who lived, because the records do not show that.",
+    "ask": [
+     "Why does the story give the same outcome whatever Harry chooses?",
+     "What do the numbers 81, 15 and 147 per 1,000 tell us?"
+    ],
+    "answers": [
+     "Because disease was the main cause of death, and one person’s choice did not change the death rate. The choice changes what Harry does and how he feels.",
+     "Islanders in their first year died at more than five times the rate of Europeans. In 1884 the death rate across all Islanders in Queensland was the highest it ever reached."
+    ]
+   }
+  },
+  "wages": {
+   "id": "wages",
+   "title": "Pay and goods",
+   "where": "Mackay district, Queensland",
+   "text": [
+    {
+     "if": {
+      "help": "asked"
+     },
+     "t": "The overseer sends the sick man to the hospital after two days. You do not see him for three weeks. He comes back thinner, and he is alive."
+    },
+    {
+     "if": {
+      "help": "stayed"
+     },
+     "t": "The sick man gets better slowly in the hut. You are tired for several days because you slept little. Then you catch a cough yourself, and it passes after a week."
+    },
+    {
+     "if": {
+      "help": "silent"
+     },
+     "t": "The sick man falls down at work. The overseer sends him to the hospital. He is away for weeks and then he comes back. You wish you had spoken sooner."
+    },
+    "Over that year several men on the plantation die of fever, chest illness and dysentery. This is not rare. No one tells you where they are buried.",
+    "At the end of six months you are paid for the first time. The pay for six months is £3. Some of it is in cash and some of it is in goods from the plantation store. What do you do with it?"
+   ],
+   "choices": [
+    {
+     "label": "Buy goods, such as cloth, a knife and tobacco, to take home one day.",
+     "to": "creek",
+     "set": {
+      "trade": "goods"
+     }
+    },
+    {
+     "label": "Save as much as you can in an account.",
+     "to": "creek",
+     "set": {
+      "trade": "saved"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The standard pay for a first-indenture labourer was £6 a year from the 1860s. After 1880 it was paid every six months. It did not change for about forty years, while wages in the general workforce rose. Moore writes that it is a myth that Islanders were not paid, but the pay was far lower than the pay of European workers, and many Islanders received only part of their pay in cash."
+     ],
+     "src": [
+      "moore2015"
+     ]
+    },
+    {
+     "paras": [
+      "Not every person was paid. The activist Faith Bandler said that her father and his relatives were paid nothing. She said she thought of it as a form of slavery."
+     ],
+     "src": [
+      "nma"
+     ]
+    },
+    {
+     "paras": [
+      "QUASSIC explains that, in law, indenture was not the same as slavery. Slavery was a lifelong legal status. Indenture was a contract for a set time. But it also says that Australian South Sea Islanders call themselves the descendants of slaves, and that a deep sense of injustice cannot be answered by only denying that they were slaves."
+     ],
+     "src": [
+      "quassic1"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "The sick man’s recovery and the grave detail are invented. The pay rate and the six-monthly payment are real. The scene gives students the numbers needed to compare pay and risk.",
+    "ask": [
+     "How much did Harry earn in a year?",
+     "Why does the story tell both what the law said and what Faith Bandler said?"
+    ],
+    "answers": [
+     "£6. The scene says £3 for six months.",
+     "The law described a contract. Faith Bandler described what happened in her family. Students should see that the law and people’s experience can differ and that both are evidence."
+    ]
+   }
+  },
+  "creek": {
+   "id": "creek",
+   "title": "The creek",
+   "where": "Mackay district, Queensland",
+   "text": [
+    "On a Sunday you walk to the creek at the edge of the plantation. An Aboriginal man is fishing downstream. He is about your age or a little older. He sees you. Neither of you speaks.",
+    "This is Aboriginal country. In this district it includes the country of the Yuibera people. Settlers took up land here in the 1860s, and there was fighting and killing in the 1860s and 1870s. The man at the creek knows this history and so do his family. You do not know it yet.",
+    "The overseer has told you that the Aboriginal people from the creek cannot be trusted. What do you do?"
+   ],
+   "choices": [
+    {
+     "label": "Nod to him and wait to see if he wants to speak.",
+     "to": "contract_end",
+     "set": {
+      "abo": "contact"
+     }
+    },
+    {
+     "label": "Walk away and say nothing to anyone.",
+     "to": "contract_end",
+     "set": {
+      "abo": "no"
+     }
+    },
+    {
+     "label": "Tell the overseer that you saw a man at the creek.",
+     "to": "contract_end",
+     "set": {
+      "abo": "told"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "Aboriginal people resisted the settlers who took their land. Widespread frontier violence happened across the Mackay district in the 1860s and 1870s. Native Police barracks were built at Marlborough in 1866 and at Bloomsbury, just north of Mackay, in 1868. The Queensland Government history says that the Native Police were important in crushing Aboriginal resistance."
+     ],
+     "src": [
+      "sarina"
+     ]
+    },
+    {
+     "paras": [
+      "In 1871 the government set aside 14,080 acres near Cape Palmerstone and Homebush as an Aboriginal reserve. The area was reduced to 10,000 acres by 1878. In 1879 funding was cut, the school closed and 90 per cent of the reserve was opened for settlement. The residents had to move away. Some Aboriginal men had been hired out to local employers as labourers while the reserve operated."
+     ],
+     "src": [
+      "sarina"
+     ]
+    },
+    {
+     "paras": [
+      "The people whose country includes the Mackay district have strong connections to it today. The Queensland Government history names the Yuibera, Wiri, Barada Barna Kabalbara and Yetimarla, Birri-Gubba and Kungalburra peoples for the nearby Sarina area."
+     ],
+     "src": [
+      "sarina"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "The man at the creek is invented. He is not given a name, nation or customs, and he does not exist to explain things to Harry. He is fishing and has his own purposes. The scene links the two histories that are told in this story.",
+    "ask": [
+     "Why does the story not give the Aboriginal man a name or a speech about his culture?",
+     "What are the possible results of telling the overseer?"
+    ],
+    "answers": [
+     "Because inventing a nation, name or customs would be wrong without community advice. He is there as a person with his own business, not as a guide.",
+     "Harry has no way to know what the overseer will do. In the story, the Aboriginal camp is moved on. Students can say why Harry might feel pressure to tell, and what that cost to others."
+    ]
+   }
+  },
+  "contract_end": {
+   "id": "contract_end",
+   "title": "The end of the agreement",
+   "where": "Mackay district, Queensland · 1887",
+   "text": [
+    {
+     "if": {
+      "abo": "contact"
+     },
+     "t": "The man at the creek nods back. He asks you a few words in English. You find that you each know some English and some words of the plantation Pidgin. He says he is there to fish, and he goes on fishing. Over the next two years you see him and some of his family at the creek on some Sundays. You hear that people from his family cut cane on farms upriver in some seasons. He and the people he knows have been moved off much of this land. You do not become close friends, but you start to know each other."
+    },
+    {
+     "if": {
+      "abo": "no"
+     },
+     "t": "You walk on. You do not know whether the man at the creek watches you go. You see him again at the creek once or twice, and each time you nod and each time he nods back."
+    },
+    {
+     "if": {
+      "abo": "told"
+     },
+     "t": "The overseer says that the Aboriginal people are on the plantation’s land without permission and that he will deal with it. A few weeks later the camp near the creek has been moved on. You do not know how or where to. No one tells you, and you do not ask."
+    },
+    "It is 1887. Your three years are over. You are about twenty years old. The law says that the planter must pay for your passage home if you ask. You can also sign a new agreement and stay in Queensland.",
+    {
+     "if": {
+      "trade": "goods"
+     },
+     "t": "You have goods from the store that you could take home."
+    },
+    {
+     "if": {
+      "trade": "saved"
+     },
+     "t": "You have savings in an account."
+    },
+    "Many men stay on a second agreement. Many go home. You have to decide."
+   ],
+   "choices": [
+    {
+     "label": "Take the passage home.",
+     "to": "home"
+    },
+    {
+     "label": "Sign a new agreement and stay in Queensland.",
+     "to": "central"
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The 1884 Amendment Act sorted Islanders into three groups. First-indenture labourers were limited to field work in tropical agriculture. Time-expired labourers, who had finished one agreement, were also limited in some cases, but others could work anywhere in the colony. “Ticket-holders”, who had arrived before 1 September 1879, were bound only by the ordinary laws of Queensland."
+     ],
+     "src": [
+      "docdem"
+     ]
+    },
+    {
+     "paras": [
+      "Many people re-engaged without leaving Queensland. Moore writes that they became skilled in choosing employers and negotiating wages. By 1895 time-expired Islanders were 65 per cent of the Melanesians in the Mackay district."
+     ],
+     "src": [
+      "moore2000",
+      "quassic6"
+     ]
+    },
+    {
+     "paras": [
+      "Most people on a first agreement were meant to serve three years and go home. The labour trade was a circular migration, not designed for settling in Queensland."
+     ],
+     "src": [
+      "quassic6"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "The decision here sets up the rest of the story. A person who stays in Queensland and a person who goes home will later be treated very differently by the 1901 law.",
+    "ask": [
+     "What are the two options for Harry in 1887?",
+     "What was a “ticket-holder”?"
+    ],
+    "answers": [
+     "Take the return passage, or sign a new agreement and stay.",
+     "An Islander who had arrived in Queensland before 1 September 1879. They were not bound by the special restrictions on Islander labour."
+    ]
+   }
+  },
+  "home": {
+   "id": "home",
+   "title": "Home",
+   "where": "Home island · 1887 to 1889",
+   "text": [
+    "You go home on a ship that carries people back to their islands. The ship lands you at your own island.",
+    {
+     "if": {
+      "trade": "goods"
+     },
+     "t": "You bring cloth, a knife and other goods. Your family and neighbours welcome you and ask many questions about Queensland. Some of the goods are shared out."
+    },
+    {
+     "if": {
+      "trade": "saved"
+     },
+     "t": "You bring the money you saved. Before the ship leaves you spend some of it on goods. Your family and neighbours welcome you and ask many questions about Queensland."
+    },
+    "Life at home has changed. Ships have come more often. Some young people have gone to Queensland, and some have gone to Fiji and Samoa. You are not the same as when you left, and some people see you differently.",
+    "Two years pass. In 1889 a recruiting ship comes again. A recruiter you do not know says that Queensland will pay wages again. Some of your friends talk about going. What do you do?"
+   ],
+   "choices": [
+    {
+     "label": "Stay at home.",
+     "to": "end_home"
+    },
+    {
+     "label": "Sign again and go back to Queensland.",
+     "to": "return",
+     "set": {
+      "cont": "no"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "Re-enlistments from the islands began in the 1860s. In 1897, 230 of 934 recruits (24.6 per cent) had already served an indenture. By the 1890s about one-quarter of new arrivals had worked in Queensland, Fiji or Samoa."
+     ],
+     "src": [
+      "quassic6",
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "Recruiting for Queensland came mainly from the New Hebrides and the Solomon Islands. Around 80 islands in all were part of the trade, including islands that are now part of Vanuatu, Solomon Islands, New Caledonia, Fiji, Kiribati and Papua New Guinea."
+     ],
+     "src": [
+      "nma"
+     ]
+    },
+    {
+     "paras": [
+      "The 1880 Act put a bond on ship owners so that they delivered passengers and their property back to the correct island at the end of their agreements."
+     ],
+     "src": [
+      "moore2015"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "Going home and then going back is a real pattern. The story uses it to show how a gap in residence can affect later law.",
+    "ask": [
+     "Why might a person choose to go back to Queensland after going home?",
+     "What does “circular migration” mean?"
+    ],
+    "answers": [
+     "To earn goods or money again, to see friends, or because of pressure or changes at home. The records do not give one reason.",
+     "Moving to work somewhere for a time and then returning home, repeatedly."
+    ]
+   }
+  },
+  "return": {
+   "id": "return",
+   "title": "Back in Queensland",
+   "where": "Mackay district, Queensland · 1889",
+   "text": [
+    "You sign in 1889 and sail again to Queensland. The agreement is for three years. You are placed on a plantation near Mackay.",
+    "The talk among the planters is about the law. In 1885 Parliament passed a law to stop recruiting after 1890. Many planters and politicians want it changed. People on the plantation say that the ships may stop coming.",
+    "When your agreement ends in 1892, you will need to decide what to do next. For now you work through the years on the plantation."
+   ],
+   "choices": [
+    {
+     "label": "Work out the agreement on the plantation.",
+     "to": "central"
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "In 1885 Queensland passed a law meant to end recruiting. In 1892 Parliament repealed it and the labour trade continued until 1904. A Royal Commission said that sugar could not be grown at a profit for export “without the employment for hand work in the field of a class of labor cheaper and more suitable for the work than white labor”."
+     ],
+     "src": [
+      "slq",
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "Sources describe the 1885 to 1892 changes in different ways. The National Museum of Australia says that a ban in 1891 was postponed. The story only says what the State Library of Queensland blog says."
+     ],
+     "src": [
+      "nma",
+      "slq"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "This is a short scene that moves Harry from 1889 to the 1890s. It shows that the question of whether the labour trade should continue was a political debate at the time.",
+    "ask": [
+     "Why did planters want the law to be changed?",
+     "Who was not asked about the law?"
+    ],
+    "answers": [
+     "They said sugar could not be grown at a profit without cheaper labour than white labour.",
+     "The Islanders themselves. The people in the story and in the records had no vote in colonial Parliament."
+    ]
+   }
+  },
+  "central": {
+   "id": "central",
+   "title": "The central mill",
+   "where": "Mackay district, Queensland · the 1890s",
+   "text": [
+    {
+     "if": {
+      "cont": "yes"
+     },
+     "t": "You stayed in Queensland and signed new agreements. You have lived in the Mackay district since 1884, and you have worked for more than one employer."
+    },
+    {
+     "if": {
+      "cont": "no"
+     },
+     "t": "You came back in 1889. By now you know the district and you know how to bargain for your pay."
+    },
+    "It is the 1890s. The plantation system is changing. Mills are now built to crush cane from many small farms, not only from one large plantation. The Queensland Government lends money to groups of farmers to build them.",
+    "Most of the new farmers are white families who want to work their own land. Parliament and many voters want the sugar industry to use white labour in the future. In 1896 a regulation says that a time-expired Islander must either return home within a month of an agreement ending or sign a new agreement.",
+    {
+     "if": {
+      "abo": "contact"
+     },
+     "t": "You still see people from the creek family now and then. A woman from that family works on the farm next to yours. You have known her for years."
+    },
+    "You earn wages. You can save toward a small block of land, or you can keep working for wages and not buy land. Some Islanders have bought land."
+   ],
+   "choices": [
+    {
+     "label": "Save to buy a small block of land near the mill.",
+     "to": "protector",
+     "set": {
+      "land": "yes"
+     },
+     "if": {
+      "abo": "contact"
+     }
+    },
+    {
+     "label": "Keep working for wages and do not buy land.",
+     "to": "protector",
+     "set": {
+      "land": "no"
+     },
+     "if": {
+      "abo": "contact"
+     }
+    },
+    {
+     "label": "Save to buy a small block of land near the mill.",
+     "to": "law1901",
+     "set": {
+      "land": "yes"
+     },
+     "if": {
+      "abo": "no"
+     }
+    },
+    {
+     "label": "Keep working for wages and do not buy land.",
+     "to": "law1901",
+     "set": {
+      "land": "no"
+     },
+     "if": {
+      "abo": "no"
+     }
+    },
+    {
+     "label": "Save to buy a small block of land near the mill.",
+     "to": "law1901",
+     "set": {
+      "land": "yes"
+     },
+     "if": {
+      "abo": "told"
+     }
+    },
+    {
+     "label": "Keep working for wages and do not buy land.",
+     "to": "law1901",
+     "set": {
+      "land": "no"
+     },
+     "if": {
+      "abo": "told"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The first government-supported central mills in the Mackay district opened at North Eton in 1888 and at Racecourse in 1889. After that, the plantation system declined faster. The Sugar Works Guarantee Act 1893 allowed the Queensland Government to lend money for central mills. Farmers formed companies and mortgaged their land to secure the loans."
+     ],
+     "src": [
+      "mackayCouncil",
+      "caneQld"
+     ]
+    },
+    {
+     "paras": [
+      "Moore writes that Queensland aimed for a new structure of small farms owned by white Australians, using their families as labour and supplying co-operative central mills paid for at first from the Treasury. Islander labour was by then no longer cheap, and Islanders were no longer short-contract servants."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "In 1896 Queensland made a regulation that every time-expired Islander must, within one month after an agreement ended, either return to the islands or sign a new agreement with an employer."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "Many Islanders had bank accounts, possessions or property by the 1890s. The ticket-holders and the Islanders who re-engaged made up 40 to 60 per cent of the Islander population from the mid-1880s."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "Sugar grew in other districts too. At Bundaberg the South Sea Islander Wall at Mon Repos was built about 1884, probably by Islander labour, to clear stony land for cane. It is about 1,580 metres long and is listed on the Queensland Heritage Register. In the Burdekin, the Pioneer partnership began in 1883 and had five plantations and a mill by 1884. Low rainfall was a problem, and the partners started irrigation schemes. Near Cairns, the Hambledon mill began crushing in 1883, and in 1888 it employed 176 South Sea Islanders, 29 Chinese, 6 Javanese and 32 Europeans."
+     ],
+     "src": [
+      "wall",
+      "jcu",
+      "hambledon"
+     ]
+    },
+    {
+     "paras": [
+      "Each sugar district is on Aboriginal country. For example, Bundaberg Regional Council acknowledges the Taribelang Bunda, Gooreng Gooreng, Gurang and Bailai Peoples as Traditional Owners. The Queensland Government history of the Cairns area records that Native Police “dispersals” killed many Yidindji and Djabugay people, and that Yarrabah mission was founded in 1892, where Aboriginal people and some South Sea Islanders were relocated by government."
+     ],
+     "src": [
+      "bundabergCouncil",
+      "yarrabah"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "This scene covers the shift from plantations to central mills and the first signs of the white-labour policy. The paragraph about a woman from the creek family appears only if Harry spoke with the man at the creek.",
+    "ask": [
+     "Who was the new system of small farms and central mills designed for?",
+     "How does the real panel connect other districts to Mackay?"
+    ],
+    "answers": [
+     "White farming families, with loans from the government. The system was designed to need less Islander labour.",
+     "The same pattern of plantations, Islander labour and Aboriginal dispossession appears at Bundaberg, the Burdekin and Cairns, with local differences."
+    ]
+   }
+  },
+  "protector": {
+   "id": "protector",
+   "title": "The Protector",
+   "where": "Mackay district, Queensland · 1897",
+   "text": [
+    "By 1897 you know the woman from the creek family well. You and she decide to live together. It is her decision as much as yours. Her family knows you.",
+    "That year the Queensland Parliament passes a new law about Aboriginal people. In every district there is a Protector, who is often a police officer. He can say where Aboriginal people live and work, and he can send them to a reserve or a mission. An employer must have a permit to employ an Aboriginal worker.",
+    "One morning the Protector comes to the farm. He asks her name and who she lives with. He says that he may send her to a reserve. What do you do?"
+   ],
+   "choices": [
+    {
+     "label": "Ask her what she wants to do, and follow what she decides.",
+     "to": "law1901",
+     "set": {
+      "abo": "partner",
+      "prot": "asked"
+     }
+    },
+    {
+     "label": "Speak to the Protector yourself and say that she is your wife.",
+     "to": "law1901",
+     "set": {
+      "abo": "partner",
+      "prot": "spoke"
+     }
+    },
+    {
+     "label": "Say nothing. You are afraid of attracting attention.",
+     "to": "law1901",
+     "set": {
+      "abo": "partner",
+      "prot": "silent"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "In 1897 Queensland passed the Aboriginals Protection and Restriction of the Sale of Opium Act. Under it and later Acts, local Protectors controlled Aboriginal labour and savings, and could remove people to reserves and missions. An Aboriginal worker could only be employed under a permit from a Protector, and an employer had to make an agreement of no more than 12 months."
+     ],
+     "src": [
+      "senate",
+      "sarina"
+     ]
+    },
+    {
+     "paras": [
+      "From 1898 to 1967 there were 72 documented removals of Aboriginal people from the Mackay district. Most were removed to Yarrabah, Barambah (now Cherbourg), Woorabinda and Palm Island."
+     ],
+     "src": [
+      "sarina"
+     ]
+    },
+    {
+     "paras": [
+      "In 1901 the Act was amended to set a minimum wage for Aboriginal workers under permit. For most workers it was five shillings, which the Senate committee says was less than one-eighth of the white wage. From 1904 wages could be paid directly to the Protector."
+     ],
+     "src": [
+      "senate"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "The woman and the Protector’s visit are invented. The law is real. The three choices show three levels of respect for her right to decide. The story does not say what the Protector did, because no record is known of this case.",
+    "ask": [
+     "Which of Harry’s three choices gives the woman the most say?",
+     "How did the 1897 Act affect Aboriginal people’s work and wages?"
+    ],
+    "answers": [
+     "Asking her what she wants and following what she decides. The other two choices leave Harry speaking for her or leaving her to face the Protector alone.",
+     "Permits were needed to employ them, a Protector could remove them, and wages and savings could be controlled by the Protector. The Senate committee says controls like these lasted for more than 85 years."
+    ]
+   }
+  },
+  "law1901": {
+   "id": "law1901",
+   "title": "A new law",
+   "where": "Mackay district, Queensland · 1901",
+   "text": [
+    {
+     "if": {
+      "prot": "asked"
+     },
+     "t": "Years ago the Protector asked her questions, and she answered them herself. She said that she wanted to stay near her family and her country. He wrote it down. For now she stays, and she keeps working under a permit."
+    },
+    {
+     "if": {
+      "prot": "spoke"
+     },
+     "t": "Years ago, when you spoke to the Protector, he looked at you and then spoke to her. He asked her the same questions again. He wrote in his book and left. For now she stays, and she keeps working under a permit."
+    },
+    {
+     "if": {
+      "prot": "silent"
+     },
+     "t": "Years ago she answered the Protector’s questions herself. She told you later that it would have helped to have you stand beside her. For now she stays, and she keeps working under a permit."
+    },
+    "In 1901 the Australian colonies join to form the Commonwealth of Australia. The new Parliament passes laws to make a “White Australia”. One of them is the Pacific Island Labourers Act. The Governor-General agrees to it on 17 December 1901.",
+    "The Act says that no new labourers can be licensed after 31 March 1904. It says that from the end of 1906 the government can deport Pacific Islanders. The only people who are exempt are those who came to Queensland before 1 September 1879, people who work in ships’ crews, and people who are given a certificate of exemption.",
+    {
+     "if": {
+      "eng": "yes"
+     },
+     "t": "You can read the news in English. You read it twice and then explain it to a friend."
+    },
+    {
+     "if": {
+      "eng": "no"
+     },
+     "t": "A friend who reads English tells you what the news says. You ask him to say it again."
+    },
+    {
+     "if": {
+      "abo": "partner"
+     },
+     "t": "You think about her and her family. You do not know what the Act will mean for the two of you."
+    },
+    "There are about 10,000 Pacific Islanders in Queensland and northern New South Wales. In November 1901 some Islanders in Mackay start the Pacific Islanders’ Association. Its purpose is to oppose deportation. What do you do?"
+   ],
+   "choices": [
+    {
+     "label": "Join the Association and add your name to petitions.",
+     "to": "petition",
+     "set": {
+      "joined": "yes"
+     }
+    },
+    {
+     "label": "Do not join. Keep working and saving.",
+     "to": "petition",
+     "set": {
+      "joined": "no"
+     }
+    },
+    {
+     "label": "Decide to leave before the deadline, using your savings for a passage.",
+     "to": "end_early",
+     "set": {
+      "left": "early"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The Pacific Island Labourers Act 1901 was one of the first laws passed by the new Commonwealth Parliament. It was part of a package that made up the White Australia policy, with the Immigration Restriction Act 1901. Assent was given on 17 December 1901."
+     ],
+     "src": [
+      "naaPILA",
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "Under the Act, labourers could enter under licence until 31 March 1904, in limited numbers. In 1902 entry was limited to three-quarters of the number who had left in 1901. In 1903 it was limited to half of the 1902 departures. No labour agreements were valid after the end of 1906, and after that date any person suspected of being a Pacific Islander had to prove that they were not."
+     ],
+     "src": [
+      "naaPILA"
+     ]
+    },
+    {
+     "paras": [
+      "About 10,000 Pacific Islanders lived in Queensland and northern New South Wales when the Act passed. About 700 were ticket-holders who were exempt. In 1901, 839 Islanders returned to the islands and another 1,678 arrived."
+     ],
+     "src": [
+      "moore2000",
+      "naaPILA"
+     ]
+    },
+    {
+     "paras": [
+      "The Pacific Islanders’ Association was formed in Mackay in November 1901. In August 1902 the Colonial Office received a petition to King Edward VII from about 3,000 Islanders. About 1,800 of the signatures were collected by Fanny Nicol, a missionary at Bundaberg. The King was advised to refuse it, but it embarrassed the Australian Government."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "Queensland’s Premier, Robert Philp, wrote in November 1901 that deporting people who had come as legal immigrants would cause “great inhumanity and injustice”."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "This scene gives the first law, the rules and the first choice about the deadline. A student who chooses to leave early reaches an ending now.",
+    "ask": [
+     "What did the Act say about the end of 1906?",
+     "Why might someone decide to leave before the deadline?"
+    ],
+    "answers": [
+     "No agreements would be valid after 1906, and after that the government could deport Pacific Islanders who were not exempt.",
+     "To keep control of when and how they went, to avoid being sent to the wrong place, or because they believed they could not win. Students can give other reasons."
+    ]
+   }
+  },
+  "petition": {
+   "id": "petition",
+   "title": "The Association and the Royal Commission",
+   "where": "Mackay district, Queensland · 1904 to 1906",
+   "text": [
+    "Years pass. Recruiting ends in 1904. At the end of 1904 there are still 7,879 Islanders in Queensland, with the largest groups at Bundaberg, Mackay and Ingham. You are about thirty-seven.",
+    {
+     "if": {
+      "joined": "yes"
+     },
+     "t": "You go to the Association’s meetings in Mackay. Members come from different islands, and they do not always agree about what to do. You listen, and you add your name to the petitions."
+    },
+    {
+     "if": {
+      "joined": "no"
+     },
+     "t": "You hear about the Association’s meetings from people at work and at church, but you do not go. You are saving money and you want to keep your job."
+    },
+    "In April 1906 a Queensland Royal Commission collects evidence about what the Act will do to the sugar industry and to Islanders. A delegation from the Association gives it a petition in Mackay. The Commission reports on 30 June. On 12 October 1906 an amendment to the Act becomes law. It adds new groups who are allowed to stay.",
+    "The groups are: people who have lived in Australia continuously since 31 December 1886; people who are aged or infirm; people whose children go to state schools; owners of freehold land; people married before October 1906 to a partner from a different island; and people who can show that their lives would be in danger if they went home.",
+    "The Prime Minister, Alfred Deakin, says that the new groups can stay. He says the order to deport everyone else will not be cancelled.",
+    {
+     "if": {
+      "cont": "no"
+     },
+     "t": "You think about 1887 and 1888, when you were on your island. You were in Queensland on 31 December 1886, but you have not lived here continuously since then."
+    },
+    "Now you must decide."
+   ],
+   "choices": [
+    {
+     "label": "Collect your papers and apply for a certificate of exemption.",
+     "to": "end_stay",
+     "if": {
+      "cont": "yes"
+     }
+    },
+    {
+     "label": "Collect your papers and apply for a certificate of exemption.",
+     "to": "end_stay",
+     "if": {
+      "cont": "no",
+      "land": "yes"
+     }
+    },
+    {
+     "label": "Collect your papers and apply for a certificate of exemption.",
+     "to": "end_deport",
+     "if": {
+      "cont": "no",
+      "land": "no"
+     }
+    },
+    {
+     "label": "Leave on your own passage rather than wait for an order.",
+     "to": "end_early",
+     "set": {
+      "left": "late"
+     }
+    },
+    {
+     "label": "Do not apply. Leave the district quietly and hide.",
+     "to": "end_hide",
+     "if": {
+      "cont": "no",
+      "land": "no"
+     }
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "A Queensland Royal Commission reported on 30 June 1906. It advised that more groups should be exempt from deportation. It found that some 4,000 to 4,500 Islanders were liable for deportation. On 7 August 1906 Deakin accepted most of the recommendations, and the amendment received assent on 12 October 1906."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "The new exemption groups were Islanders who had lived continuously in Australia since 31 December 1886, the aged and infirm, those with children educated in state schools, owners of freehold land, those married before October 1906 to a partner not from their own island, and those who could show that their lives would be in danger if returned home. Sources give slightly different dates for the marriage cut-off."
+     ],
+     "src": [
+      "moore2000",
+      "mcneill"
+     ]
+    },
+    {
+     "paras": [
+      "In 1906 the Pacific Islanders’ Association met regularly in Mackay, hired a solicitor, set by-laws and formed branches at Proserpine and Bowen. Henry Tongoa and Alick Mallicoola travelled to Melbourne and arrived on 13 September 1906. They met Prime Minister Deakin on 17 September and 1 October and gave him a petition from 427 members. Deakin said that the deportation provision would not be reversed."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "The Association was not united. Rockhampton Islanders saw themselves as separate from the Mackay group, and New Hebrideans and Solomon Islanders often did not work together. Moore says that the Islanders’ leaders were able to work in both Melanesian and Australian society."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "To encourage the change to white labour, the Commonwealth paid about £1 to £2 a ton of sugar to cane farmers and millers who used only white labour. In 1902 this was an excise and a rebate. In 1903 it became an excise and a bounty, and the bounty rose to £3 in 1905. By 1905, 78 per cent of farmers and labour in the sugar industry were white, and by 1911 it was 94 per cent."
+     ],
+     "src": [
+      "moore2000",
+      "mcneill"
+     ]
+    }
+   ],
+   "teacher": {
+    "about": "This scene shows the Islanders’ campaign, the Royal Commission and the amendment. The choices that Harry has depend on how he lived: whether he stayed continuously, bought land, or left.",
+    "ask": [
+     "Why does the 1886 date matter in the story?",
+     "What does the Association’s work show about Pacific Islanders at the time?"
+    ],
+    "answers": [
+     "Harry was in Queensland on 31 December 1886 but he went home in 1887, so he cannot show continuous residence. A person who stayed can.",
+     "That they organised petitions, hired a solicitor, met a Prime Minister and wrote to London. They were not passive. Students should also note that the campaign did not reverse the deportation order."
+    ]
+   }
+  },
+  "end_stay": {
+   "id": "end_stay",
+   "title": "You stay",
+   "text": [
+    "You gather your papers. They include your agreement papers and a statement from a farmer who knows you. You apply for a certificate of exemption. A government officer looks at your papers.",
+    {
+     "if": {
+      "cont": "yes"
+     },
+     "t": "The officer sees that you have lived in Queensland continuously since 1884. That means you meet the rule about continuous residence since 31 December 1886."
+    },
+    {
+     "if": {
+      "cont": "no"
+     },
+     "t": "You went home in 1887, so the rule about continuous residence does not help you. But you own your block of land, and owners of freehold land are one of the exempt groups."
+    },
+    {
+     "if": {
+      "land": "yes",
+      "cont": "yes"
+     },
+     "t": "You also own your block of land, which the officer notes."
+    },
+    "The certificate is granted. It is a printed paper with your name. It protects you, but it does not protect the people who do not get one.",
+    {
+     "if": {
+      "abo": "partner"
+     },
+     "t": "She is still in the district. Her life is still controlled by the law of 1897, and you both still have to deal with the Protector. You stay in the district where her family lives."
+    },
+    "In 1907 and 1908 many of your friends and neighbours are put on ships. Some of them have lived in Queensland for more than twenty years.",
+    "You stay in a country where the laws, and many people, treat you as an outsider. You work, you go to church, and you meet others on Sundays. The community continues."
+   ],
+   "real": [
+    {
+     "paras": [
+      "The Pacific Island Labourers Act 1901 and its 1906 amendment led to the issue of certificates of exemption. One General Certificate of Exemption, issued to an Islander known as Calleyho, is dated 4 May 1907."
+     ],
+     "src": [
+      "peo"
+     ]
+    },
+    {
+     "paras": [
+      "The official number of Islanders allowed to remain was 1,654. Patricia Mercer’s research suggests that about 2,500 remained, so almost 1,000 avoided deportation."
+     ],
+     "src": [
+      "moore2000",
+      "naaSSI"
+     ]
+    },
+    {
+     "paras": [
+      "Today the descendants of Pacific Islanders brought to Australia are a distinct cultural group, called the Australian South Sea Islander community. Many have shared South Sea Islander and Aboriginal heritage. In 2000 the Queensland Government recognised South Sea Islanders as a distinct cultural group and acknowledged the discrimination and injustice they had experienced."
+     ],
+     "src": [
+      "naaSSI",
+      "nma"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "You were allowed to stay",
+   "summary": "This ending shows the people who were allowed to stay. The official number was 1,654. Research suggests that about 2,500 Pacific Islanders actually remained. Around 7,500 were forced to leave. QUASSIC says that today’s Australian South Sea Islander population is largely descended from time-expired labourers and ticket-holders who stayed.",
+   "teacher": {
+    "about": "This ending is available to people who lived continuously in Queensland since before the end of 1886, or who owned land. The certificate scene and the officer’s questions are invented. The categories are real.",
+    "ask": [
+     "Which exemption groups let Harry stay in this ending?",
+     "Why does the story say the certificate “does not protect the people who do not get one”?"
+    ],
+    "answers": [
+     "Continuous residence since 31 December 1886, or owning freehold land.",
+     "Because many other people who had also lived in Queensland for years were deported. Students should name the group that did not qualify in this story, and discuss whether the rules were fair."
+    ]
+   }
+  },
+  "end_deport": {
+   "id": "end_deport",
+   "title": "The ship",
+   "text": [
+    "You gather your papers and apply. The officer asks where you lived on 31 December 1886 and whether you have lived in Australia continuously since then. You tell him that you were in Queensland then, but that you went home in 1887 and came back in 1889. He says that this means you have not lived here continuously.",
+    "You have no land. You have no child at a state school and no marriage that counts.",
+    {
+     "if": {
+      "abo": "partner"
+     },
+     "t": "You tell him about her. The officer writes it down. He says that it does not stop the order."
+    },
+    "Your application is refused. In 1907 you are put on a ship with other men, women and children. You are about forty. You have lived in Queensland for most of your adult life.",
+    "The ship lands you somewhere in the islands. It may not be the place where you grew up, because the Act did not say that people must be taken to their home villages.",
+    "Your village has changed. Some of your family have died. Some of the land is used by others. You speak English and Pidgin well, and your clothes and habits are not the same as those of the people around you.",
+    {
+     "if": {
+      "abo": "partner"
+     },
+     "t": "You and she are on different sides of the sea. You do not know if you will see each other again."
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The final deportation began in late 1906 and continued until mid-1908. It took longer than the government had planned. The Pacific Island Branch of the Queensland Immigration Department closed on 31 July 1908."
+     ],
+     "src": [
+      "naaPILA",
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "The Act did not say that people had to be returned to their home villages. Governments planned to arrange work in the Solomon Islands, Fiji and the New Hebrides, or return to mission stations. The National Archives holds records about the consequences of returning people to the wrong island, and about Islanders who had married into the Aboriginal community."
+     ],
+     "src": [
+      "moore2000",
+      "naaSSI"
+     ]
+    },
+    {
+     "paras": [
+      "McNeill and Marmo write that Islander men who lived with or had married Aboriginal or Torres Strait Islander women were deported anyway in some cases. They write that 17 of the people deported would otherwise have met the criteria to stay, but had married Aboriginal or Torres Strait Islander people."
+     ],
+     "src": [
+      "mcneill"
+     ]
+    },
+    {
+     "paras": [
+      "Some people deported in 1906 to 1908 had arrived in Australia at such a young age that they had no memory of their home country."
+     ],
+     "src": [
+      "nma"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "You were deported",
+   "summary": "This ending shows the people who were deported. Deportations began in late 1906 and continued until mid-1908. The National Archives says about 7,500 people were forced to leave. One research paper says that estimates of those deported range from 4,500 to 7,000, including children. Some were separated from partners and children who stayed.",
+   "teacher": {
+    "about": "This ending shows a person who is refused because of an earlier decision to go home. Whether to go home in 1887 seemed a free choice at the time. The story does not say that Harry did anything wrong. The law set rules that he could not have known.",
+    "ask": [
+     "Why was Harry refused?",
+     "What does the paragraph about the Aboriginal woman show?"
+    ],
+    "answers": [
+     "He had left Queensland in 1887, so he did not meet the continuous-residence rule. He had no land, no child at school and no qualifying marriage.",
+     "That the law did not treat a marriage to an Aboriginal woman as a reason to stay, and that deportation could split families. This is supported by the National Archives and by the 2023 research paper."
+    ]
+   }
+  },
+  "end_early": {
+   "id": "end_early",
+   "title": "On your own passage",
+   "text": [
+    {
+     "if": {
+      "left": "early"
+     },
+     "t": "In 1902 you decide to go. You take your savings and pay for a passage. You sell what you cannot carry."
+    },
+    {
+     "if": {
+      "left": "late"
+     },
+     "t": "It is 1906. You decide to leave on your own passage rather than wait for an order. You take your savings and pay your fare. You sell what you cannot carry."
+    },
+    {
+     "if": {
+      "abo": "partner"
+     },
+     "t": "You talk with her about it. She says that she will stay in her own country. You each make your own decision. You leave knowing that you may not meet again."
+    },
+    "Your ship goes to the islands. You choose when you pack and what you take. Many other people did not have that choice.",
+    "You arrive after many years in Queensland. Your village has changed. You are glad to be there, and you also miss what you built in Queensland."
+   ],
+   "real": [
+    {
+     "paras": [
+      "The Act was meant to remove Pacific Islanders by limiting new arrivals and encouraging people to leave before the deportations began."
+     ],
+     "src": [
+      "naaPILA",
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "In 1901, 839 Islanders returned to the islands and 1,678 arrived. At the end of 1904, after recruiting ended, there were still 7,879 Islanders in Queensland."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "The 1902 petition argued that some home islands had become German possessions and that tribal lands had been sold, so families might not welcome people back. In 1903 the British Resident Commissioner in the New Hebrides warned that, unless returning labourers wanted plantation work, Australia would have to supervise their return to their villages or buy land for new villages."
+     ],
+     "src": [
+      "moore2000"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "You chose to leave",
+   "summary": "This ending shows people who left by their own decision. The 1901 Act limited new arrivals, ended licences and made staying harder, so many Islanders left before the deportations. In 1901, 839 Islanders returned to their islands. They still lost the homes and lives they had made in Queensland.",
+   "teacher": {
+    "about": "This ending is a choice to leave. It does not say that leaving was better or worse. Many people had little real choice.",
+    "ask": [
+     "How is leaving early different from being deported?",
+     "Why might leaving early still be called a result of the Act?"
+    ],
+    "answers": [
+     "The person decides when and how to go, and may keep savings and goods. A deported person is ordered to go.",
+     "Because the Act was designed to push people to leave by ending licences and limiting entry. The choice was made under pressure."
+    ]
+   }
+  },
+  "end_home": {
+   "id": "end_home",
+   "title": "Home",
+   "text": [
+    "You stay at home in 1889. You work, and you tell your family what Queensland was like.",
+    "Years later you hear that the new Australian Commonwealth has passed a law to send most Islanders home. It does not apply to you.",
+    "From 1906 to 1908 people who stayed in Queensland come back to the islands on government ships. Some have lived in Queensland for twenty years or more. Some do not find a welcome in the villages they left.",
+    {
+     "if": {
+      "help": "asked"
+     },
+     "t": "You think about the man in the next hut and the hospital. You do not know if he is alive."
+    },
+    {
+     "if": {
+      "help": "stayed"
+     },
+     "t": "You think about the man in the next hut and the nights you sat with him. You do not know if he is alive."
+    },
+    {
+     "if": {
+      "help": "silent"
+     },
+     "t": "You think about the man in the next hut. You do not know if he is alive."
+    },
+    {
+     "if": {
+      "abo": "contact"
+     },
+     "t": "You also think about the creek and the people who fished there. You do not know what happened to them."
+    }
+   ],
+   "real": [
+    {
+     "paras": [
+      "The labour trade was designed as a circular migration. Most first-indenture labourers were meant to serve three years and go home. Many re-engaged, in Queensland or after returning to the islands."
+     ],
+     "src": [
+      "quassic6",
+      "moore2000"
+     ]
+    },
+    {
+     "paras": [
+      "More than 14,564 Islander labourers died in Queensland between 1868 and 1906. This is about 24 per cent of the number of indenture contracts."
+     ],
+     "src": [
+      "quassic6"
+     ]
+    },
+    {
+     "paras": [
+      "The Queensland State Archives holds records of recruitment, agreements, employment, health, deportation and the Islanders who remained, for 1867 to 1948."
+     ],
+     "src": [
+      "qsa"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "You went home in 1887",
+   "summary": "This ending shows the outcome that the labour system was designed for: a three-year agreement followed by a return home. Records show that the number of Islanders who died in Queensland between 1868 and 1906 was equal to about 24 per cent of the number of contracts. Going home early meant avoiding the 1901 law, but it did not undo the harm done to people who were taken or deceived, or to the communities they left.",
+   "teacher": {
+    "about": "This ending is the “ordinary” path in the story. It is short on purpose, because the person who goes home does not appear in most of the Queensland records.",
+    "ask": [
+     "Why is this a short ending?",
+     "What do the records not tell us about people who went home?"
+    ],
+    "answers": [
+     "Because the person left the Queensland records when he left, and the story does not invent what happened at home.",
+     "What their lives were like at home, what they thought of the trade, and what happened to their villages. Most records were written by officials and employers."
+    ]
+   }
+  },
+  "end_hide": {
+   "id": "end_hide",
+   "title": "Hiding",
+   "text": [
+    "You do not apply. You leave the plantation district and live quietly on the edge of a town. You take small jobs.",
+    {
+     "if": {
+      "abo": "partner"
+     },
+     "t": "She says she cannot hide you, and she does not want trouble brought to her family. You accept her decision."
+    },
+    "You have no certificate. You cannot sign a work agreement in your own name, and you cannot ask an official for help. You change where you sleep.",
+    "In 1907 and 1908 officers come to Islander settlements with lists. You are not found. You do not know how long that will last.",
+    "Years pass. The law stays in force. You do not know whether you are safe or whether someone will report you."
+   ],
+   "real": [
+    {
+     "paras": [
+      "An estimated 900 people hid in the bush to avoid deportation. This estimate is from a 2019 magazine article by Alex McKinnon, cited in a research paper."
+     ],
+     "src": [
+      "mcneill"
+     ]
+    },
+    {
+     "paras": [
+      "The official number of Islanders allowed to remain was 1,654. Patricia Mercer’s research suggests the actual number remaining was around 2,500, which suggests that almost 1,000 avoided deportation."
+     ],
+     "src": [
+      "moore2000",
+      "naaSSI"
+     ]
+    },
+    {
+     "paras": [
+      "Under the Act, a person who was suspected of being a Pacific Islander had to prove that they were not."
+     ],
+     "src": [
+      "naaPILA"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "You avoided deportation",
+   "summary": "This ending shows people who avoided deportation by hiding. No one knows exactly how many. One researcher’s estimate, cited in a 2023 paper, is that about 900 people hid in the bush. The official number allowed to remain was 1,654, but research suggests that about 2,500 stayed. Harry’s path is an invented example. No record tells his story.",
+   "teacher": {
+    "about": "This ending is based on an estimate, not on a named person’s story. It is included because historians have worked out that many people were not caught.",
+    "ask": [
+     "How do historians know that people hid?",
+     "Why is this ending labelled “invented”?"
+    ],
+    "answers": [
+     "They compare the official number allowed to stay (1,654) with the number who seem to have remained (about 2,500), and some sources report an estimate of 900 hiding.",
+     "Because no known record tells the story of one person hiding in this way. The details are made up to match the estimate."
+    ]
+   }
+  }
+ },
+ "behind": {
+  "intro": "This story is fiction built on real history. The real history is given in the panels called “Real history” and is listed with its sources on the Sources page. Everything else is invented, and it is listed here.",
+  "sections": [
+   {
+    "kind": "made",
+    "h": "What is invented",
+    "list": [
+     "Harry: his age, his island and language (the story does not name them), how he joined the ship, the name the overseer gives him, and everything he does, thinks and feels. The three ways of joining are based on ways the records describe, but Harry’s story is made up.",
+     "The Government Agent, the interpreter, the doctor, the overseer, the plantation and its owner, the hospital, the man in the next hut, the farmers, the officer who hears the application, and the Protector. None of them is a real person, and none has a name.",
+     "The man at the creek and the woman from his family. They are invented. The story gives them no names, nations or customs, because inventing these would be wrong. What they say and decide is invented. The Yuibera and other peoples named in the real history panels are real. The characters are not members of any named people.",
+     "The plantation near Mackay, the creek, the farm next door and the mill that Harry works near later. Real places such as Mackay, the Pioneer River, Bundaberg, the Burdekin and Cairns appear only in the real history panels.",
+     "All the conversations, such as the Government Agent’s questions, the Protector’s visit and the officer’s questions at the hearing.",
+     "Harry’s dates: arriving in Mackay in 1884, finishing his first agreement in 1887, going home, and returning in 1889. They are made up to fit the real laws and events.",
+     "The scenes where Harry decides whether to go home, sign again, buy land, join the Association, hide or leave. These are shaped by what the records show, but no record is known of these particular acts by one person.",
+     "The ending scenes: the hearing, the ship, the return to the village, and the hiding. They are based on the real exemption rules, deportation records and estimates, but the details are invented.",
+     "Real people, such as the leaders of the Pacific Islanders’ Association, appear only in the real history panels. They are not characters in the story."
+    ]
+   },
+   {
+    "kind": "plain",
+    "h": "What the story leaves out on purpose",
+    "list": [
+     "The story does not describe the killing of Aboriginal people, or the violence on recruiting ships, in detail. The panels mention these things briefly because they are part of the history.",
+     "The story is about the Mackay district, with short notes on Bundaberg, the Burdekin and Cairns. It does not cover the Torres Strait, other industries where Islanders worked, the Chinese, Japanese, Javanese and other workers in the sugar districts, or the lives of Islander women and children in detail.",
+     "It does not show the islands in detail, because the people there were many different peoples, and the author has no right to speak for them.",
+     "It ends in 1907 and 1908. It does not cover what happened later to the people who stayed, apart from short notes in the panels.",
+     "It uses “Islander” and “Pacific Islander” as the main terms. “Australian South Sea Islander” is the term used today for descendants. The community may have other preferred terms."
+    ]
+   },
+   {
+    "kind": "plain",
+    "h": "Fairness to the people in the story",
+    "list": [
+     "People in this story make choices. In real history, Pacific Islanders chose, argued, petitioned, organised, saved, bought land, raised families and kept their communities together. The story tries to show this and not only show people as victims.",
+     "The word “Kanaka” is in the records and is offensive today. The story does not use it. “Blackbirding” is often used for the whole labour trade. Historians separate kidnapping from other kinds of recruiting. The story shows all of them.",
+     "The story does not decide whether the system should be called slavery. QUASSIC explains that indenture was not legally slavery. It also says that Australian South Sea Islanders call themselves descendants of slaves. Both are given in the real history panels.",
+     "Aboriginal people appear as people with their own business. They are not helpers or guides for Harry.",
+     "Some source documents use words and attitudes that are offensive today. The story quotes very few of them, and only where needed."
+    ]
+   }
+  ]
+ },
+ "discuss": [
+  {
+   "h": "Discuss",
+   "qs": [
+    {
+     "q": "Why did Queensland planters want labour from the Pacific Islands, and why did the government allow it?",
+     "a": [
+      "Planters said that sugar could not be grown at a profit without cheaper labour than white labour, and that white people could not do heavy field work in the tropics. The colonial government wanted the sugar industry to grow. Students should note that these were the arguments of the people with power at the time, and that the Islanders were not asked."
+     ]
+    },
+    {
+     "q": "QUASSIC says the labour trade cannot be split simply into kidnapping and free choice. Which parts of the story support this?",
+     "a": [
+      "The three ways of joining on the first page: chose, told a story, taken. The Government Agent scene shows a rule that did not guarantee a fair process. The real history panels show that estimates of kidnapping are 10 to 15 per cent, while many joined freely, and that all recruits were bound by contracts they could not read."
+     ]
+    },
+    {
+     "q": "Pay was £6 a year, and in the first year of an agreement the death rate was about 81 per 1,000 compared with about 15 per 1,000 for Europeans. What do these numbers tell you, and what do they not tell you?",
+     "a": [
+      "They show that the work carried a much higher risk of death for Islanders and that the pay was low. They do not tell us what any one person felt or chose. Disease was the main cause of death, so one person’s choice did not change the rates. The numbers are averages."
+     ]
+    },
+    {
+     "q": "How did Pacific Islanders respond to the 1901 Act? What does this show about their agency?",
+     "a": [
+      "They formed the Pacific Islanders’ Association in Mackay, sent a petition to King Edward VII signed by about 3,000 people, petitioned the Governor and the Royal Commission, hired a solicitor, and travelled to Melbourne to meet the Prime Minister. This shows that they were organised and made use of formal politics. Students should also note that the deportation order was not reversed."
+     ]
+    },
+    {
+     "q": "How were Aboriginal people and South Sea Islanders treated in similar ways, and in different ways, by Queensland governments?",
+     "a": [
+      "Similar: both groups were treated as inferior, had their labour and wages controlled and were subject to removal. Different: Islanders were brought as indentured workers and the Commonwealth ordered most deported, while Aboriginal people were on their own country, which was taken, and were controlled through Protectors under the 1897 Act. McNeill and Marmo write that Islander men who had married Aboriginal women were deported in some cases."
+     ]
+    },
+    {
+     "q": "Harry could stay in one ending and was deported in another. What was the difference, and was the rule fair?",
+     "a": [
+      "A person who lived continuously in Queensland from before the end of 1886 (or owned land) could stay. A person who went home in 1887 and returned in 1889 did not meet the continuous-residence rule. Students may argue either way. They should use the real panels, and notice that the rule had not existed when Harry decided to go home."
+     ]
+    },
+    {
+     "q": "Why is it important to know which parts of the story are invented? How can readers check?",
+     "a": [
+      "Because a story can seem real. The Behind the Story page lists what is invented, and each real fact has a source on the Sources page. Readers can check the sources, such as QUASSIC, the National Archives and Queensland State Archives."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Write",
+   "qs": [
+    {
+     "q": "Write 200 words as an Islander in Mackay in 1906. Explain to the Royal Commission why you should be allowed to stay. Use only facts from the real history panels.",
+     "a": [
+      "Students should use facts such as years lived in Queensland, work in the sugar industry, land owned, family and children at school, and the danger of being returned to the wrong island. Look for accurate use of the panels and for respect for the people in the story."
+     ]
+    },
+    {
+     "q": "Choose one ending. Write a paragraph that explains what the ending tells us about the real history, using at least two real history panels.",
+     "a": [
+      "Marked on accurate use of the panels and on separating what is real from what is invented."
+     ]
+    },
+    {
+     "q": "Research task: find one source in Queensland State Archives, the National Archives of Australia or Trove about South Sea Islanders in your region. Write down what it says, who wrote it and whose voice is missing. Some records are distressing, so talk to your teacher first.",
+     "a": [
+      "Teachers should look at the material first and make sure students are supported. Look for students noticing that officials and employers wrote most records, and that Islanders’ own voices are rare."
+     ]
+    }
+   ]
+  }
+ ],
+ "teacherNotes": [
+  "Before you use this in class, please seek advice from Australian South Sea Islander community groups in your area (for example QUASSIC) and from local Aboriginal Traditional Owners. The app was written by an author who is not part of these communities, and it has not yet been reviewed by them.",
+  "Give students the content warning before they start. Tell them they may stop at any time. Check whether any students have family connections to this history. Many Australian South Sea Islander and Aboriginal families do. Offer an alternative task if needed.",
+  "A suggested lesson: 10 minutes to read the content warning and discuss respect; 25 minutes for students to play two or three paths; 20 minutes for discussion and one writing task.",
+  "The answers and notes in this version are suggestions. They are hidden behind “Show” buttons. The student version has no answers in its code.",
+  "The story deliberately does not describe violence in detail. Students may ask what happened. Use the real history panels and the sources to answer plainly and calmly.",
+  "The harder questions are about fairness: the 1886 rule, the way marriage to an Aboriginal woman was treated, and what choices were really free. There are no simple answers. Ask students to use evidence."
+ ],
+ "openingIntro": [
+  "You are Harry, a young man from an island in the New Hebrides. In 1884 you are about seventeen. A ship comes to your island, and the choices you make from then on take you to the sugar fields of the Mackay district in Queensland, and through the years to the new law of 1901.",
+  "You will make choices. Each choice has a cost. There are five endings, and none of them is simple. Some paths end with you leaving by your own choice, one with you staying, and some with you being ordered to go. Try more than one path.",
+  "Harry is an invented character. Behind the Story explains what is real and what is invented."
+ ]
+}

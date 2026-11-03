@@ -1,0 +1,1216 @@
+{
+ "id": "gold",
+ "repo": "qld-gold-rush-adventure",
+ "startChoices": [
+  {
+   "label": "Follow Sam, a young labourer in Brisbane in 1858",
+   "to": "s1"
+  },
+  {
+   "label": "Follow Lin, a Chinese miner who leaves Charters Towers for the Palmer River in 1874",
+   "to": "l1"
+  },
+  {
+   "label": "Follow a young Aboriginal person on the Palmer River in 1873",
+   "to": "a1"
+  }
+ ],
+ "startText": [
+  "Gold was found in Queensland many times between 1858 and 1877. Each time, thousands of people travelled to the new field. Each field was on Country where Aboriginal people already lived. Many of the diggers were British or Irish. Many were Chinese.",
+  "In this story you make the choices. You can follow one of three invented people. Each person lives through a different part of the gold rushes. When a story ends, you can go back and follow one of the others.",
+  "The story is invented. The facts are real. Boxes marked “Real history” show the facts and name their sources."
+ ],
+ "startTeacher": [
+  "Purpose: students choose a point of view before they read the facts. Each path covers a different set of fields and a different group of people. Sam covers Canoona (1858), Gympie (1867) and Charters Towers (1872). Lin covers the Palmer River (1874 to 1877) and the laws against Chinese miners. The Aboriginal path covers the Palmer River in 1873 and later.",
+  "Suggested use: let students follow one path, then read the endings of the other two. Then use the Discuss and write questions. A full path takes about 10 minutes."
+ ],
+ "warning": [
+  "This story is about gold rushes on the Country of Aboriginal people. It describes violence against Aboriginal people and racism against Chinese people. It does not describe the violence in detail.",
+  "Aboriginal and Torres Strait Islander readers are advised that this app names people who have died, and that the old records it draws on were written by Europeans.",
+  "The three main characters are invented. The Aboriginal character has no name and no named family group on purpose. Read “Behind the Story” to see what is real and what is invented.",
+  "This app has not yet been reviewed by Aboriginal community members. Review is being sought. Please tell the author if anything needs to change."
+ ],
+ "review": null,
+ "sources": {
+  "slqCanoona": {
+   "short": "SLQ blog on Canoona",
+   "t": "State Library of Queensland. “Gold Fever – The Canoona Delusion near Rockhampton” (blog).",
+   "u": "https://www.slq.qld.gov.au/blog/gold-fever-canoona-delusion-near-rockhampton",
+   "note": "Gives the location of Canoona and quotes the Moreton Bay Courier of 28 July 1858, page 2 (on Trove)."
+  },
+  "qpCanoona": {
+   "short": "Queensland Places, Canoona",
+   "t": "Queensland Places. “Canoona”. University of Queensland.",
+   "u": "https://queenslandplaces.com.au/canoona",
+   "note": "Gives the 15,000 estimate and says the field was not a “duffer” but could not support that many people."
+  },
+  "cqu": {
+   "short": "CQU, Rockhampton history",
+   "t": "Central Queensland University. “An Overview of Rockhampton’s History” (PDF).",
+   "u": "https://library-resources.cqu.edu.au/cqcollection/manuscripts/short-manuscripts/rockhampton.pdf",
+   "note": "Dates for the proclamation of Rockhampton, the first land sales, and the return south of most of the people who came."
+  },
+  "csc": {
+   "short": "Colonial Secretary letter, 1858",
+   "t": "Colonial Secretary’s Correspondence, transcribed by State Library of Queensland volunteers (FromThePage).",
+   "u": "https://fromthepage.com/slqld/colonial-secretary-s-correspondence/work-33054-013189",
+   "note": "An official’s 1858 letter about the Canoona field. I read only the part that is quoted in my summary. Robin should check the full letter."
+  },
+  "darumbal": {
+   "short": "Darumbal Enterprises",
+   "t": "Darumbal Enterprises. “Darumbal History”.",
+   "u": "https://darumbal.com.au/darumbal-culture/darumbal-history/",
+   "note": "The Darumbal people are the Traditional Owners of the Rockhampton and Capricorn Coast area, including the Fitzroy River catchment."
+  },
+  "qsaGympie": {
+   "short": "QSA, Gold at Gympie",
+   "t": "Queensland State Archives. “Gold at Gympie”. Stories from the Archives, 30 August 2021.",
+   "u": "https://blogs.archives.qld.gov.au/2021/08/30/gold-at-gympie/",
+   "note": "The 1866 recession, the £3,000 reward, James Nash’s find, how quickly the surface gold ran out, and the name Gympie."
+  },
+  "grmNash": {
+   "short": "Gympie Regional Memories, Nash",
+   "t": "Gympie Regional Libraries. “Gold Discovered in Gympie: James Nash”. Gympie Regional Memories.",
+   "u": "https://gympieregionalmemories.com/2022/05/12/gold-discovered-in-gympie/",
+   "note": "Shows James Nash’s letter of 16 October 1867 (Queensland State Archives, item 1137542)."
+  },
+  "grmChinese": {
+   "short": "Gympie Regional Memories, Chinese people",
+   "t": "Gympie Regional Libraries. “Chinese miners, gardeners and shopkeepers in Gympie”. Gympie Regional Memories.",
+   "u": "https://gympieregionalmemories.com/2022/03/11/chinese-miners-gardeners-shopkeepers-in-gympie/",
+   "note": "A library research project that found more than 260 named Chinese people on the Gympie goldfield."
+  },
+  "gfhsAb": {
+   "short": "Gympie Family History Society, Aboriginal life",
+   "t": "Gympie Family History Society. “Aboriginal Life on the Gympie Goldfields” (Jody Allen, 12 May 2026).",
+   "u": "https://www.gfhs.com.au/aboriginal-life-on-the-gympie-goldfields/",
+   "note": "A local history society article. It is a secondary source, so Kabi Kabi custodians should check anything taken from it."
+  },
+  "gfhsChinese": {
+   "short": "Gympie Family History Society, Ah Young",
+   "t": "Gympie Family History Society. “Ah Young: Chinese Immigrant and Mary Street Merchant”.",
+   "u": "https://www.gfhs.com.au/ah-young/",
+   "note": "Says Chinese miners worked ground left by European diggers. The article is partly a retelling, so I used only that general point."
+  },
+  "abs150": {
+   "short": "ABS, 150 years of Queensland",
+   "t": "Australian Bureau of Statistics. “150 Years of Queensland’s Economic History: Key Dates, Facts and Figures”. Qld Stats, February 2009.",
+   "u": "https://www.abs.gov.au/ausstats/abs@.nsf/Previousproducts/1318.3Feature%20Article14Feb%202009?issue=Feb+2009&num=&opendocument=&prodno=1318.3&tabname=Summary&view=",
+   "note": "Separation on 10 December 1859, the size of the Gympie, Palmer and Charters Towers rushes, and the 1877 laws."
+  },
+  "ctc": {
+   "short": "Charters Towers Regional Council, history",
+   "t": "Charters Towers Regional Council. “History of our Region”.",
+   "u": "https://www.charterstowers.qld.gov.au/Council/Charters-towers-history/History-of-our-region",
+   "note": "The discovery in December 1871, the claim of 26 January 1872, the four mills of 1872 and the first millionaire miner in 1875."
+  },
+  "monJupiter": {
+   "short": "Monument Australia, Jupiter Mosman",
+   "t": "Monument Australia. “Jupiter Mosman”.",
+   "u": "https://www.monumentaustralia.org/themes/people/indigenous/display/91079-jupiter-mosman",
+   "note": "Says Jupiter Mosman’s tribal name is unknown and that he found the gold-bearing quartz in December 1871."
+  },
+  "slqJupiter": {
+   "short": "SLQ, Jupiter Mosman book",
+   "t": "State Library of Queensland Shop. “Jupiter Mosman: The Gold Discoverer”.",
+   "u": "https://shop.slq.qld.gov.au/products/9781922643216",
+   "note": "Says it took 30 years for his find to be acknowledged and a further 50 years for a monument."
+  },
+  "kirk84": {
+   "short": "Kirkman, Palmer goldfield (1984)",
+   "t": "Noreen Kirkman. “The Palmer goldfield, 1873–1883”. Honours thesis, James Cook University, 1984.",
+   "u": "https://researchonline.jcu.edu.au/57117/1/57117-kirkman-1984-thesis.pdf",
+   "note": "The most detailed study of the Palmer. It says its evidence about Chinese and Aboriginal people is almost entirely European in origin."
+  },
+  "kirk93": {
+   "short": "Kirkman, “From Minority to Majority” (1993)",
+   "t": "Noreen Kirkman. “From Minority to Majority: Chinese on the Palmer River Gold-field, 1873–1876”. In Henry Reynolds (ed.), Race Relations in North Queensland, James Cook University, 1993.",
+   "u": "https://researchonline.jcu.edu.au/26810/1/26810_Kirkman_in_Reynolds_Race_relations_1993_1.pdf",
+   "note": "Uses Queensland State Archives files and newspapers such as the Queenslander and the Cooktown Herald."
+  },
+  "kirk87": {
+   "short": "Kirkman, “Chinese Miners on the Palmer” (1987)",
+   "t": "Noreen Kirkman. “Chinese Miners on the Palmer”. Journal of the Royal Historical Society of Queensland, vol. 13, no. 2, 1987.",
+   "u": "https://researchonline.jcu.edu.au/24925/1/s00855804_1987_13_2_49.pdf",
+   "note": "Numbers of Chinese miners in 1875 to 1877, the 1876 gold fields bill and the miners’ own accounts."
+  },
+  "parks": {
+   "short": "Queensland Parks, Palmer Goldfield",
+   "t": "Queensland Parks and Forests. “Nature, culture and history: Palmer Goldfield Resources Reserve”.",
+   "u": "https://parks.qld.gov.au/parks/palmer-goldfield/about/culture",
+   "note": "The date of Mulligan’s find and the effects on Aboriginal people. The website blocked my reader, so I read this text through a search summary. Please check it on the page."
+  },
+  "hodes": {
+   "short": "Hodes, 1877 law",
+   "t": "Jeremy Hodes. “John Douglas and restricting Chinese migration to Queensland in 1877”. Queensland History (blog), 2015.",
+   "u": "https://queenslandhistory.blogspot.com/2015/05/john-douglas-and-restricting-chinese.html",
+   "note": "The £10 tax, the ship limit and the refund rule."
+  },
+  "absYB": {
+   "short": "ABS Year Book 1925",
+   "t": "Australian Bureau of Statistics. Year Book Australia, 1925: “Chinese in Australia”.",
+   "u": "https://www.abs.gov.au/ausstats/abs@.nsf/featurearticlesbytitle/4A6A63F3D85F7770CA2569DE00200137?OpenDocument=",
+   "note": "Queensland’s 1876 gold fields amendment, its approval in 1877, and the later changes of 1884 and 1888."
+  },
+  "aph": {
+   "short": "Senate report on stolen wages, chapter 2",
+   "t": "Parliament of Australia, Senate Legal and Constitutional Affairs References Committee. “Unfinished business: Indigenous stolen wages”, Chapter 2, “Life under the protection acts”. 2006.",
+   "u": "https://www.aph.gov.au/parliamentary_business/committees/senate/legal_and_constitutional_affairs/completed_inquiries/2004-07/stolen_wages/report/c02",
+   "note": "Describes the Queensland Act of 1897, the permit and agreement rules for Aboriginal workers, and the control of wages."
+  },
+  "qsaSearch": {
+   "short": "Queensland State Archives, Archives Search",
+   "t": "Queensland State Archives. Archives Search (online catalogue).",
+   "u": "https://www.archivessearch.qld.gov.au/",
+   "note": "For teachers: search here for gold fields warden records, mining warden court records and Colonial Secretary letters."
+  },
+  "trove": {
+   "short": "Trove",
+   "t": "National Library of Australia. Trove: digitised newspapers.",
+   "u": "https://trove.nla.gov.au/",
+   "note": "For teachers: search for the Moreton Bay Courier (1858), the Nashville Times (1868), the Queenslander and the Cooktown Herald (1874 to 1877)."
+  },
+  "qhr": {
+   "short": "Queensland Heritage Register",
+   "t": "Queensland Heritage Register (Department of the Environment, Tourism, Science and Innovation).",
+   "u": "https://apps.des.qld.gov.au/heritage-register/",
+   "note": "For teachers: search the register for the Palmer goldfield, Gympie and Charters Towers mining places. I did not use any register entry for a fact in the story, because the register pages would not load for my reader."
+  },
+  "qhatlas": {
+   "short": "Queensland Historical Atlas",
+   "t": "Queensland Historical Atlas.",
+   "u": "https://www.qhatlas.com.au/",
+   "note": "For teachers: maps and essays on Queensland’s history. I did not use it for a fact in the story, because the site would not load for my reader."
+  }
+ },
+ "sourcesIntro": "Every fact in a “Real history” box comes from one of these sources. Newspapers named in the sources can be read on Trove. Queensland State Archives holds the original government records. I read the sources listed here when I wrote this app.",
+ "imageNote": "All images are old photographs or drawings that are in the public domain. No images in this app were made by artificial intelligence. There are no images of Aboriginal people.",
+ "images": {
+  "gympie": {
+   "file": "images/mary-street-gympie-1868.jpg",
+   "alt": "A black and white photograph of a wide dirt street with wooden buildings and groups of men standing in front of them.",
+   "caption": "Mary Street, Gympie, 1868. The buildings include Tattersall’s, the saleyards, the Bank of New South Wales and the Golden Age Hotel.",
+   "credit": "John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_15578_Mary_Street,_Gympie,_1868.jpg",
+   "people": false
+  },
+  "cooktown": {
+   "file": "images/charlotte-street-cooktown-1874.jpg",
+   "alt": "A black and white photograph of a street with a few wooden buildings and tents.",
+   "caption": "Charlotte Street, Cooktown, about 1874. Cooktown was the port for the Palmer River goldfield.",
+   "credit": "Unknown photographer, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:Charlotte_Street,_Cooktown.jpg",
+   "people": false
+  },
+  "digger": {
+   "file": "images/chinese-gold-digger-1860s.jpg",
+   "alt": "A black and white photograph of a man in a wide hat with a long pole across his shoulders. A wooden box hangs from one end and a bucket from the other.",
+   "caption": "A Chinese gold digger with his mining tools hung from a pole, in the 1860s. Photograph by Richard Daintree.",
+   "credit": "Richard Daintree, copied by State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_2_116084_Chinese_gold_digger_starting_for_work,_ca._1860s.jpg",
+   "people": false
+  },
+  "towers": {
+   "file": "images/charters-towers-bank-1875.jpg",
+   "alt": "A black and white photograph of a small wooden bank building with a sign, with a horse and cart in front.",
+   "caption": "The Bank of New South Wales at Charters Towers, about 1875. The branch opened in 1872.",
+   "credit": "John Oxley Library, State Library of Queensland (public domain)",
+   "url": "https://commons.wikimedia.org/wiki/File:StateLibQld_1_45675_Charters_Towers_branch_of_the_Bank_of_New_South_Wales,_ca._1875.jpg",
+   "people": false
+  }
+ },
+ "nodes": {
+  "s1": {
+   "id": "s1",
+   "title": "News from Canoona",
+   "where": "Brisbane · August 1858",
+   "text": [
+    "You are Sam. You are twenty years old and you work as a labourer in Brisbane. Work is hard to find and the pay is low.",
+    "One morning a man at the wharf reads the newspaper out loud. It says that gold has been found at a place called Canoona, in the north. Within an hour everyone at the wharf is talking about it.",
+    "You have a little money saved. A ship could take you north. The fare is high, and you might find nothing."
+   ],
+   "choices": [
+    {
+     "label": "Buy a ticket on a ship to the north",
+     "to": "s2"
+    },
+    {
+     "label": "Stay in Brisbane and keep your work",
+     "to": "s3",
+     "set": {
+      "canoona": "stayed"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Canoona, 1858",
+     "paras": [
+      "On 28 July 1858 the Moreton Bay Courier reported that gold had been found at Canoona. Canoona is about 40 kilometres north-west of Rockhampton, on the Fitzroy River. An estimated 15,000 people were at Canoona between September and December 1858.",
+      "At this time Queensland was still part of New South Wales. It became a separate colony on 10 December 1859. The land around Rockhampton and the Fitzroy River is the Country of the Darumbal people."
+     ],
+     "src": [
+      "slqCanoona",
+      "qpCanoona",
+      "abs150",
+      "darumbal"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: introduces the first Queensland rush and the way news travelled by newspaper. Ask: why would a newspaper report cause thousands of people to move? What did people not know when they decided?"
+    ]
+   }
+  },
+  "s2": {
+   "id": "s2",
+   "title": "Canoona",
+   "where": "Canoona, near Rockhampton · October 1858",
+   "text": [
+    "The ship lands you at Rockhampton, a small settlement on the Fitzroy River. Many people have arrived before you. The riverbank is crowded with tents and with men asking how to get to the diggings.",
+    "You walk to Canoona with a group of strangers. The diggings are crowded. Most men dig for days and find no gold, or only a little. Some say the newspapers tricked them.",
+    "You have to decide how to use your money and your time."
+   ],
+   "choices": [
+    {
+     "label": "Keep digging at Canoona",
+     "to": "s2b"
+    },
+    {
+     "label": "Go back to Rockhampton and look for paid work",
+     "to": "s3",
+     "set": {
+      "canoona": "rocky"
+     }
+    },
+    {
+     "label": "Take a ship back south",
+     "to": "s3",
+     "set": {
+      "canoona": "returned"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "A rush that did not last",
+     "paras": [
+      "An official wrote in 1858 that the ground taken up by the first diggers could give work to only a very small number of men. Queensland Places says the field was not a fraud, but it could not support anything like 15,000 people.",
+      "Most of the thousands who came were returned south by the governments in Sydney and Melbourne. A few hundred stayed and started businesses. Rockhampton was proclaimed a town on 25 October 1858, and its first land sales were on 17 and 18 November 1858."
+     ],
+     "src": [
+      "csc",
+      "qpCanoona",
+      "cqu"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows that a rush can bring thousands of people to a field that cannot support them, and that the real gain was a town. Ask: who gained from Canoona? Who lost?"
+    ]
+   }
+  },
+  "s2b": {
+   "id": "s2b",
+   "title": "Still digging",
+   "where": "Canoona · November 1858",
+   "text": [
+    "You stay. You and two other men share a claim. Week after week you wash the dirt in the creek. You find a few small grains of gold. They are worth less than the food you buy.",
+    "Your money is nearly gone. Each morning, more men pack up and leave. By the end of the month you can see that the field will not make you rich."
+   ],
+   "choices": [
+    {
+     "label": "Leave and look for paid work in Rockhampton",
+     "to": "s3",
+     "set": {
+      "canoona": "rocky"
+     }
+    },
+    {
+     "label": "Leave on a ship back south",
+     "to": "s3",
+     "set": {
+      "canoona": "returned"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "What the records say",
+     "paras": [
+      "An official’s letter said there had been no extension of the gold ground that gave any promise, beyond the patch taken up by the first diggers. This is one reason the rush is remembered as a failure."
+     ],
+     "src": [
+      "csc",
+      "qpCanoona"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: a short scene so that students feel the gap between the news and the result. It is invented, but it matches the official letter."
+    ]
+   }
+  },
+  "s3": {
+   "id": "s3",
+   "title": "The Mary River",
+   "where": "Brisbane and Gympie · October 1867",
+   "img": "gympie",
+   "text": [
+    {
+     "if": {
+      "canoona": "stayed"
+     },
+     "t": "Nine years have passed since the news from Canoona. You stayed in Brisbane and kept working as a labourer."
+    },
+    {
+     "if": {
+      "canoona": "rocky"
+     },
+     "t": "Nine years have passed since Canoona. You found paid work in Rockhampton for a while, and later came back to Brisbane."
+    },
+    {
+     "if": {
+      "canoona": "returned"
+     },
+     "t": "Nine years have passed since Canoona. You came back to Brisbane with empty pockets and worked wherever you could."
+    },
+    "It is October 1867. Banks have closed. Many men have lost their work. Then news arrives from the north. A man named James Nash has found gold near the Mary River, in the Wide Bay district.",
+    "You travel there. Within weeks thousands of people have arrived. The field is called Nashville. Along the creeks you see Chinese miners working claims that other diggers have left. Aboriginal families camp near the diggings. Some of the men guide travellers and carry supplies for the diggers.",
+    "One afternoon a group of European diggers shouts at two Chinese miners to leave a gully. The Chinese miners keep working and say nothing. You are standing close by."
+   ],
+   "choices": [
+    {
+     "label": "Say nothing and keep working",
+     "to": "s3b",
+     "set": {
+      "gully": "silent"
+     }
+    },
+    {
+     "label": "Tell the diggers to leave the Chinese miners alone",
+     "to": "s3b",
+     "set": {
+      "gully": "spoke"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Gympie, 1867",
+     "paras": [
+      "Early in 1866 Queensland was in a recession made worse by a long drought. A bank had closed and unemployed men were protesting in the streets of Brisbane. The government offered a £3,000 reward for a new goldfield. In August 1867 James Nash found gold near the Mary River. On 16 October 1867 he wrote to claim the reward. At the height of the rush there were about 16,000 diggers on the field. The town was first called Nashville and later Gympie, from the Gubbi Gubbi word gimpi gimpi, the name of a stinging tree.",
+      "Gympie is on Kabi Kabi (Gubbi Gubbi) Country. A local history society says that an Aboriginal camp formed at the edge of the town in the late 1860s, and that Aboriginal people worked as guides, carriers and timber workers. It also says they were often paid in rations or goods, not wages. Chinese people came to Gympie too. Library records name more than 260 Chinese people on the goldfield, and say they were later gardeners, shopkeepers and miners. The same records say Europeans harassed Chinese people but that the courts did not accept it."
+     ],
+     "src": [
+      "qsaGympie",
+      "grmNash",
+      "abs150",
+      "gfhsAb",
+      "grmChinese",
+      "gfhsChinese"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "The gully scene is invented. It stands for the harassment that library records say happened at Gympie. It is not a record of a real event. Ask students: is it fair to put an invented scene beside a real fact? What does the story gain, and what does it risk?",
+     "Check: the Aboriginal camp and the pay in rations come from a local history society article. Ask students why a secondary source needs a second check. Kabi Kabi custodians are the right people to confirm it."
+    ]
+   }
+  },
+  "s3b": {
+   "id": "s3b",
+   "title": "Under the ground",
+   "where": "Gympie · 1868 to 1871",
+   "text": [
+    {
+     "if": {
+      "gully": "silent"
+     },
+     "t": "You try to forget the afternoon in the gully, but you do not. You see the same Chinese miners at their claim every week."
+    },
+    {
+     "if": {
+      "gully": "spoke"
+     },
+     "t": "Some of the diggers stop talking to you after the afternoon in the gully. A few say you were right."
+    },
+    "The gold that lies near the surface is mined out within about a year. Many diggers leave. The mine owners start to dig shafts into the rock. You take wages at a deep mine. The work is hot, dark and tiring.",
+    "In early 1872 a miner brings news from far in the north. Gold has been found in the rock at a place called Charters Towers."
+   ],
+   "choices": [
+    {
+     "label": "Stay at Gympie and keep your job underground",
+     "to": "e1"
+    },
+    {
+     "label": "Go north to Charters Towers",
+     "to": "s4"
+    }
+   ],
+   "real": [
+    {
+     "h": "Gympie after the surface gold",
+     "paras": [
+      "The Queensland State Archives says the surface gold was mined out within a year, so the miners went underground. The field was worked for about 60 years, and production was highest between 1900 and 1910. Gympie became known as the town that saved Queensland, because its gold helped end the recession."
+     ],
+     "src": [
+      "qsaGympie",
+      "abs150"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows the change from alluvial mining (gold in creek gravel) to reef mining (gold in rock), which needs shafts, machines and money. Students need this to understand why Charters Towers was different."
+    ]
+   }
+  },
+  "s4": {
+   "id": "s4",
+   "title": "Charters Towers",
+   "where": "Charters Towers · 1872",
+   "img": "towers",
+   "text": [
+    "You travel north by ship and then overland. When you arrive there are tents and a few huts below a hill. Men are digging out lumps of quartz, a hard white rock. The gold is inside the rock. It must be crushed by machines before it can be washed.",
+    "You hear how the field was found. A party of prospectors was camped near the hill. A horse boy named Jupiter was with them, and he was the first to find the gold-bearing rock.",
+    "You need to decide how to work. Wages are steady but small. A claim could bring much more, or nothing."
+   ],
+   "choices": [
+    {
+     "label": "Take wages at a crushing mill",
+     "to": "e2",
+     "set": {
+      "towers": "wages"
+     }
+    },
+    {
+     "label": "Join three partners and peg a claim on a reef",
+     "to": "e2",
+     "set": {
+      "towers": "claim"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Charters Towers, 1871 and 1872",
+     "paras": [
+      "In December 1871 a party of prospectors found gold near a hill at what became Charters Towers. The party was Hugh Mosman, George Clarke, a man named Fraser, and an Aboriginal horse boy named Jupiter, who is credited with finding the gold-bearing quartz. Jupiter’s own name and his people are not known. A book about him says that it took 30 years for his find to be acknowledged and a further 50 years for a monument to be put up.",
+      "Hugh Mosman applied for a protection area for the claim on 26 January 1872, and the place was named after the Gold Commissioner, W. S. E. M. Charters. By the end of September 1872 four crushing mills were working. In 1875 Frank Stubley became the first millionaire miner on the field. The area is the Country of the Gudjal people and others, according to the regional council."
+     ],
+     "src": [
+      "ctc",
+      "monJupiter",
+      "slqJupiter"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: introduces Jupiter and the question of who is credited with a discovery. Ask: why might it have taken 30 years for his find to be acknowledged? What does it mean that his own name is not known?"
+    ]
+   }
+  },
+  "e1": {
+   "id": "e1",
+   "title": "Underground at Gympie",
+   "where": "Gympie · after 1872",
+   "text": [
+    "You stay. You work in the mines for many years. The town grows around the shafts. There are shops, hotels and churches. Chinese neighbours grow vegetables and run stores. At the edge of town, the Aboriginal camp is smaller each year.",
+    "This ending is invented. It shows one life that was possible. Many people lived like this."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "Gympie’s deep mines kept the town going for decades. The field produced gold for about 60 years. Library records show Chinese gardeners and shopkeepers in the town, and floods sometimes destroyed their gardens.",
+      "The local history society says a measles outbreak in 1894 struck the Aboriginal camp at Gympie, and that in 1898 the surviving Aboriginal people from Gympie were removed to the Bogimbah Creek reserve on Fraser Island. This should be checked with Kabi Kabi custodians before it is repeated."
+     ],
+     "src": [
+      "abs150",
+      "qsaGympie",
+      "grmChinese",
+      "gfhsAb"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 1 of 5. Ask: the story says the camp grew smaller each year. What does that sentence leave out? Which sources would tell us more?"
+    ]
+   }
+  },
+  "e2": {
+   "id": "e2",
+   "title": "A reef miner at Charters Towers",
+   "where": "Charters Towers · after 1872",
+   "text": [
+    {
+     "if": {
+      "towers": "wages"
+     },
+     "t": "You take wages at the mill and save a little each week. Over the years you move from the mill to a mine. It is steady work."
+    },
+    {
+     "if": {
+      "towers": "claim"
+     },
+     "t": "You and your partners peg a claim. You spend months digging a shaft and paying for the stone to be crushed. Some weeks the stone has gold. Other weeks it does not."
+    },
+    "The town grows. It gets a bank, a newspaper, hotels and a school. The gold is deep in the rock, so mining needs machines, money and many workers.",
+    "This ending is invented. It shows one life that was possible."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "Charters Towers became Queensland’s premier goldfield and for a time its second largest city. By 1910 the mining had slowed.",
+      "Jupiter’s part in the discovery was not widely acknowledged for about 30 years. His own name and people are not recorded."
+     ],
+     "src": [
+      "abs150",
+      "ctc",
+      "slqJupiter",
+      "monJupiter"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 2 of 5. Ask: why did reef mining change who could become rich? (It needed money for shafts and machines, so companies and partnerships mattered more than a lone digger with a pan.)"
+    ]
+   }
+  },
+  "l1": {
+   "id": "l1",
+   "title": "News of the Palmer",
+   "where": "Charters Towers · May 1874",
+   "img": "digger",
+   "text": [
+    "You are Lin. You are twenty-eight years old. You came from the province of Guangdong in southern China some years ago. You came to earn money to send to your family. You work a claim at Charters Towers with two friends.",
+    "In May 1874 news arrives from far in the north. Payable gold has been found on the Palmer River. Other Chinese miners and families are already leaving the Etheridge and Charters Towers fields to go there.",
+    "The Palmer is a very long way off, and few supplies are for sale along the way. You can leave now with a group, or wait and save more money first."
+   ],
+   "choices": [
+    {
+     "label": "Leave now with a group",
+     "to": "l2",
+     "set": {
+      "palmer": "early"
+     }
+    },
+    {
+     "label": "Wait and save more money first",
+     "to": "l2",
+     "set": {
+      "palmer": "late"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "The Palmer River rush",
+     "paras": [
+      "Gold was first reported on the Palmer River by the Hann expedition in 1872. James Venture Mulligan and six companions found payable alluvial gold on 29 June 1873. Cooktown was settled from October 1873 as the port. In the 1871 census there were 3,305 Chinese people in Queensland. By late May 1874, Chinese miners and their families were heading to the Palmer from the Etheridge and Charters Towers fields.",
+      "Many Chinese men went to the goldfields to earn money for their families. Many of those who came directly from China were sponsored by Chinese merchants and had to repay a debt before they could mine for themselves."
+     ],
+     "src": [
+      "kirk93",
+      "kirk84",
+      "parks"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows that many Chinese miners were already in Queensland before the Palmer rush, and that Chinese migration was shaped by family duty, merchants and debt. The photograph is by Richard Daintree and is labelled as the 1860s. Ask students what it can and cannot tell us."
+    ]
+   }
+  },
+  "l2": {
+   "id": "l2",
+   "title": "On the Palmer",
+   "where": "Palmer River · 1874 and 1875",
+   "img": "cooktown",
+   "text": [
+    {
+     "if": {
+      "palmer": "early"
+     },
+     "t": "You arrive in August 1874. There are about a thousand Chinese people on the field. There is a temple, led by a Chinese doctor."
+    },
+    {
+     "if": {
+      "palmer": "late"
+     },
+     "t": "You arrive in early 1875. Steamers carrying Chinese passengers from overseas have begun to arrive at Cooktown. The first, the Victoria, arrived on 30 January 1875 with 200 passengers."
+    },
+    "You work ground that European diggers left when they rushed to new finds. The gold is still there. You work slowly and carefully, one square of ground at a time.",
+    "Some European diggers are angry. They say Chinese miners push up the price of flour. Others buy your vegetables and rice and say nothing. At Sandy Creek a notice is nailed to a tree. It says any Chinese man found higher up the creek will be hanged."
+   ],
+   "choices": [
+    {
+     "label": "Keep mining, even where some Europeans say you are not wanted",
+     "to": "l3",
+     "set": {
+      "lin": "mine"
+     }
+    },
+    {
+     "label": "Plant a garden and sell vegetables and rice to the camps",
+     "to": "l3",
+     "set": {
+      "lin": "garden"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "Chinese miners on the Palmer",
+     "paras": [
+      "By the end of August 1874 there were about a thousand Chinese on the Palmer, with a temple led by Dr King Chong. By the end of 1874 there were about 1,500, almost 40 per cent of the field’s people. In 1875 steamers brought thousands more from China. About 9,000 Chinese were on the Palmer in July 1875.",
+      "The Chinese worked ground that European miners had left, and many Europeans blamed them for high prices. Historian Noreen Kirkman says it would have been clear to most Europeans that Chinese people were the chief suppliers of vegetables and stores on the field. In May 1875 a notice at Sandy Creek threatened to hang any Chinese man found higher up the creek. Kirkman says it was a sign of anger, not a plan. The large riots that had taken place at Lambing Flat in New South Wales in 1860 and 1861 did not happen on the Palmer."
+     ],
+     "src": [
+      "kirk93",
+      "kirk87"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows how a minority group was blamed for prices and for taking gold. Compare the claims in the notice and in newspapers with the facts about who supplied food. Ask: how can we tell a threat from a plan?"
+    ]
+   }
+  },
+  "l3": {
+   "id": "l3",
+   "title": "The Palmer changes",
+   "where": "Palmer River · 1876",
+   "text": [
+    "In March 1876 news arrives of gold on the Hodgkinson River. Thousands of European diggers leave the Palmer. Almost the whole field is left to the Chinese miners. Steamers now arrive every week from Hong Kong with new men.",
+    "In May many Europeans return and find Chinese miners on their old claims. Some try to force the miners off. The warden, Philip Sellheim, punishes some Europeans who try to jump Chinese claims.",
+    "You know that the Palmer is the Country of Aboriginal people. Many have been driven from the river by the diggers and by the Native Police. You hear of attacks and killings. You keep your camp close to others.",
+    {
+     "if": {
+      "lin": "mine"
+     },
+     "t": "Your claim gives you a little gold each week."
+    },
+    {
+     "if": {
+      "lin": "garden"
+     },
+     "t": "Your garden gives you a steady income, and you buy a share in a claim with your savings."
+    }
+   ],
+   "choices": [
+    {
+     "label": "Stay on the Palmer through 1877",
+     "to": "l4"
+    },
+    {
+     "label": "Leave now with your gold for Cooktown and a ship home",
+     "to": "e4"
+    }
+   ],
+   "real": [
+    {
+     "h": "The field and the law",
+     "paras": [
+      "After the Hodgkinson rush began in March 1876, the Palmer was largely left to Chinese miners. Warden Sellheim had to punish a few Europeans who tried to jump Chinese claims. By 1876 there were about 17,000 Chinese and 1,400 Europeans on the field.",
+      "In 1876 the Queensland parliament passed a bill that made Chinese and other Asian miners pay a miner’s right of £3, six times the fee for European miners, and business licences of £10. The governor sent the bill to London before approving it. It became law in 1877."
+     ],
+     "src": [
+      "kirk93",
+      "kirk87",
+      "abs150",
+      "absYB"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows the unusual situation on the Palmer, where Europeans became the minority, and the law that followed. Ask: why did the government pass a law that treated one group differently? Note the sentence about Aboriginal people: it links the paths."
+    ]
+   }
+  },
+  "l4": {
+   "id": "l4",
+   "title": "The new law",
+   "where": "Palmer River and Cooktown · 1877",
+   "text": [
+    "In the first five months of 1877 thousands more Chinese miners arrive. There are far too many for the ground. Most men are finding very little gold. Many are sick and some are very poor. You meet men who came with great hopes and now want to go home.",
+    "Then you hear of a new law in Brisbane. Every Chinese person arriving by ship will be taxed £10. The tax will be paid by the ship’s captain. Only a few Chinese passengers will be allowed on each ship. The tax will be paid back to people who leave within three years and have not broken the law.",
+    "You can go home, or you can stay."
+   ],
+   "choices": [
+    {
+     "label": "Go home with what you have saved",
+     "to": "e4"
+    },
+    {
+     "label": "Stay in Queensland",
+     "to": "e3"
+    }
+   ],
+   "real": [
+    {
+     "h": "Queensland, 1877",
+     "paras": [
+      "A total of 7,708 Chinese miners arrived on the field in the first five months of 1877, taking the population to about 18,000. By the end of May the average earnings were estimated at only three pennyweights. A man named Taam Sze Pui, who arrived then, wrote that many earlier arrivals were poor and ill and were thinking of leaving.",
+      "In 1877 Queensland passed a law that put a £10 tax on each Chinese person arriving by ship, allowed one Chinese passenger for every 10 tons of a ship’s size, and refunded the tax to anyone who left within three years without breaking the law or costing the colony money. A later law banned Asian and African miners from new goldfields for three years after a discovery. Sources give the date as 1877 or 1878."
+     ],
+     "src": [
+      "kirk87",
+      "hodes",
+      "abs150",
+      "absYB"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the law that students will argue about in the Discuss section. Note two different laws: the immigration tax of 1877, and the limit on new goldfields (1877 or 1878, sources differ). Students sometimes mix them up."
+    ]
+   }
+  },
+  "e3": {
+   "id": "e3",
+   "title": "A life in Queensland",
+   "where": "Queensland · after 1877",
+   "text": [
+    "You stay. You leave the Palmer when the gold runs low and you find work in a town. You grow vegetables, work as a cook or run a small store. You send money to your family when you can.",
+    "You see few new arrivals from China. The laws make it very costly for more to come. This ending is invented. It shows one life that was possible."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "Only about 500 new Chinese people arrived in the colony between mid-1877 and 1881. In 1884 Queensland raised the tax to £30. In 1888, after a conference of the colonies, it passed a new law like those in the southern colonies.",
+      "Chinese communities continued in Queensland towns. At Gympie, library records show Chinese gardeners, shopkeepers and miners who took part in community life."
+     ],
+     "src": [
+      "hodes",
+      "absYB",
+      "grmChinese"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 3 of 5. Ask: what did the laws of 1877 and 1884 achieve? Whom did they affect? Link to the later national law on immigration, which students may know from their wider course."
+    ]
+   }
+  },
+  "e4": {
+   "id": "e4",
+   "title": "Home with savings",
+   "where": "Cooktown · 1877",
+   "text": [
+    "You leave Cooktown on a steamer for Hong Kong. You have some gold, but less than you hoped. You are going home to your family.",
+    "This ending is invented. It shows one life that was possible."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "Many Chinese miners took gold home. In October 1875 two steamers carried 14,000 ounces of gold to Hong Kong, including an 80-ounce nugget. When large numbers of Chinese miners returned to China with gold, there was a public outcry in Queensland. The Palmer gave about 100 tonnes of gold in all.",
+      "Many of the men who came in 1877 found very little gold. Not everyone went home with savings."
+     ],
+     "src": [
+      "kirk93",
+      "abs150",
+      "kirk87"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 4 of 5. Ask: why might a public outcry follow when miners took gold home? Which parts of the outcry were about money, and which were about race?"
+    ]
+   }
+  },
+  "a1": {
+   "id": "a1",
+   "title": "Watching the strangers",
+   "where": "The Palmer River country · September 1873",
+   "text": [
+    "You are a young person of the Aboriginal people whose Country includes part of the Palmer River. This person is invented. No name and no family group is given, on purpose. See Behind the Story.",
+    "You know this river and its waterholes. In the dry season the waterholes hold fish. People come to the river to fish and to camp. The river is the main source of food for your family.",
+    "Your people watch strangers from a distance. If strangers come too close, you give a warning. In the last few months a small party of strangers has come and gone. Now a larger party arrives with horses and tools. They dig in the riverbed. The water turns muddy."
+   ],
+   "choices": [
+    {
+     "label": "Stay near the river and keep watching",
+     "to": "a2"
+    },
+    {
+     "label": "Move your family to higher country, away from the diggers",
+     "to": "a3"
+    }
+   ],
+   "real": [
+    {
+     "h": "The Palmer River, 1873",
+     "paras": [
+      "James Venture Mulligan and six companions found payable gold on 29 June 1873. The rush began in September 1873. Historian Noreen Kirkman writes that the Aboriginal way of watching and warning strangers did not survive the arrival of the first miners. The rivers were the main source of food for Aboriginal people, and the miners worked in the same rivers for gold. This is a main reason that conflict began.",
+      "The Queensland Parks service says that game was killed or driven away, and that waterholes that had been clear became muddy."
+     ],
+     "src": [
+      "kirk84",
+      "kirk93",
+      "parks"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: puts the student in the position of someone who did not choose the rush. The scene is invented from documented facts. The name is left out deliberately. Ask: why might an author choose not to give this person a name or a family group?"
+    ]
+   }
+  },
+  "a2": {
+   "id": "a2",
+   "title": "The camp near the river",
+   "where": "The Palmer River · late September 1873",
+   "text": [
+    "You camp a short walk from the diggers. From the high bank you can see them at work. One afternoon several of the young diggers walk up to a neighbouring camp, about a quarter of a mile from their work. They fire revolver shots. People run into the scrub.",
+    "When you go back to the camp the diggers have turned over the camp and taken tools. They have broken spears.",
+    "In the next weeks, some of the diggers are chased back to their camp. Some people say the first attack was a mistake. Others say it is the start of a war."
+   ],
+   "choices": [
+    {
+     "label": "Fight to keep the waterhole",
+     "to": "a4",
+     "set": {
+      "path": "fight"
+     }
+    },
+    {
+     "label": "Leave the river and go to higher country",
+     "to": "a3"
+    }
+   ],
+   "real": [
+    {
+     "h": "What the records say",
+     "paras": [
+      "On 27 September 1873 a group of miners forcibly removed Aboriginal people from a camp near where they were working. According to Mulligan, the attack was not provoked, and it marked the start of the conflict. In the first month of the rush the Aboriginal people returned and frightened miners out of the gullies two or three times. A later raid by ten armed miners on a camp of thirty Aboriginal people at Fish Creek was recorded, but the record did not say what happened to the Aboriginal people."
+     ],
+     "src": [
+      "kirk84"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: the central event in the Aboriginal path. It uses the documented 27 September 1873 attack as the model. The story does not show injuries. Ask: whose account of this event do we have? (A miner’s statement, recorded by Europeans.)"
+    ]
+   }
+  },
+  "a3": {
+   "id": "a3",
+   "title": "The high country",
+   "where": "The Palmer River country · 1874 to 1877",
+   "text": [
+    "In the high country there are fewer diggers. There is also less water. In the dry season your family finds less food than before. Animals for hunting are scarce.",
+    "The diggers now have horses and cattle. The people who work on the river will not leave. More arrive every month. The Native Police ride out on patrols. You hear that they have broken up other camps.",
+    "In dry years like 1877 there is not enough food. Some of your people take horses and cattle that the diggers have left on the river."
+   ],
+   "choices": [
+    {
+     "label": "Stay in the high country",
+     "to": "a4",
+     "set": {
+      "path": "high"
+     }
+    },
+    {
+     "label": "Return to the river when fewer diggers are there",
+     "to": "a4",
+     "set": {
+      "path": "return"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "What the records say",
+     "paras": [
+      "In 1877 the Queenslander wrote that Native Police officers said most Aboriginal people on the Palmer were half starved, because the Europeans had taken the watercourses. The paper said that Aboriginal people killed horses and cattle out of necessity.",
+      "The Native Police were detachments of Aboriginal troopers led by European officers. They were sent to protect the diggers and to carry out “dispersals”, the word used for breaking up Aboriginal camps. Kirkman says that little is known about the way the force worked, and that it kept up patrols and was called in for reprisals after specific incidents."
+     ],
+     "src": [
+      "kirk84"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: shows the loss of food and water as a main cause of hardship, not only direct attacks. Students should know what the Native Police were and what “dispersal” meant. Explain that the word hid violence."
+    ]
+   }
+  },
+  "a4": {
+   "id": "a4",
+   "title": "After the rush",
+   "where": "The Palmer River country · about 1880",
+   "text": [
+    {
+     "if": {
+      "path": "fight"
+     },
+     "t": "Many people were hurt in the fighting at the river. Families moved away to places they felt were safer."
+    },
+    {
+     "if": {
+      "path": "high"
+     },
+     "t": "You kept to the high country for most of these years. Your family is smaller now."
+    },
+    {
+     "if": {
+      "path": "return"
+     },
+     "t": "You went back to the river when you could. You were not always welcome. Your family is smaller now."
+    },
+    "By about 1880 the great rush is over. Many of the Chinese and European diggers have gone. The Native Police patrols are fewer. The river is still your Country, but life on it has changed.",
+    "Most of the records of this time were written by Europeans. They did not write down what the people of the river thought."
+   ],
+   "choices": [
+    {
+     "label": "Teach your children about the river and the waterholes",
+     "to": "e5",
+     "set": {
+      "end": "teach"
+     }
+    },
+    {
+     "label": "Keep away from the strangers who remain",
+     "to": "e5",
+     "set": {
+      "end": "away"
+     }
+    }
+   ],
+   "real": [
+    {
+     "h": "After the rush",
+     "paras": [
+      "From 1877 the numbers of Native Police were reduced across the colony. By 1880 the number was less than half that of 1876. Kirkman writes that by the end of the decade the catastrophic disruption of Aboriginal society and the decline in the numbers of Europeans and Chinese had reduced the level of conflict.",
+      "Kirkman also writes that the evidence about Aboriginal people on the Palmer is almost entirely European in origin, and is often hostile or at best indifferent."
+     ],
+     "src": [
+      "kirk84"
+     ]
+    }
+   ],
+   "teacher": {
+    "notes": [
+     "Purpose: closes the path with the limits of the record. Ask: who wrote the records? Whose words are missing? What other sources could a historian look for? (Oral history, Traditional Owner knowledge, archaeology, language records.)"
+    ]
+   }
+  },
+  "e5": {
+   "id": "e5",
+   "title": "What the records leave out",
+   "where": "The Palmer River country · after 1880",
+   "text": [
+    {
+     "if": {
+      "end": "teach"
+     },
+     "t": "You teach your children about the river. You show them where the waterholes are and where the camps were."
+    },
+    {
+     "if": {
+      "end": "away"
+     },
+     "t": "You keep away from the strangers who remain. You teach your children to do the same."
+    },
+    "This story is invented. The people of the Palmer River are real. The Aboriginal peoples of this region survived, and their descendants live in Queensland today. This story cannot say what they thought and felt. Only they can say that."
+   ],
+   "real": [
+    {
+     "h": "What happened in real history",
+     "paras": [
+      "Historian Noreen Kirkman describes violence on the Palmer as a European initiative, and a decade of brutality. Almost all the records were written by Europeans.",
+      "In 1897 Queensland passed the Aboriginals Protection and Restriction of the Sale of Opium Act. Under it, an Aboriginal worker could be employed only under a permit from a protector, and employers had to sign an agreement. Together with later protection laws, it gave the government wide control over the lives of Aboriginal people."
+     ],
+     "src": [
+      "kirk84",
+      "kirk93",
+      "aph"
+     ]
+    }
+   ],
+   "end": true,
+   "kind": "",
+   "teacher": {
+    "notes": [
+     "Ending 5 of 5. This ending is meant to be unsatisfying in one way: the story cannot speak for the people of the Palmer. Ask: what is the difference between an ending that is invented and a history that is missing?"
+    ]
+   }
+  }
+ },
+ "behind": {
+  "sections": [
+   {
+    "kind": "made",
+    "h": "What is invented",
+    "p": [
+     "All of the story text is invented. The facts are in the boxes marked “Real history”."
+    ],
+    "list": [
+     "Sam, the people he meets, his job, his savings, his choices and his gold claim are invented.",
+     "Lin, Lin’s two friends, Lin’s home town, Lin’s age and every choice Lin makes are invented.",
+     "The young Aboriginal person on the Palmer is invented. I have deliberately given no name and no family group, because I do not know who the people of that part of the river were and I do not want to invent a name or customs.",
+     "The scene of the diggers shouting at the Chinese miners at Gympie is invented. It stands for harassment that library records say happened on that field.",
+     "The scene at the Palmer waterhole and the camp is invented. It is modelled on the attack of 27 September 1873 recorded by Noreen Kirkman.",
+     "Every ending is invented. They show lives that were possible, not lives that were recorded.",
+     "No real person speaks in the story. Real people are named only in the fact boxes."
+    ]
+   },
+   {
+    "kind": "real",
+    "h": "What is real",
+    "list": [
+     "The dates and places of the rushes: Canoona in 1858, Gympie in 1867, Charters Towers in 1871 and 1872, and the Palmer River in 1873 to 1877.",
+     "The estimated 15,000 people at Canoona, the proclamation of Rockhampton on 25 October 1858, and the return south of most of the people who had come.",
+     "The recession of 1866, James Nash’s find and letter of 16 October 1867, and the name of Gympie.",
+     "The finding of gold-bearing rock at Charters Towers by a party that included an Aboriginal horse boy named Jupiter.",
+     "The numbers of Chinese people on the Palmer in 1874 to 1877, the notice at Sandy Creek, the Hodgkinson rush, and the Queensland laws of 1876 to 1877.",
+     "The attack on an Aboriginal camp on 27 September 1873, the fear and hunger that followed, and the Native Police patrols."
+    ]
+   },
+   {
+    "kind": "real",
+    "h": "What I could not find, or what historians do not agree on",
+    "list": [
+     "I did not find a source that describes what happened to Darumbal people at Canoona in 1858.",
+     "Who “discovered” gold is not simple. The Queensland State Archives says gold was noticed near Gympie in 1851 by John Carne Bidwill. At the Palmer, the Hann expedition reported gold in 1872 before Mulligan’s find in 1873. At Charters Towers, Jupiter is credited with the find but was not credited for about 30 years.",
+     "The name of the third man in the Charters Towers party is written as John Fraser in one source and James Fraser in another. I used only “Fraser”.",
+     "The numbers of Aboriginal people killed on the Palmer in the 1870s are not known. Kirkman writes that little is known about how the Native Police worked.",
+     "Some information about Aboriginal people at Gympie comes from a local history society article. It needs to be checked by Kabi Kabi custodians."
+    ]
+   },
+   {
+    "kind": "care",
+    "h": "Care with Aboriginal history, and cultural review",
+    "p": [
+     "Aboriginal and Torres Strait Islander readers are advised that this app names people who have died, including Jupiter Mosman and James Nash, and that it describes violence against Aboriginal people.",
+     "The records of the 1870s often used insulting words about Aboriginal and Chinese people. I have not quoted those words. I used the words “Aboriginal people”, “Chinese miners” and “Native Police”. The Native Police were Aboriginal troopers, led by European officers, who were used to break up Aboriginal camps.",
+     "The Aboriginal path has been written without names or customs of any people. The author wants to ask Traditional Owners and Aboriginal community members to review this app before it is used widely. The people to ask include the Darumbal people for Canoona, Kabi Kabi (Gubbi Gubbi) custodians for Gympie, Gudjal and other Traditional Owner groups for Charters Towers, and Traditional Owners of the Palmer River country. Until that review is done, please treat this app as a draft."
+    ]
+   },
+   {
+    "kind": "real",
+    "h": "Words in this story",
+    "p": [
+     "“Rush” means a sudden movement of many people to a new goldfield. “Alluvial gold” is gold in creek gravel. “Reef gold” is gold in rock. A “warden” was an official who ran a goldfield. A “miner’s right” was a licence to mine. “Dispersal” was the word used for breaking up an Aboriginal camp by force."
+    ]
+   }
+  ]
+ },
+ "discuss": [
+  {
+   "h": "Understand",
+   "qs": [
+    {
+     "q": "Why did thousands of people go to Canoona in 1858, and why did most of them leave?",
+     "a": [
+      "News in the newspapers said gold had been found. The ground that was rich enough to mine was small, and the field could not support about 15,000 people. The governments in Sydney and Melbourne returned most people south. A few hundred stayed, and Rockhampton became a town.",
+      "Look for: the use of the figures (15,000), the date of Rockhampton’s proclamation, and the word “duffer”."
+     ]
+    },
+    {
+     "q": "Why did the Queensland government offer a reward for gold in 1866, and why was Gympie called “the town that saved Queensland”?",
+     "a": [
+      "Queensland was in a recession, a bank had closed, public works had stopped and many men were out of work. The reward was £3,000. The Gympie field brought new people, money and jobs."
+     ]
+    },
+    {
+     "q": "Why did Chinese miners work ground that European miners had left? What did European miners say about them, and what do the records show?",
+     "a": [
+      "Chinese miners worked ground that was left when Europeans rushed to new finds, and they worked it slowly and carefully. Europeans said Chinese miners did not prospect and that they pushed up prices. The records show that Chinese miners found new ground too, and that they were the main suppliers of vegetables and stores.",
+      "Good answers name at least two claims and test them against evidence."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Think and discuss",
+   "qs": [
+    {
+     "q": "List three ways that the gold rushes changed life for Aboriginal people in the places in this story. Which source do you use for each?",
+     "a": [
+      "Examples: the loss of waterholes and fishing grounds on the Palmer (Kirkman; Queensland Parks); removal from camps at Gympie and the pay in rations (local history society); a camp attacked on 27 September 1873 (Kirkman); loss of Country at Canoona through the arrival of thousands of people (inference; no source found).",
+      "Mark any answer that uses an inference so students learn to say what a source does not say."
+     ]
+    },
+    {
+     "q": "Noreen Kirkman writes that the evidence about Aboriginal people on the Palmer is almost entirely European in origin. How does this change what we can know? Which voices are missing?",
+     "a": [
+      "The records show European views, so they may miss Aboriginal views and may describe Aboriginal people unfairly. Missing voices include Aboriginal people, and also many Chinese miners, whose own accounts are rare.",
+      "Ask what other kinds of evidence might help: oral history, Traditional Owner knowledge, archaeology."
+     ]
+    },
+    {
+     "q": "The Palmer River goldfield was unusual. By 1876 there were about 17,000 Chinese and 1,400 Europeans. Why did the colony’s government make new laws in 1876 and 1877? Were they fair?",
+     "a": [
+      "The government and many Europeans feared and resented the number of Chinese miners. The laws made Chinese miners pay more and put a tax of £10 on each arrival. Students should give a reasoned opinion and refer to the facts. A good answer notes that the Palmer law was passed in response to a field where Europeans were a minority."
+     ]
+    },
+    {
+     "q": "Jupiter, the Aboriginal horse boy, is credited with finding gold at Charters Towers, but it took about 30 years for this to be acknowledged. Why might that be? What does it mean that his own name is not known?",
+     "a": [
+      "Records were kept by the prospectors, who were the ones who profited. Aboriginal people were not usually credited. His own name was replaced by an English name. The answer should avoid claiming to know what Jupiter thought."
+     ]
+    },
+    {
+     "q": "The story puts invented scenes next to real facts. What can an invented story show that a source cannot? What are the risks?",
+     "a": [
+      "A story can show how a choice might have felt. The risk is that readers think the invented parts are real. The labels and the Behind the Story page are there to prevent that."
+     ]
+    }
+   ]
+  },
+  {
+   "h": "Write",
+   "qs": [
+    {
+     "q": "Write a diary entry for Sam, for Lin or for the young Aboriginal person. Use only facts from the Real history boxes. Mark any sentence that is invented.",
+     "a": [
+      "Marking guide: facts match the boxes; invented sentences are labelled; the voice is respectful; there are no claims about what an Aboriginal person felt that the record cannot support."
+     ]
+    },
+    {
+     "q": "Write a paragraph for or against this statement: “The £10 tax on Chinese arrivals in 1877 was a fair way to control immigration.” Use two facts.",
+     "a": [
+      "Students should use facts such as the amount of the tax, who paid it, the refund rule, and the numbers who arrived in 1877. A good answer deals with the opposite view."
+     ]
+    },
+    {
+     "q": "What would you want to ask Traditional Owners before telling this story to a class? List three questions.",
+     "a": [
+      "Examples: Who are the right people to speak about this Country? Which parts of the story are wrong, or hurt? Is there a story or a name that should be told by them and not by me? Is it all right to name people who have died?"
+     ]
+    }
+   ]
+  }
+ ]
+}
